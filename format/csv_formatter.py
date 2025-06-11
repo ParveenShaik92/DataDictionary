@@ -38,3 +38,30 @@ def read_csv_file(filepath: str, has_header: bool = True) -> list[list[str]]:
     except Exception as e:
         print(f"An error occurred while reading the CSV file '{filepath}': {e}")
         return []
+
+def get_csv_headers(filepath: str) -> list[str]:
+    """
+    Extracts and returns the header row from a CSV file.
+
+    Args:
+        filepath (str): The path to the CSV file.
+
+    Returns:
+        list[str]: A list containing the column headers, or an empty list if an error occurs.
+    """
+    if not os.path.exists(filepath):
+        print(f"Error: CSV file not found at '{filepath}'")
+        return []
+
+    try:
+        with open(filepath, 'r', newline='', encoding='utf-8') as csvfile:
+            reader = csv.reader(csvfile)
+            headers = next(reader, [])
+            print(f"Headers found in '{filepath}': {headers}")
+            return headers
+    except FileNotFoundError:
+        print(f"Error: The file '{filepath}' was not found.")
+        return []
+    except Exception as e:
+        print(f"An error occurred while reading the header from '{filepath}': {e}")
+        return []

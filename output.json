@@ -1,0 +1,62 @@
+[
+    {
+        "missing_counts": {
+            "id": 0,
+            "column1": 0,
+            "column2": 1,
+            "column3": 1,
+            "column4": 2,
+            "column5": 0
+        }
+    },
+    {
+        "inferred_types": {
+            "id": "int",
+            "column1": "str",
+            "column2": "str",
+            "column3": "str",
+            "column4": "datetime",
+            "column5": "str"
+        }
+    },
+    {
+        "detected_entities": {
+            "id": [
+                [
+                    "CARDINAL",
+                    12
+                ]
+            ],
+            "column1": [
+                [
+                    "PERSON",
+                    7
+                ]
+            ],
+            "column2": [
+                [
+                    "GENDER",
+                    10
+                ]
+            ],
+            "column3": [
+                [
+                    "GPE",
+                    9
+                ]
+            ],
+            "column5": [
+                [
+                    "NORP",
+                    3
+                ]
+            ],
+            "column4": [
+                [
+                    "DATE",
+                    7
+                ]
+            ]
+        }
+    }
+]
