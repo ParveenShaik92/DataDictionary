@@ -15,10 +15,10 @@ DataDictionary/
 # Installation
 
 ```bash
-git clone https://github.com/your-username/data-dictionary.git
+git clone https://github.com/ParveenShaik92/DataDictionary.git
 cd data-dictionary
 
-pip install spacy pandas numpy spacy-transformers
+pip install spacy pandas numpy spacy-transformers transformers[torch] accelerate
 python -m spacy download en_core_web_trf
 ```
 
@@ -37,10 +37,6 @@ To read a CSV file and print to console:
 
 ```bash
 python main.py --input-format csv --input-file input.csv --output-format console
-```
-To ingest an SQL dump (which writes directly to a SQLite DB):
-```bash
-python main.py --input-format sql_dump --input-file input.sql --output-file my_dumped_db.db
 ```
 
 # Dependencies

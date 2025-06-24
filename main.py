@@ -4,6 +4,7 @@ import sys
 from pprint import pprint
 
 import format.csv_formatter as dd_csv_formatter # Using the provided CSV ingest
+import format.json_formatter as dd_json_formatter # Using the provided JSON ingest
 import format.sql_formatter as dd_sql_formatter # Using the provided SQL ingest
 import process.data_processor as dd_processor # Placeholder for data processing
 import output.json_output as dd_output
@@ -26,7 +27,7 @@ def main():
     parser.add_argument(
         '--input-file',
         type=str,
-        default='input.csv', # Default input file
+        default='customers.csv', # Default input file
         help='The path to the input data file (e.g., .csv, .json, .xlsx, .sql).'
     )
 
@@ -56,8 +57,10 @@ def main():
         raw_data = dd_csv_formatter.read_csv_file(csv_file_path, has_header=True)
         columns = dd_csv_formatter.get_csv_headers(csv_file_path)
     elif args.input_format == 'json':
-        # Use mock for now, replace with your actual json_ingest.py function
-        print('Pending')
+        json_file_path = args.input_file
+        raw_data_dicts = dd_json_formatter.read_json_file(json_file_path)
+        raw_data = [list(item.values()) for item in raw_data_dicts]
+        columns = dd_json_formatter.get_json_headers(raw_data_dicts)
     elif args.input_format == 'excel':
         # Use mock for now, replace with your actual excel_ingest.py function
         print('Pending')

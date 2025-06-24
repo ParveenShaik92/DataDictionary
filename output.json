@@ -1,62 +1,62 @@
 [
     {
         "missing_counts": {
-            "id": 0,
-            "column1": 0,
-            "column2": 1,
-            "column3": 1,
-            "column4": 2,
-            "column5": 0
+            "name": 24,
+            "email": 26,
+            "address": 28,
+            "comment": 22,
+            "ssn": 32
         }
     },
     {
         "inferred_types": {
-            "id": "int",
-            "column1": "str",
-            "column2": "str",
-            "column3": "str",
-            "column4": "datetime",
-            "column5": "str"
+            "name": "str",
+            "email": "str",
+            "address": "str",
+            "comment": "str",
+            "ssn": "str"
         }
     },
     {
         "detected_entities": {
-            "id": [
-                [
-                    "CARDINAL",
-                    12
-                ]
-            ],
-            "column1": [
+            "name": [
                 [
                     "PERSON",
-                    7
+                    398
                 ]
             ],
-            "column2": [
+            "comment": [
                 [
-                    "GENDER",
-                    10
+                    "PERSON",
+                    31
                 ]
             ],
-            "column3": [
+            "email": [
                 [
-                    "GPE",
-                    9
+                    "PERSON",
+                    33
                 ]
             ],
-            "column5": [
+            "address": [
                 [
-                    "NORP",
-                    3
+                    "CARDINAL",
+                    467
                 ]
             ],
-            "column4": [
+            "ssn": [
                 [
-                    "DATE",
-                    7
+                    "CARDINAL",
+                    1
                 ]
             ]
+        }
+    },
+    {
+        "detected_dataset": {
+            "common_label": "person information",
+            "Count": {
+                "person information": 50
+            }
         }
     }
 ]

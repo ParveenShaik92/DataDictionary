@@ -8,6 +8,8 @@ from pprint import pprint
 import utils.helpers as dd_helpers
 import utils.custom_ner_components as dd_ner_components
 
+from transformers import pipeline
+
 def data_processor(data: list, columns: list) -> list:
     """
     Function to process data.
@@ -53,9 +55,13 @@ def data_processor(data: list, columns: list) -> list:
                 else:
                     col_ents[column].append(entity.label_)
             # pprint(col_ents)
+            print("-", end='', flush=True)
 
     # add detected entity types to processed data with column names
     processed_data.append({"detected_entities": {key: Counter(value).most_common(1) for key, value in col_ents.items()}})
+
+    processed_data.append({"detected_dataset": infer_csv_topic_zero_shot_batch(df, columns)})
+
 
 #     for index, (key, value)  in enumerate(col_ents.items()):
 #         lable_count = Counter(value)
@@ -63,3 +69,61 @@ def data_processor(data: list, columns: list) -> list:
 #         print(lable_count.most_common(1))
     # Return processed data
     return processed_data
+
+def infer_csv_topic_zero_shot_batch(df: pd.DataFrame, columns: list) -> list:
+    candidate_labels = [
+        "person information",
+        "employee records",
+        "customer database",
+        "product catalog",
+        "inventory data",
+        "order details",
+        "transaction logs",
+        "financial data",
+        "payment history",
+        "banking information",
+        "sales data",
+        "marketing data",
+        "survey responses",
+        "customer feedback",
+        "shipping and logistics",
+        "medical records",
+        "clinical research",
+        "insurance data",
+        "academic records",
+        "research publications",
+        "sensor data",
+        "energy usage data",
+        "geographic information",
+        "real estate listings",
+        "software bug reports"
+    ]
+    # Load zero-shot classifier
+    classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
+
+    # Store predictions
+    predictions = []
+
+    batch_size=10
+
+    # Process in batches of batch_size
+    for start in range(0, len(df), batch_size):
+        batch = df.iloc[start:start+batch_size].astype(str).values.flatten().tolist()
+        text = "Headers: " + ", ".join(columns) + ". Sample values: " + ", ".join(batch)
+
+        try:
+            result = classifier(text, candidate_labels)
+            predictions.append(result['labels'][0])  # take top predicted label
+            # print(text)
+            # print(result['labels'][0])
+            print("-", end='', flush=True)
+        except Exception as e:
+            print(f"Error processing batch {start}-{start+batch_size}: {e}")
+
+    # Count the most common predicted category
+    most_common_label = Counter(predictions).most_common(1)[0][0] if predictions else "Unknown"
+
+    return {
+        "common_label" : most_common_label, 
+        "Count": Counter(predictions)
+        }
