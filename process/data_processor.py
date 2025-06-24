@@ -36,31 +36,46 @@ def data_processor(data: list, columns: list) -> list:
     processed_data.append({"inferred_types": inferred_types})
 
     col_ents = defaultdict(list)
+    row_ents = []
+    print('Detecting Row and Column level metadata')
     for row in data:
+        # Row NLP
+        rowData = " ".join(f"{col} - {val}" for col, val in zip(columns, row))
+        row_ents_result = nlp(str(rowData))
+        for entItem in row_ents_result.ents:
+            row_ents.append(entItem.label_)
+        
+        # Column NLP
         for column, dataItem in zip(columns, row):
-            ent = nlp(str(dataItem))
-
+            col_ents_result = nlp(dataItem)
             # if (column == 'column5' ) :
             #     print(f"===== {dataItem} ====")
-                #pprint(ent.ents)
-            for entity in ent.ents:
-                # if (column == 'column5' ) :
-                #     print(f"Text: {entity.text}, Label: {entity.label_}")
-                if (entity.label_ == 'DATE') :
-                    if (dd_helpers.is_date(entity.text) ):
+            if not col_ents_result.ents:
+                col_ents[column].append('UNKNOWN')
+            else:
+                for entity in col_ents_result.ents:
+                    # if (column == 'column5' ) :
+                    #     print(f"Text: {entity.text}, Label: {entity.label_}")
+                    if (entity.label_ == 'DATE') :
+                        if (dd_helpers.is_date(entity.text) ):
+                            col_ents[column].append(entity.label_)
+                    elif (entity.label_ == 'PERSON'):
+                        if not str(entity.text).isdigit():
+                            col_ents[column].append(entity.label_)
+                    else:
                         col_ents[column].append(entity.label_)
-                elif (entity.label_ == 'PERSON'):
-                    if not str(entity.text).isdigit():
-                        col_ents[column].append(entity.label_)
-                else:
-                    col_ents[column].append(entity.label_)
             # pprint(col_ents)
-            print("-", end='', flush=True)
+        print("-", end='', flush=True)
 
     # add detected entity types to processed data with column names
-    processed_data.append({"detected_entities": {key: Counter(value).most_common(1) for key, value in col_ents.items()}})
+    processed_data.append({"detected_ner_column": {key: Counter(value).most_common(1) for key, value in col_ents.items()}})
 
-    processed_data.append({"detected_dataset": infer_csv_topic_zero_shot_batch(df, columns)})
+    print('\n')
+    print('Detecting provided dataset metadata')
+    row_ents_count = Counter(row_ents)
+    processed_data.append({"detected_ner_rows": row_ents_count })
+    #pprint(row_ents_count);
+    processed_data.append({"detected_dataset": infer_csv_topic_zero_shot_batch(df, columns, row_ents_count)})
 
 
 #     for index, (key, value)  in enumerate(col_ents.items()):
@@ -70,34 +85,32 @@ def data_processor(data: list, columns: list) -> list:
     # Return processed data
     return processed_data
 
-def infer_csv_topic_zero_shot_batch(df: pd.DataFrame, columns: list) -> list:
-    candidate_labels = [
-        "person information",
-        "employee records",
-        "customer database",
-        "product catalog",
-        "inventory data",
-        "order details",
-        "transaction logs",
-        "financial data",
-        "payment history",
-        "banking information",
-        "sales data",
-        "marketing data",
-        "survey responses",
-        "customer feedback",
-        "shipping and logistics",
-        "medical records",
-        "clinical research",
-        "insurance data",
-        "academic records",
-        "research publications",
-        "sensor data",
-        "energy usage data",
-        "geographic information",
-        "real estate listings",
-        "software bug reports"
-    ]
+def infer_csv_topic_zero_shot_batch(df: pd.DataFrame, columns: list, ents: Counter[str]) -> list:
+    candidate_labels = []
+    ner_to_category = {
+        "PERSON": "person information",
+        "ORG": "employee records",
+        "GPE": "geographic information",
+        "LOC": "geographic information",
+        "NORP": "demographic data",
+        "FAC": "real estate listings",
+        "PRODUCT": "product catalog",
+        "EVENT": "survey responses",
+        "WORK_OF_ART": "research publications",
+        "LAW": "legal case records",
+        "LANGUAGE": "academic records",
+        "DATE": "financial data",
+        "TIME": "sensor data",
+        "PERCENT": "marketing data",
+        "MONEY": "financial data",
+        "QUANTITY": "inventory data",
+        "ORDINAL": "academic records",
+        "CARDINAL": "order details"
+    }
+    for ne_item, count in ents.items():
+        candidate_labels.append(ner_to_category.get(ne_item, 'Unknown'))
+
+    #pprint(candidate_labels)
     # Load zero-shot classifier
     classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 

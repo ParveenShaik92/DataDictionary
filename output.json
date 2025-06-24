@@ -1,61 +1,138 @@
 [
     {
         "missing_counts": {
-            "name": 24,
-            "email": 26,
-            "address": 28,
-            "comment": 22,
-            "ssn": 32
+            "first_name": 0,
+            "last_name": 0,
+            "email": 0,
+            "phone_number": 0,
+            "address": 0,
+            "student_id": 0,
+            "major": 0,
+            "gpa": 0,
+            "vehicle_make": 0,
+            "vehicle_model": 0,
+            "vehicle_year": 0,
+            "product_purchased": 0,
+            "price": 0
         }
     },
     {
         "inferred_types": {
-            "name": "str",
+            "first_name": "str",
+            "last_name": "str",
             "email": "str",
+            "phone_number": "int",
             "address": "str",
-            "comment": "str",
-            "ssn": "str"
+            "student_id": "str",
+            "major": "str",
+            "gpa": "float",
+            "vehicle_make": "str",
+            "vehicle_model": "str",
+            "vehicle_year": "int",
+            "product_purchased": "str",
+            "price": "float"
         }
     },
     {
-        "detected_entities": {
-            "name": [
+        "detected_ner_column": {
+            "first_name": [
                 [
                     "PERSON",
-                    398
+                    47
                 ]
             ],
-            "comment": [
+            "last_name": [
                 [
                     "PERSON",
-                    31
+                    45
                 ]
             ],
             "email": [
                 [
-                    "PERSON",
-                    33
+                    "UNKNOWN",
+                    49
                 ]
             ],
             "address": [
                 [
                     "CARDINAL",
-                    467
+                    67
                 ]
             ],
-            "ssn": [
+            "student_id": [
+                [
+                    "PERSON",
+                    46
+                ]
+            ],
+            "major": [
+                [
+                    "UNKNOWN",
+                    49
+                ]
+            ],
+            "gpa": [
                 [
                     "CARDINAL",
-                    1
+                    48
+                ]
+            ],
+            "vehicle_make": [
+                [
+                    "ORG",
+                    30
+                ]
+            ],
+            "vehicle_model": [
+                [
+                    "CARDINAL",
+                    40
+                ]
+            ],
+            "vehicle_year": [
+                [
+                    "DATE",
+                    49
+                ]
+            ],
+            "product_purchased": [
+                [
+                    "UNKNOWN",
+                    42
+                ]
+            ],
+            "price": [
+                [
+                    "CARDINAL",
+                    32
+                ]
+            ],
+            "phone_number": [
+                [
+                    "UNKNOWN",
+                    35
                 ]
             ]
+        }
+    },
+    {
+        "detected_ner_rows": {
+            "PERSON": 107,
+            "CARDINAL": 100,
+            "LOC": 7,
+            "ORG": 75,
+            "DATE": 53,
+            "FAC": 17,
+            "GPE": 21,
+            "PRODUCT": 8,
+            "MONEY": 1
         }
     },
     {
         "detected_dataset": {
             "common_label": "person information",
             "Count": {
-                "person information": 50
+                "person information": 5
             }
         }
     }
