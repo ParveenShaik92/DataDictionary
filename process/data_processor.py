@@ -15,7 +15,7 @@ def data_processor(data: list, columns: list) -> list:
     Function to process data.
     In a real scenario, this would contain logic to process the data.
     """
-    processed_data = []
+    output = []
 
     # Load spaCy English model
     # nlp = spacy.load("en_core_web_sm")
@@ -26,20 +26,22 @@ def data_processor(data: list, columns: list) -> list:
     # Convert to DataFrame
     df = pd.DataFrame(data, columns=columns)
     df = df.replace('', np.nan)
-    # df = df.replace('NULL', np.nan)
+    
+    # Finding missing count.
     missing_counts = df.isnull().sum()
-    # add missing counts to processed data
-    processed_data.append({"missing_counts": missing_counts.to_dict()})
+    output.append({"missing_counts": missing_counts.to_dict()})
 
     # Use threshold-based categorical detection
     threshold = dynamic_threshold_percentile(df)
-    processed_data.append({"Detected_threshold": threshold})
+    output.append({"Detected_threshold": threshold})
     categorical_cols = detect_categorical_by_uniqueness(df, threshold)
-    processed_data.append({"categorical_columns": categorical_cols})
+    output.append({"categorical_columns": categorical_cols})
     
+    # Finding inferred types
     inferred_types = {col: dd_helpers.infer_column_type(df[col]) for col in df.columns}
-    # Add inferred types to processed data
-    processed_data.append({"inferred_types": inferred_types})
+    output.append({"inferred_types": inferred_types})
+
+    # Finding the column descriptions
     for col in df.columns:
         if inferred_types[col] == 'int' or inferred_types[col] == 'float':
             try:
@@ -48,8 +50,9 @@ def data_processor(data: list, columns: list) -> list:
                 pass
     summary = df.describe(include='all')
     summary_clean = summary.fillna("").astype(str).to_dict()
-    processed_data.append({"data_description": summary_clean})
-    
+    output.append({"data_description": summary_clean})
+
+    # Detecting NER for cloumns and rows.
     col_ents = defaultdict(list)
     row_ents = []
     row_ents_text = set()
@@ -87,15 +90,15 @@ def data_processor(data: list, columns: list) -> list:
             # pprint(col_ents)
         print("-", end='', flush=True)
 
-    # add detected entity types to processed data with column names
-    processed_data.append({"detected_ner_column": {key: Counter(value).most_common(1) for key, value in col_ents.items()}})
+    output.append({"detected_ner_column": {key: Counter(value).most_common(1) for key, value in col_ents.items()}})
 
+    # Detect Dataset descripton.
     print('\n')
     print('Detecting provided dataset metadata')
     row_ents_count = Counter(row_ents)
-    processed_data.append({"detected_ner_rows": row_ents_count })
+    output.append({"detected_ner_rows": row_ents_count })
     #pprint(row_ents_count);
-    processed_data.append({"detected_dataset": infer_csv_topic_zero_shot_batch(df, columns, row_ents_count)})
+    output.append({"detected_dataset": infer_csv_topic_zero_shot_batch(df, columns, row_ents_count)})
 
 
 #     for index, (key, value)  in enumerate(col_ents.items()):
@@ -103,7 +106,7 @@ def data_processor(data: list, columns: list) -> list:
 #         print(f"Detected Entity Type for {key}")
 #         print(lable_count.most_common(1))
     # Return processed data
-    return processed_data
+    return output
 
 
 def infer_csv_topic_zero_shot_batch(df: pd.DataFrame, columns: list, ents: Counter[str]) -> list:
