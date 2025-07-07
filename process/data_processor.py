@@ -31,30 +31,50 @@ def data_processor(data: list, columns: list) -> list:
     # add missing counts to processed data
     processed_data.append({"missing_counts": missing_counts.to_dict()})
 
+    # Use threshold-based categorical detection
+    threshold = dynamic_threshold_percentile(df)
+    processed_data.append({"Detected_threshold": threshold})
+    categorical_cols = detect_categorical_by_uniqueness(df, threshold)
+    processed_data.append({"categorical_columns": categorical_cols})
+    
     inferred_types = {col: dd_helpers.infer_column_type(df[col]) for col in df.columns}
     # Add inferred types to processed data
     processed_data.append({"inferred_types": inferred_types})
-
+    for col in df.columns:
+        if inferred_types[col] == 'int' or inferred_types[col] == 'float':
+            try:
+                df[col] = pd.to_numeric(df[col], errors='ignore')
+            except:
+                pass
+    summary = df.describe(include='all')
+    summary_clean = summary.fillna("").astype(str).to_dict()
+    processed_data.append({"data_description": summary_clean})
+    
     col_ents = defaultdict(list)
     row_ents = []
+    row_ents_text = set()
     print('Detecting Row and Column level metadata')
     for row in data:
         # Row NLP
         rowData = " ".join(f"{col} - {val}" for col, val in zip(columns, row))
         row_ents_result = nlp(str(rowData))
         for entItem in row_ents_result.ents:
-            row_ents.append(entItem.label_)
+            if entItem.text not in row_ents_text:
+                row_ents.append(entItem.label_)
+                row_ents_text.add(entItem.text)
         
         # Column NLP
         for column, dataItem in zip(columns, row):
             col_ents_result = nlp(dataItem)
             # if (column == 'column5' ) :
-            #     print(f"===== {dataItem} ====")
+            #    print(f"===== {dataItem} ====")
             if not col_ents_result.ents:
                 col_ents[column].append('UNKNOWN')
+                # if (column == 'last_name' ) :
+                #     print(f"MissingText: {dataItem}")
             else:
                 for entity in col_ents_result.ents:
-                    # if (column == 'column5' ) :
+                    # if (column == 'last_name' ) :
                     #     print(f"Text: {entity.text}, Label: {entity.label_}")
                     if (entity.label_ == 'DATE') :
                         if (dd_helpers.is_date(entity.text) ):
@@ -84,6 +104,7 @@ def data_processor(data: list, columns: list) -> list:
 #         print(lable_count.most_common(1))
     # Return processed data
     return processed_data
+
 
 def infer_csv_topic_zero_shot_batch(df: pd.DataFrame, columns: list, ents: Counter[str]) -> list:
     candidate_labels = []
@@ -140,3 +161,39 @@ def infer_csv_topic_zero_shot_batch(df: pd.DataFrame, columns: list, ents: Count
         "common_label" : most_common_label, 
         "Count": Counter(predictions)
         }
+def detect_categorical_by_uniqueness(df: pd.DataFrame, threshold: float = 0.05) -> list:
+    """
+    Detects categorical columns using a uniqueness ratio heuristic:
+    Columns with (nunique / total rows) < threshold are treated as categorical.
+    
+    :param df: Input DataFrame
+    :param threshold: Ratio threshold (e.g. 0.05 for 5%)
+    :return: List of likely categorical column names
+    """
+    if df.empty:
+        return []
+
+    categorical_cols = []
+
+    for col in df.columns:
+        ratio = df[col].nunique(dropna=True) / len(df)
+        # print(f"Column: {col}")
+        # print(f"Unique values: {df[col].nunique(dropna=True)}")
+        # print(f"Total rows: {len(df)}")
+        # print(f"Ratio: {ratio:.4f}")
+        # print(f"Threshold: {threshold}")
+        # print("*****")
+        
+        if ratio < threshold:
+            categorical_cols.append(col)
+
+    return categorical_cols
+
+def dynamic_threshold_percentile(df: pd.DataFrame) -> float:
+    ratios = {
+    col: df[col].nunique(dropna=True) / len(df)
+    for col in df.columns
+    }
+    ratios_array = np.array(list(ratios.values()))
+    threshold = np.percentile(ratios_array, 25)
+    return threshold

@@ -22,11 +22,11 @@ def is_float(val):
 def is_bool(val):
     return str(val).strip().lower() in ['true', 'false', '', 'nan']
 
-def is_date(val):
+def is_date(val: str) -> bool:
     try:
-        parse(val)
+        parse(val, fuzzy=False)
         return True
-    except(ValueError, TypeError):
+    except (ValueError, TypeError, OverflowError):
         return False
 
 # Type inference logic

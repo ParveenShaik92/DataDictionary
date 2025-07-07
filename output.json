@@ -17,6 +17,16 @@
         }
     },
     {
+        "Detected_threshold": 0.7623762376237624
+    },
+    {
+        "categorical_columns": [
+            "major",
+            "vehicle_make",
+            "vehicle_year"
+        ]
+    },
+    {
         "inferred_types": {
             "first_name": "str",
             "last_name": "str",
@@ -34,97 +44,270 @@
         }
     },
     {
+        "data_description": {
+            "first_name": {
+                "count": "101",
+                "unique": "90",
+                "top": "Chandani",
+                "freq": "3",
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "last_name": {
+                "count": "101",
+                "unique": "91",
+                "top": "Grover",
+                "freq": "2",
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "email": {
+                "count": "101",
+                "unique": "101",
+                "top": "nidhi.kuruvilla852@gmail.com",
+                "freq": "1",
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "phone_number": {
+                "count": "101.0",
+                "unique": "",
+                "top": "",
+                "freq": "",
+                "mean": "5123476862.623762",
+                "std": "2788531822.7964287",
+                "min": "236086950.0",
+                "25%": "3232372539.0",
+                "50%": "4852524434.0",
+                "75%": "7477795650.0",
+                "max": "9978914086.0"
+            },
+            "address": {
+                "count": "101",
+                "unique": "101",
+                "top": "88/843, Batra Nagar, Chinsurah-930920",
+                "freq": "1",
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "student_id": {
+                "count": "101",
+                "unique": "101",
+                "top": "S10000",
+                "freq": "1",
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "major": {
+                "count": "101",
+                "unique": "8",
+                "top": "Science",
+                "freq": "26",
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "gpa": {
+                "count": "101.0",
+                "unique": "",
+                "top": "",
+                "freq": "",
+                "mean": "3.0869306930693066",
+                "std": "0.5925145442506158",
+                "min": "2.0",
+                "25%": "2.57",
+                "50%": "3.14",
+                "75%": "3.6",
+                "max": "3.98"
+            },
+            "vehicle_make": {
+                "count": "101",
+                "unique": "10",
+                "top": "Toyota",
+                "freq": "17",
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "vehicle_model": {
+                "count": "101",
+                "unique": "101",
+                "top": "Placeat 697",
+                "freq": "1",
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "vehicle_year": {
+                "count": "101.0",
+                "unique": "",
+                "top": "",
+                "freq": "",
+                "mean": "2005.2772277227723",
+                "std": "9.580311907115746",
+                "min": "1990.0",
+                "25%": "1997.0",
+                "50%": "2004.0",
+                "75%": "2013.0",
+                "max": "2023.0"
+            },
+            "product_purchased": {
+                "count": "101",
+                "unique": "101",
+                "top": "Clothing - Profit-focused reciprocal architecture",
+                "freq": "1",
+                "mean": "",
+                "std": "",
+                "min": "",
+                "25%": "",
+                "50%": "",
+                "75%": "",
+                "max": ""
+            },
+            "price": {
+                "count": "101.0",
+                "unique": "",
+                "top": "",
+                "freq": "",
+                "mean": "2384.293663366336",
+                "std": "1366.1386796095942",
+                "min": "52.02",
+                "25%": "1177.86",
+                "50%": "2177.06",
+                "75%": "3476.4",
+                "max": "4864.63"
+            }
+        }
+    },
+    {
         "detected_ner_column": {
             "first_name": [
                 [
                     "PERSON",
-                    47
+                    95
                 ]
             ],
             "last_name": [
                 [
                     "PERSON",
-                    45
+                    92
                 ]
             ],
             "email": [
                 [
                     "UNKNOWN",
-                    49
+                    101
                 ]
             ],
             "address": [
                 [
                     "CARDINAL",
-                    67
+                    137
                 ]
             ],
             "student_id": [
                 [
                     "PERSON",
-                    46
+                    98
                 ]
             ],
             "major": [
                 [
                     "UNKNOWN",
-                    49
+                    101
                 ]
             ],
             "gpa": [
                 [
                     "CARDINAL",
-                    48
+                    99
                 ]
             ],
             "vehicle_make": [
                 [
                     "ORG",
-                    30
+                    64
                 ]
             ],
             "vehicle_model": [
                 [
                     "CARDINAL",
-                    40
+                    74
                 ]
             ],
             "vehicle_year": [
                 [
                     "DATE",
-                    49
+                    101
                 ]
             ],
             "product_purchased": [
                 [
                     "UNKNOWN",
-                    42
+                    90
                 ]
             ],
             "price": [
                 [
                     "CARDINAL",
-                    32
+                    71
                 ]
             ],
             "phone_number": [
                 [
                     "UNKNOWN",
-                    35
+                    75
                 ]
             ]
         }
     },
     {
         "detected_ner_rows": {
-            "PERSON": 107,
-            "CARDINAL": 100,
-            "LOC": 7,
-            "ORG": 75,
-            "DATE": 53,
-            "FAC": 17,
-            "GPE": 21,
-            "PRODUCT": 8,
+            "PERSON": 193,
+            "CARDINAL": 206,
+            "LOC": 15,
+            "ORG": 41,
+            "DATE": 40,
+            "FAC": 34,
+            "GPE": 54,
+            "PRODUCT": 11,
             "MONEY": 1
         }
     },
@@ -132,7 +315,7 @@
         "detected_dataset": {
             "common_label": "person information",
             "Count": {
-                "person information": 5
+                "person information": 11
             }
         }
     }
