@@ -1,0 +1,1001 @@
+account_id,customer_name,account_type,balance,currency,branch,interest_rate,opening_date,credit_score,status
+58a19d4a-85f4-4377-86d7-7d68991472ae,Troy Lewis,Business,81165.49,JPY,London,,2024-04-20,735.0,Suspended
+5f6d5d9e-ab9d-46d5-8ff0-518bc3091d8d,Brittany Reeves,Loan,38676.96,USD,Tokyo,2.37,2018-12-25,758.0,Closed
+63c51162-610d-439d-a613-0862bb88fda3,Miranda Gonzalez,Loan,42504.02,INR,New York,3.2,2025-01-22,563.0,Active
+cef90421-fba8-420d-bfa1-1877110af418,Kathleen Armstrong,Savings,,EUR,Berlin,7.06,2017-05-13,815.0,Active
+0134c5d7-6710-41cb-bb63-f78eaf6e2bc2,Robert Scott,Business,,USD,Mumbai,,2016-12-23,556.0,Active
+1370e9d0-b9c4-4296-a8f6-7f5aba7f7e78,Kimberly Norris,Savings,26498.62,EUR,London,2.76,2016-02-04,361.0,Closed
+8745096e-a331-4677-a82e-13a139cea411,Christopher Palmer,Savings,95084.78,INR,New York,7.49,2017-05-16,344.0,Closed
+b5b18fee-225d-43ef-aa24-5ceca41f29e8,Amy Chavez,Checking,91898.49,USD,Tokyo,5.21,2020-10-27,434.0,Active
+,,Checking,47721.99,USD,Tokyo,3.13,2021-04-01,847.0,Active
+a2cb7091-afe6-417f-824e-758cdcf0aee9,,Business,47967.24,USD,Tokyo,1.05,2019-04-01,714.0,
+cab71534-5bc0-4376-9082-2e8467cf5f07,Janice Sellers,Checking,21807.7,GBP,New York,6.47,2024-10-29,377.0,Closed
+6b7614c1-966e-44e0-9a1f-ffb69aefcde5,Sarah Howard,Business,24702.34,INR,Berlin,4.8,2019-05-08,302.0,Active
+6c111b52-ecd1-4ff6-8006-9914b0cd4727,Tracy Good,,24372.55,GBP,New York,7.16,2019-01-11,326.0,
+dd1c25a0-3092-409e-84fa-a078d3029437,Dr. Jason Bowman,Business,15856.85,INR,Mumbai,3.01,2019-01-08,659.0,
+2bd07437-9efc-4051-90ee-26d78e496aa1,Kirsten Lopez,Savings,7981.77,EUR,New York,1.26,2021-07-17,723.0,Suspended
+d47a9b90-c02b-4479-ae33-64d8a43320e0,Ashley Perez,Business,55441.78,EUR,Berlin,5.3,2019-01-27,583.0,Closed
+c179141e-eb5f-4ccc-92a8-8d43de19f8a7,Louis Brown,Business,53070.92,USD,London,7.22,2020-06-16,569.0,Suspended
+e6f6b819-0f83-4577-864c-1ac0a5c10ce6,Luis Mills,Loan,,GBP,Berlin,7.0,2016-07-28,569.0,
+5c75b676-cc47-4e85-9534-5256291728e0,Justin Deleon,Checking,71395.4,INR,Berlin,5.09,2023-05-10,807.0,Suspended
+7be5773e-501f-40d4-9ddf-da9742cd844f,Angelica Schroeder,Loan,,EUR,,3.16,,714.0,
+b1ab91a1-f963-4946-8d86-8629386ab7e1,Jordan Choi,,,GBP,,5.85,2019-05-14,432.0,
+593c05df-7837-4aa0-813e-7e77678688e4,,Business,41885.81,,,1.54,2023-04-10,,Closed
+6b321ed0-a354-4d19-a278-9f1fea45e02b,Mrs. Cindy Shields,Savings,95899.83,,London,3.64,2025-05-27,,Suspended
+07943812-f4fb-4ee4-8a8f-94a36d86b594,Kyle Mccullough,,75089.45,EUR,Tokyo,5.68,2018-02-26,431.0,Active
+b0571a7d-8bfe-4a5c-8aec-51396d24d18e,Jennifer Hill,Loan,39614.46,JPY,,5.48,2022-12-04,588.0,Active
+533818a5-7e5d-4b3a-8f0c-a7daaa75cf85,Mark Doyle,Loan,61110.39,INR,London,6.07,2021-05-27,540.0,Closed
+,Mark Peterson,,,JPY,New York,5.38,2016-11-27,711.0,Suspended
+d972c90b-8fb9-4ff3-8be9-6952b53cc6a7,Robert Drake,Savings,89966.79,USD,,2.43,2021-04-27,313.0,Closed
+f8b915b7-4f1e-4550-981e-6763fa58179c,Jessica Rios,Loan,44696.62,EUR,London,6.94,2022-09-04,620.0,Closed
+7612a9b2-ad84-4ba3-8e72-9241a9052300,Gregory Underwood,Loan,5281.1,INR,New York,3.41,,335.0,
+,Amber Carlson,Business,34264.81,EUR,Berlin,2.62,2017-06-19,514.0,Active
+2c4ea3aa-e396-4eca-82f8-9cd3c1d20496,Karen Holloway,Loan,84123.34,GBP,London,1.53,2025-06-05,509.0,Suspended
+177c55b9-58b6-4d52-b6eb-23df32454e8d,Alexandria Myers,Savings,73094.19,GBP,New York,2.94,,782.0,Closed
+eac9b211-311d-46be-9630-b7d769cc17f7,Dr. Mia Cohen MD,Business,53964.93,INR,Mumbai,1.5,2018-07-01,691.0,Suspended
+c720a601-4474-41bb-b536-4779be737311,Richard Arellano,Checking,35976.45,INR,Berlin,1.42,2023-04-15,322.0,Closed
+4521aa16-868c-4503-a55a-8937e2b3fdfc,Ann Glenn,Business,57363.83,EUR,Berlin,6.7,2023-12-06,767.0,Suspended
+35868a60-eacb-4c58-9571-3e0e17007c20,Richard Alexander,,54040.65,INR,Berlin,,2019-12-26,337.0,Suspended
+0eae18c8-9816-4120-82de-456503accb12,Brent Page,Savings,94659.22,USD,Tokyo,6.55,2020-08-30,373.0,Closed
+da44cb65-2533-44be-8ed6-14c6546da88d,,Business,,JPY,New York,7.07,2022-04-19,619.0,Suspended
+,Cody Nicholson,Savings,50196.21,GBP,Berlin,1.51,2017-02-03,682.0,Active
+c0431f7a-8285-4cbe-ace5-0d6e1c2c74ba,Christopher Johnston,Checking,21505.47,EUR,Berlin,4.0,2015-10-04,,Suspended
+47f912eb-24e7-43f0-81bb-9b529a02d915,Christopher Crawford,,93116.2,JPY,New York,6.81,2021-08-08,464.0,Active
+76b922d4-8461-44c8-af34-8c5c9b6d4eaa,Ian Gutierrez,Business,75033.34,USD,Berlin,5.46,2016-05-17,326.0,Closed
+43535b71-4ecb-4892-8ec9-4c9c27ba9abd,Robert Butler,Checking,76699.47,EUR,London,6.24,2021-03-03,489.0,Active
+,Vanessa Deleon,Checking,42939.62,JPY,Berlin,5.48,2016-07-12,700.0,Active
+1f450c83-8ea2-4043-acda-dbacd54ee476,David Ray,Business,51338.52,JPY,Berlin,,2025-02-09,517.0,Active
+4f65d311-abf6-4ae4-b39f-b9e5e3df54f7,Morgan Mckee,Savings,96814.05,GBP,Berlin,3.62,2020-11-06,385.0,Suspended
+,Tanner Bennett,Loan,11961.52,,London,5.6,2017-01-28,,Suspended
+a12f2e11-f164-4850-8beb-beb44d0a041e,Andrew Brooks,Checking,1832.41,GBP,Mumbai,4.73,2024-01-28,849.0,Suspended
+bde85d2a-5d40-4048-9f1e-006f7b7aff77,Terry Galvan,Checking,23345.87,INR,London,1.65,2024-03-10,516.0,Active
+1724d5b6-30ed-4743-8148-91b93db36b19,Stephen Alexander,Savings,67017.44,JPY,Berlin,6.04,2021-01-13,600.0,Closed
+0cf56110-28e8-44cb-9916-a569f16a6eb7,Jason Mccall,Loan,56733.54,USD,Tokyo,4.56,2021-05-03,784.0,Suspended
+2031e499-8e9c-49be-b7ea-05f7d9997b03,Benjamin Warner,Business,30306.26,,Tokyo,5.48,2024-07-18,565.0,Closed
+58b702a8-19a3-4531-97eb-3c28afcdb02a,Jillian Gonzalez,Checking,72610.78,EUR,Tokyo,,2018-11-20,807.0,Suspended
+22aabbee-b18e-47d7-b323-793c6e5add46,Steve Harding,Savings,77620.61,INR,Mumbai,5.73,2017-09-06,840.0,Closed
+38175320-4206-438d-a21e-778c8eef9d0f,Jordan Douglas,Loan,81494.76,EUR,New York,7.22,2025-06-26,455.0,Suspended
+cd61d994-0513-4ccf-9d04-c7ff69e7cc3b,Melissa Carroll,,96814.75,EUR,New York,,2025-05-07,495.0,Suspended
+6eb42c74-9521-4e98-b683-9a7b8859f1e8,Jennifer Walton,,67520.14,,Mumbai,6.66,2023-06-16,691.0,Active
+40022c20-b0d6-42af-802c-1d1fd1846e29,,Business,8064.0,JPY,Berlin,6.43,2016-08-31,604.0,
+8b88dbe0-c1f2-4800-8987-d1b35cec0ce5,Lisa Hayes,Loan,29642.98,USD,London,4.66,2020-08-30,408.0,Suspended
+,Michael Ayala,Savings,,EUR,Berlin,3.28,2016-08-12,531.0,Closed
+fde2422e-e813-4c34-8583-631e775ecdad,Christine Hill,Business,97729.84,INR,,1.67,2017-02-20,409.0,Closed
+9aeb838c-aaa2-492c-b6b8-70675f037f48,Victor Davis,Business,39734.11,USD,Mumbai,3.89,2017-07-14,527.0,Active
+f1a6f4fa-fabc-4c64-baf6-3b44fc2badd2,Ashley Rios,Savings,69226.2,INR,Berlin,1.4,2023-02-18,655.0,Closed
+82b9906b-35d7-41eb-842d-b39c09a44827,Micheal Wright,Checking,28973.23,USD,,3.06,,615.0,Active
+,,Business,34263.11,USD,London,4.7,2019-06-11,377.0,
+3e52b4e1-c740-4fd1-93eb-bd4b6960120a,Erin Moore,Savings,87842.49,USD,London,6.42,2020-02-12,798.0,Closed
+73c182c5-0d42-4fa4-b307-99e96f09c3fb,Jennifer Hancock,Business,30687.97,INR,New York,1.05,2023-04-16,612.0,Suspended
+bc5f37d6-9f17-42e8-8a7a-7658fdf5fd83,Brian Herrera,Business,4972.21,JPY,Tokyo,3.73,2018-02-22,399.0,Active
+786a5957-0e36-4881-933d-e868f74e6cdd,Lisa Johnson,Checking,69582.75,GBP,Tokyo,5.5,2017-11-01,779.0,Suspended
+fbe7c52a-0994-48fc-8bcf-01f67e58ce1f,Mary Morgan,Checking,61999.81,USD,Berlin,3.92,2016-06-01,405.0,Closed
+eca36ff9-0a35-48c1-8ce2-791990907d40,Jason Roman,Savings,61212.48,INR,New York,2.41,2022-07-19,819.0,Suspended
+29b7f4a7-6e33-4498-a4ad-bc5ed785227e,Stephanie Baker,Business,80433.17,EUR,Tokyo,5.88,2024-03-18,645.0,Active
+c44b7567-891c-475d-bcb8-fe1d51bd0581,Eric Cox,,93718.79,EUR,Tokyo,1.38,,434.0,Active
+2704b8fa-a234-4d2f-a143-86b86a1cd7f8,,Business,38720.9,EUR,Tokyo,2.55,2022-07-24,807.0,Closed
+3c75f01c-d987-4596-8db6-0398edc3cc72,Robert Romero,Savings,92969.19,GBP,New York,6.03,2016-08-28,831.0,Active
+407488d9-22eb-41fa-bea4-fc0f41361d8c,Mrs. Pamela Mcguire,Business,89631.5,USD,,6.47,,556.0,Suspended
+7dc208fd-1953-4c69-90e5-32a5af75dfaf,Nancy Carlson,Business,82231.96,EUR,Mumbai,5.77,2018-01-23,500.0,Suspended
+5a05dce4-154f-4b2d-a6ba-b8244d784471,Barbara Thompson,Savings,17266.49,EUR,Mumbai,3.54,2016-11-29,773.0,Suspended
+37aa75ee-c7eb-4661-ba19-cdb7d43ee9c0,Misty Ball,Business,7180.36,EUR,London,6.1,2025-02-07,557.0,Closed
+ec3e267b-2ae3-4fcf-8e21-ea9846321eec,Samuel Washington,Checking,14695.7,JPY,Tokyo,1.07,2024-02-26,651.0,Suspended
+a9ead6b9-b0f9-4fc5-b7f7-cfc437a0ca5b,,Loan,78121.05,USD,Tokyo,3.92,2015-09-01,543.0,Closed
+c117ebc3-deb9-44a6-8640-bc6e200d2cfc,,Savings,72300.55,INR,,4.35,2020-07-17,591.0,Closed
+5017c891-0c1e-493b-9303-d743ab965102,Stephanie Thornton,Business,11167.02,JPY,London,5.45,2016-12-21,491.0,
+f2c93649-d09e-450b-9739-fb3536e35db5,Ross Mercer DDS,,24727.97,EUR,Mumbai,5.87,2025-03-28,784.0,
+08e24cb5-904d-4c98-b899-e6c5bfa02a6a,Charles Holden,Savings,88834.82,USD,London,2.03,2024-02-18,456.0,
+633221a8-24fb-416f-988e-785810fb36ee,Debra Bowen,Loan,98807.23,JPY,,4.3,2017-10-23,480.0,Suspended
+f727ae73-d9bc-44c4-be81-aea9c24d998d,Paul Bennett,Checking,26192.43,,New York,5.9,2018-07-20,428.0,Suspended
+cb5e1c72-983b-4bdd-af49-409394ec3d6c,Michael Robinson,Loan,4138.34,EUR,Tokyo,4.83,,387.0,Active
+c4236798-245c-43f5-af3e-38c4e1d60b2a,Katie Barnett,Savings,41359.15,EUR,New York,6.76,2018-04-04,587.0,Active
+83999968-493e-47bb-bcf4-e1b34403263b,Joseph Anderson MD,Checking,,,New York,1.61,2021-04-16,379.0,
+fdb9e619-fae9-4e69-a0c0-e4cf13f7a7af,,Business,31002.12,,Tokyo,5.15,2015-08-14,679.0,Closed
+4fd861d1-75c1-45c5-9c1e-ab25e82761e2,Sharon Little,Checking,94500.27,JPY,New York,2.26,2025-06-28,676.0,Active
+16b8d0e9-863c-49b7-a136-f6b963fab82e,,Business,53824.79,,New York,3.3,2021-04-06,570.0,Suspended
+2eb8f6ab-5c68-462d-b501-7d4d2b07ce56,Karen Logan,Checking,17645.48,USD,Tokyo,3.63,,539.0,
+fb1f6bd9-f2ee-4b94-be97-8d4456039061,Alex Rich,Business,65969.05,GBP,New York,,2016-11-05,539.0,Active
+b587d233-f263-45cf-8ba4-7c51ba811056,Taylor Foster,Checking,78072.1,USD,Berlin,4.78,2020-02-13,400.0,Suspended
+06a89441-a087-4507-b6e2-5c82f6b49cd8,Amanda Bennett,Checking,50542.15,GBP,,4.56,2023-05-25,789.0,Suspended
+c75fb5b1-36ac-48eb-abad-3a169904bf4b,Joshua Taylor,Savings,73743.65,INR,Mumbai,3.86,2019-06-03,658.0,Closed
+dc35fcf2-5b6f-4db6-87a8-c934b9ffd23d,Heidi Lewis,Loan,82383.47,,Mumbai,1.76,2024-07-20,403.0,
+f8bc653e-fc34-45e1-b487-f32f9fc440b0,Brandon Peterson,Checking,29497.12,,Mumbai,2.79,2020-07-15,382.0,Suspended
+a5109ddf-2ee3-4866-8dbe-9583857d694c,Brandon Houston,Checking,51124.02,,New York,6.71,,712.0,
+,Jessica Horton,Loan,2396.76,GBP,Tokyo,6.92,2020-07-08,692.0,Active
+9d198730-876b-4174-8b3d-6341029ab573,Sarah Howell,Business,77537.71,GBP,Mumbai,3.23,2023-10-22,697.0,Closed
+,Carly Richardson,Business,38390.2,INR,London,1.35,2022-03-21,475.0,Closed
+f428e1f9-2dbc-4d96-8a9e-2f41049934c3,Thomas Jones,Business,93805.33,INR,New York,2.03,2020-12-28,465.0,Active
+0bbc5f4a-9264-4e1f-b112-abd4c227781d,Joshua Dixon,Savings,7023.17,EUR,London,,2024-03-29,446.0,Suspended
+bab4d501-76e1-4b3d-97ae-97c50f92030b,Shawn Roberts,Savings,41873.47,JPY,,4.25,2023-07-21,555.0,Closed
+9456641f-6954-4807-80d4-ab80727cca30,Rebecca Robertson,Loan,48998.71,USD,Mumbai,3.91,2019-10-11,431.0,Suspended
+dcc26e00-5467-4b90-b9a9-73568fcbe8b4,William Moore,Checking,53474.97,INR,,2.08,,684.0,Suspended
+,Heather Lewis,,12412.0,GBP,Tokyo,7.05,2017-05-02,506.0,Closed
+,Jason Flores,Loan,47348.65,JPY,London,2.96,2018-07-18,598.0,Closed
+fad477fa-da19-4bce-93f6-2d197a64b9ff,Stanley Williams,Loan,68850.87,GBP,New York,3.91,2015-10-05,,
+,Matthew Moreno,,57541.94,EUR,London,2.21,,751.0,Closed
+03860c62-771f-48b2-8705-54949b146f25,Natalie Sanchez,Checking,95279.65,EUR,Mumbai,1.82,2018-06-06,528.0,Closed
+23fb814f-d28d-4360-9098-f9c803f3a906,Jason Hernandez,,36176.62,EUR,Berlin,2.61,2022-05-02,442.0,Suspended
+0936c8d0-bf86-404d-a794-0a68b010af75,Albert Willis,Savings,,GBP,New York,4.49,2017-04-14,611.0,
+cadbc9a4-8a78-4bcf-8a20-2df09966d617,Christopher Nolan,Loan,71999.76,USD,London,3.48,2020-12-24,345.0,
+a280ae5a-80bb-4ff7-b60f-e716d184bace,,Loan,,USD,Tokyo,2.29,2023-05-04,467.0,Active
+95c0459d-5eda-4e3e-b4cb-a540c0e2d073,,Business,,INR,London,6.43,2019-11-15,683.0,Active
+930a5ef2-d9d0-4214-b011-312b518f7597,Jason Welch,Business,77167.5,USD,London,2.24,2023-02-22,785.0,
+ebb167d5-ec32-4c4d-a5d6-63da923fdff5,Brittany Mercado,Checking,,INR,Tokyo,4.75,2021-01-04,,Active
+dcfda91d-db42-4b74-91e1-5d526114bd76,Joshua Contreras,Savings,28856.83,GBP,New York,3.96,2019-11-14,,Active
+e31b7010-d0af-455f-87b1-d0b641abb61c,,Business,75580.3,USD,,6.65,,374.0,Active
+e58a3839-d7cd-4f88-aef6-16a4da6356ae,,Loan,81910.74,JPY,Tokyo,4.19,2017-08-30,838.0,Active
+85a27923-cfa2-407f-a73f-6cc73f294507,Amanda Wilkins,Checking,2731.81,,Tokyo,1.71,2016-02-22,588.0,Closed
+b8800694-9819-472f-8630-e59758e30f3e,Kelly Perez,Business,96423.35,GBP,Mumbai,4.1,2022-09-23,476.0,
+fdb2881d-c32c-4536-a7b5-da54479faf68,Corey Contreras,Business,18576.87,USD,Tokyo,1.76,2016-05-23,761.0,Closed
+,Teresa Day,Loan,55171.11,EUR,London,6.36,2016-09-02,571.0,Suspended
+42b6fd6b-f196-4b6d-921b-1c318dd03550,Amanda Klein,Savings,63042.29,JPY,New York,4.33,,848.0,Closed
+2bf8563d-c0dd-46f7-8249-790cc965a011,Joshua Roberts,,95201.26,,New York,3.56,2022-08-30,719.0,
+7edff306-ee10-4910-9903-f459e7aafccc,Ross Johnson,Checking,,INR,Mumbai,6.24,2017-05-06,666.0,
+023450b0-b1a3-4a4a-92f3-dce3fddac54d,Molly Reyes,Loan,,USD,Berlin,5.79,2019-07-06,305.0,Closed
+10731f1f-1188-41db-ac95-eeb3a235948a,Ricky Avila,Checking,28035.44,EUR,London,4.09,2024-08-02,803.0,Suspended
+89ff1647-0d14-4c8a-96e0-1abb3c7b70e9,,Savings,46793.94,GBP,New York,,2018-06-17,454.0,Suspended
+74cd0aab-8225-4d37-868c-8f956ac44516,Richard Johnson,Business,,INR,New York,6.26,2018-07-30,,
+df3e06db-bd99-4fc1-a384-02b916fdfe14,Kimberly Wilson,Loan,62711.85,JPY,Berlin,5.53,2018-07-21,466.0,Suspended
+198b1942-bda1-4adb-819b-81d27b1af332,Kenneth Noble,,30459.11,USD,Berlin,,2016-07-19,343.0,Closed
+ea7eb672-344d-4bd3-b461-66d8b31d9603,John Smith,Checking,41320.61,EUR,London,3.79,2022-09-10,490.0,Suspended
+1a0a42bd-b1f2-4822-a1e5-121f9a6b167c,Mary Wilkinson,Loan,93231.15,USD,New York,6.71,2016-11-19,,Closed
+ad4c5785-2cc8-4667-b2dc-20dafe744348,Lindsey Ryan,Savings,40921.49,JPY,Tokyo,7.3,2020-12-12,773.0,Active
+eba4c932-b641-4562-a855-62b4c61f274d,Matthew Walters,Loan,57664.19,,London,6.38,2024-06-16,567.0,Suspended
+d05f0922-3c96-42bb-b6b5-55012dc60c9b,Dennis Gilmore,Savings,60931.29,JPY,Berlin,6.3,,675.0,Closed
+1de5d89c-661a-47b5-824e-703b085706e4,Maureen Hawkins,Loan,80361.22,JPY,New York,3.74,2021-09-20,370.0,Closed
+e37777fa-12e4-4e6b-8340-21f16c405f09,Daniel Perry,Checking,83877.35,INR,New York,,2021-04-15,403.0,
+0a4bdf84-4aa9-449a-b267-98ca5d2667c5,David Cox,Loan,5016.99,GBP,New York,3.67,2020-02-24,461.0,Closed
+e9a641ad-7f2c-4fb8-8b58-a3e4d8236dbe,Juan Torres,Loan,21041.99,JPY,London,5.09,2021-03-17,578.0,Active
+,Jason Quinn,Savings,31340.17,,Tokyo,4.08,2018-03-28,508.0,Closed
+,John Cherry,Savings,58127.0,GBP,Berlin,2.2,2024-11-28,634.0,Active
+bb3081f3-042b-44cd-b6de-bda6c5152411,Matthew Nichols,Business,73629.01,INR,London,,2025-04-16,434.0,Active
+,Jason Fowler,Checking,76908.05,JPY,Berlin,,2020-12-04,655.0,Suspended
+dd18510e-02dc-45ab-b2dd-494bc6d2b22d,Andrea Miller,Savings,12087.73,USD,Tokyo,3.42,2021-06-24,468.0,Suspended
+e9fb6048-84d1-4b88-86d0-b111b799e5f0,Ryan Bray,,19418.4,USD,New York,,2025-04-28,439.0,Suspended
+2b211f5a-59e2-44cf-b0a6-fee350654825,Scott Kennedy,Savings,18434.83,GBP,New York,3.06,2017-08-14,567.0,Closed
+e7e3df46-842c-411d-906a-b3ac271a0d8d,Jared Lozano,Business,74705.28,INR,London,2.14,2023-10-18,405.0,Closed
+,Elizabeth Booker,Loan,,EUR,New York,1.08,,723.0,
+44023eeb-83da-4f35-af16-55ef6f4c6194,Victor Henderson,Loan,86638.19,,,,2016-10-07,382.0,
+16fbf7df-f2fb-4697-82f9-240781c573aa,Jill Dominguez,Loan,61836.65,JPY,Tokyo,1.66,2024-10-30,381.0,Suspended
+adb0fa64-e199-4199-a553-ce9432a45e7d,Karen Holmes,Savings,98195.66,,Berlin,5.49,2019-08-04,514.0,Active
+69cace1a-5fea-4bca-821f-0075a021f379,Ann Knight,Checking,,GBP,London,7.39,,312.0,Suspended
+1bcd6885-477c-4271-8871-30695fd0b572,,Savings,77458.86,EUR,New York,4.86,2022-01-19,653.0,Suspended
+cf4c30fb-414b-4390-8833-9ecf6f93d4d4,Kristen Clayton,Business,92551.3,EUR,Mumbai,6.93,2017-11-22,,Closed
+189c28a4-2658-4a6c-8909-eeca39f817c0,Charles Rice,Loan,92047.82,JPY,London,,2018-03-13,783.0,Closed
+bf114147-148a-4092-877a-3e7d398a1578,,Checking,73905.9,INR,New York,3.66,2019-02-16,414.0,Suspended
+de234759-73ba-4b05-a356-de51c07604eb,Scott Moody,Checking,63635.59,EUR,Mumbai,2.55,2024-04-17,716.0,Suspended
+a4a054f1-fe95-4c95-869c-1e4f357d0b2a,Heather Gonzalez,Checking,8750.11,GBP,New York,3.35,2017-03-31,372.0,Closed
+02dec498-e93e-4620-8173-3be226cecba8,Carl Wood PhD,Savings,21295.47,INR,Mumbai,5.36,2015-11-26,372.0,Suspended
+92817b27-77d8-4785-bd67-62fbafdd175a,Nicole Cook,Loan,75665.44,JPY,Tokyo,4.71,2019-11-29,546.0,Closed
+2ed46c18-d107-478d-9feb-9edabb690e17,,Business,89772.82,JPY,Berlin,2.05,2020-03-04,722.0,Suspended
+2673be15-ac5f-4ab2-b21f-8434a5efebca,Justin Pacheco,Savings,5473.98,INR,New York,1.19,2020-12-30,564.0,Suspended
+c5293ae4-c141-4f17-8e7b-c2baa340c263,Jillian Cox,Business,98170.87,EUR,New York,5.27,2025-07-06,767.0,Active
+ed6983f7-10fc-4378-b206-51abb3ba39de,Nicole Mclaughlin,Loan,88960.46,INR,,1.98,2023-07-15,343.0,Closed
+999997c6-f230-499d-bd4d-f8b0bba54649,Tiffany Campos,Loan,59523.85,INR,Mumbai,6.67,2015-12-31,321.0,Active
+63eb4138-269f-4a75-b303-07cead9149b3,Mark Riggs,Savings,53914.13,INR,New York,4.66,2018-05-24,,Suspended
+9b183d47-a6f2-4877-9590-6720b39328ce,,Loan,98633.69,INR,New York,1.73,2020-12-22,841.0,
+a28d744e-c743-46cf-9e66-4988a2b3d574,Robert Taylor,Checking,70241.97,INR,,5.15,2021-10-17,558.0,Active
+,Shannon Wright,Business,,EUR,New York,6.82,,,Active
+90455599-82dd-415f-94b3-e0232c5bab68,Adam Johnson,Savings,39108.11,USD,Tokyo,6.59,2017-01-14,769.0,
+1c6bb386-4eb7-49e7-985b-67209fcbd536,Timothy Perkins,Loan,88755.34,USD,London,6.39,2019-01-08,445.0,Active
+ddb196e3-93e5-4d46-8b3d-6013d93a6011,James Williams,,13009.13,INR,Tokyo,5.52,2022-01-24,765.0,Active
+,Lauren Jimenez,Business,19728.38,EUR,Tokyo,1.35,2021-10-18,808.0,Closed
+665fb692-5462-463e-973b-f8f1d05f570c,Jason Watts,Business,79320.59,EUR,New York,6.13,2016-11-17,589.0,Closed
+,Jonathan Peck,Business,98149.25,JPY,,2.57,2020-07-01,657.0,Suspended
+1b1b8846-0b6f-4619-b427-665b89263fe2,Derrick Campbell,Savings,67923.02,INR,,,2025-03-24,,Suspended
+48ee933d-7d2b-4462-b56b-40392832e608,Scott Russell,Checking,,EUR,Mumbai,4.81,2023-11-03,705.0,
+,Michele Vazquez,Loan,17155.62,EUR,New York,2.36,,557.0,
+f3d8a25d-26ff-4e3f-83b2-e2d1bc95bbc6,Kathleen Phillips,Checking,,JPY,Tokyo,7.45,2025-05-18,757.0,Closed
+b25348f2-b4da-4172-bcc0-15a919caedf5,Cody Schroeder,Loan,95790.34,GBP,Berlin,1.83,2018-10-12,474.0,Suspended
+9dbb7c10-d44e-4e44-94e8-47e5935b9790,Robert Ross,Checking,21393.98,USD,Mumbai,6.54,2023-08-17,350.0,Suspended
+fa18f76d-1f4f-4b69-a480-cb9c084df76f,Darin Reynolds,Savings,79110.28,INR,Mumbai,7.44,2022-05-02,445.0,Active
+a5a7f8ba-9e7e-46c6-adc1-d15f0d5e5e29,,Checking,73421.45,JPY,,1.34,2022-04-28,639.0,Active
+1b2a56dc-455c-44f9-b847-5a9be83b25e4,Daniel Wilson,Loan,87857.39,USD,,4.24,2020-02-03,429.0,Suspended
+c4aac31c-fe28-4882-8dd5-c8a69ef895c0,Kevin Nelson,Business,98656.62,EUR,New York,2.25,2018-02-02,744.0,
+08192df9-7a21-40c5-a6f1-e3138b9d8a63,Meagan Williams,Checking,,,London,,2021-04-29,807.0,Suspended
+60594e00-e120-4862-90dc-22732a0b260f,Michael Moore,Loan,38062.68,GBP,New York,2.79,2019-07-24,437.0,Suspended
+f5a8c318-be36-47dc-a640-ff7809f7ba26,Justin Jenkins,Savings,53089.24,USD,London,4.07,2023-03-28,762.0,Suspended
+fa4b00f0-b055-448f-acc2-9848b89dbadf,Julia Rodriguez,Loan,15456.01,GBP,London,3.41,2021-11-05,511.0,
+a598072f-8e9d-4375-a655-fb03bf5c20df,,Loan,39585.51,INR,London,5.6,,497.0,Active
+f893ac53-2415-4d8a-9042-36382a462300,Daniel Davis,Business,80844.58,JPY,London,3.29,2018-04-05,383.0,Closed
+78a43592-74a1-4c17-88c7-01a3c2c1cd73,Joel Hamilton,Savings,3554.41,USD,Mumbai,,2015-10-04,337.0,Closed
+8e2f54ac-32f8-46c9-a227-fe43a58920ba,Allen Pena,Loan,77749.2,GBP,Mumbai,4.18,2021-01-19,459.0,Suspended
+5514080e-51e2-460b-ac27-05c96a2dc52e,Adam Yang,Loan,93256.56,GBP,Tokyo,,2020-05-09,798.0,Closed
+6776e52d-6728-4d05-a666-7740d83c524c,Michael Morales,Savings,37189.64,JPY,New York,1.82,,453.0,Closed
+966bc317-3a31-4be7-9a21-213d417801ee,David Castillo,Business,41978.66,USD,Mumbai,5.04,2019-12-09,301.0,Suspended
+,Danny Richmond,Savings,26527.07,GBP,New York,5.65,2020-06-24,708.0,Suspended
+2ff8154c-663f-425c-a41f-2c852a342080,William Riggs,Business,57244.52,USD,Berlin,4.74,2022-08-20,571.0,Suspended
+1164f8ce-0b9f-412f-8a3c-fe9bbfb9fec9,Timothy Miller,Business,73692.55,USD,London,,2021-09-27,689.0,Active
+,Cynthia White,Checking,19582.12,USD,Berlin,2.33,2022-06-04,366.0,Active
+,Randall Lane,Checking,39306.33,INR,Mumbai,6.3,2019-04-16,494.0,Active
+67c46179-9918-4f91-839d-a2b381b55714,Andrew Hancock,Loan,7244.31,,Berlin,5.52,,,Suspended
+46c606ca-db4e-4122-8902-36de67b71a33,Ashley Nelson,Savings,88894.81,EUR,Tokyo,4.09,2020-03-24,460.0,Closed
+7638039d-e21f-4318-bb06-d9c0cf57d27b,James Cruz,Loan,10538.43,INR,Berlin,5.4,2021-01-28,704.0,Suspended
+2a79dc2e-0c4f-403f-95fe-7cad16d443ed,Kenneth Stephens DDS,Loan,72509.47,GBP,Mumbai,3.37,2022-07-22,513.0,Active
+fb0f39c0-14a7-40f3-8a7f-d88da2603d02,Dr. Erik Shepard PhD,,18603.65,USD,London,1.79,,577.0,Closed
+84421577-2cdf-4eca-a726-bf042231621a,Dana Torres,Checking,34529.65,,London,2.49,2017-12-21,557.0,Suspended
+ea7cd320-2b23-4de7-902f-8520246a372e,Donna Newman,Business,59314.5,EUR,Mumbai,3.08,2016-03-30,829.0,Active
+2c38e6a0-286f-433c-bff2-93efd7761921,Audrey Taylor,Checking,84475.64,JPY,New York,5.22,2016-10-14,326.0,Active
+960c17da-1459-4210-b3e5-08be81bf6011,Nicholas Fowler,Loan,92502.92,GBP,London,3.67,2023-03-29,850.0,Active
+a68b0b8e-9028-4d33-b5ef-1a069f85f567,Jason Farley,Loan,75351.24,USD,Mumbai,2.72,2016-08-20,,Active
+71913d74-64b2-49dc-89c1-a047a1fe8730,Rachel Golden,Business,79768.14,INR,Tokyo,1.93,2015-08-29,660.0,Suspended
+139445a9-021c-4274-84a9-542f2be77161,Austin Diaz,Checking,30118.35,GBP,Berlin,2.88,2022-09-17,681.0,Closed
+cbe11bc3-0fe0-4889-be91-603d38288b56,,Business,35925.91,GBP,Tokyo,7.13,2019-02-09,319.0,Active
+65e8bdcf-05c7-4f29-bdc2-78e5c7315fb2,Samantha Wilcox,Checking,90916.44,JPY,Tokyo,5.35,2023-10-12,462.0,Active
+e607ee01-30de-4a17-aa9f-cb9b146a84c1,Shelby Drake,Loan,77894.91,USD,London,7.06,2024-09-06,757.0,Closed
+,Amanda Anderson,Loan,87827.15,EUR,Mumbai,6.75,2015-08-01,513.0,Suspended
+,Albert Clarke,Loan,93684.16,JPY,Tokyo,2.72,2019-12-11,431.0,Active
+48fcbd54-0711-4c00-9ec7-18cb25a93e50,Kristy Duncan,Savings,998.58,USD,New York,6.58,2017-11-04,502.0,Suspended
+dd6ade9e-c44d-4865-916e-7520bbbc7a2e,Sandra Castillo,Savings,,INR,London,5.01,2024-10-01,322.0,Active
+6a47c27c-371f-4daa-91be-fd3d2aaeedf9,Sabrina Bryant,Savings,14642.17,EUR,Berlin,2.91,2019-08-20,755.0,Suspended
+e2a2f09f-bdf3-4359-852b-ed215d9f9713,Matthew Yu,Checking,58716.33,USD,Mumbai,5.24,2022-03-11,377.0,
+,Sheila Whitaker,Savings,16119.53,EUR,Tokyo,4.09,2024-03-25,642.0,Closed
+28160f75-4661-41f8-bb64-0f71d6820bd3,Russell Santos,Savings,10601.43,EUR,New York,4.11,2018-06-11,537.0,
+,Mary Simpson,Business,27829.51,INR,London,,2019-12-06,381.0,Suspended
+fc4704cd-bc96-442b-8bf7-c1ba7932cb67,James Aguilar,Loan,54647.46,GBP,Mumbai,6.48,2017-07-17,349.0,Suspended
+64634ddc-f939-41fb-bbc4-898a96ae5ac9,Jeremy Gonzales,Loan,13045.09,,,4.51,2018-05-21,330.0,Suspended
+280ea06b-82ca-464b-82ca-20c520df6255,William Phillips,Business,95336.71,USD,London,1.35,2018-08-12,547.0,Active
+bbbf045b-7ee7-49d5-afc2-ccac949c87e4,Andre Eaton,Loan,2166.99,USD,,6.01,2023-07-11,368.0,Active
+,Jesse Silva,Checking,21448.22,USD,New York,5.87,,355.0,Closed
+,Charles Carter,Loan,81017.9,GBP,Mumbai,1.42,2016-04-22,760.0,Closed
+24333ef6-0d12-4cb0-b5b9-b909763f2dd6,Tanya Jackson,Loan,82879.47,GBP,London,1.53,2024-07-25,832.0,Active
+19730b37-5077-47a7-b57b-7d42bb379835,Hector Guerrero,Checking,60116.61,EUR,Tokyo,7.33,2017-10-05,642.0,Active
+3be946f5-cad3-4cf7-b1e0-ac66a9fa8751,Jessica Davenport,,,USD,London,4.13,2025-04-26,846.0,Active
+d6a47e62-c2e6-4f6b-a773-ce13bff017ca,Nicole Henderson,Checking,66259.16,EUR,London,2.81,2025-01-28,531.0,Closed
+79233f6e-4ce3-48b2-8ec9-0b9658ac8cb1,Mr. Andrew Hampton PhD,Savings,93708.38,,,1.52,2024-11-24,552.0,Suspended
+1c926d4e-ded8-4f7b-9dc8-1fe58738c0f7,Justin May,Business,3439.2,,Mumbai,1.52,2017-04-21,714.0,Closed
+29986a4c-8776-48b9-a252-aaedb18ab86e,Mary Harrison,Checking,98083.01,JPY,New York,,2016-04-15,500.0,Suspended
+,Christine Day,Loan,19291.05,INR,Mumbai,5.3,2019-01-22,468.0,Active
+51ad41ab-00ed-41ff-aa7c-6a33d764bb13,Aaron Jefferson,Checking,74317.0,INR,London,1.83,,389.0,Closed
+cc498b74-9d9f-4f33-8236-1a6711d96285,Mr. John Hall Jr.,Savings,23010.84,GBP,Mumbai,6.39,2025-05-08,755.0,Suspended
+4ba20ea7-f3bf-4a25-a17d-4954624c22e9,Joshua Atkinson,,76476.16,,London,6.0,2021-08-18,409.0,Suspended
+7488aaad-288c-4a75-bd77-12284b5c019f,Dwayne Huber,Savings,83640.76,EUR,Tokyo,2.74,2021-07-06,385.0,Closed
+23284235-2965-4a11-beb8-c9d1c3474afd,,Checking,13427.25,EUR,London,6.47,2018-12-17,806.0,Active
+78afa3b0-04a5-4e55-9e26-77bfc0f0ab6e,Brandi James,Checking,20282.72,INR,New York,6.89,2017-01-02,535.0,Active
+8515c26c-825b-48ad-956a-f33ab0f8b4cd,Madeline Solis,Loan,14232.71,EUR,New York,,2018-08-25,681.0,Active
+d15e9f29-1360-4427-8ec8-8edddefca568,,Checking,7749.49,JPY,,1.78,2016-10-18,468.0,Active
+e9706402-7c88-4100-983d-1073a8555e77,Kelly Wilson,,73509.7,,Berlin,5.57,2023-11-01,308.0,
+d22d9884-b82e-495b-9674-e6fa91a0b04b,Rachel York,Savings,18237.26,EUR,Berlin,,2018-04-09,821.0,
+0393e65e-696f-41f9-a2fb-b10050191a3d,James Martinez,Checking,34262.2,GBP,London,4.72,2024-10-01,619.0,Active
+8684c0db-cb3f-443e-96b2-5f672b5e7023,Christine Simmons,,40253.73,EUR,Tokyo,2.96,2021-06-21,837.0,
+d846071b-deae-4724-9770-55fc88752001,,Business,68643.29,GBP,Tokyo,5.98,2021-01-28,420.0,
+f3a2185d-ff65-4b32-a335-303ddc75d430,Lucas Short,Savings,13556.0,EUR,New York,1.8,,646.0,
+70873074-d241-4fa1-be27-90068e3f8fd2,Christian Weiss,Checking,14157.31,JPY,Mumbai,3.53,2017-04-12,581.0,
+6fc46f32-dee7-4c2d-a259-8c0809edc641,Charles Jacobs,Savings,5221.62,EUR,Mumbai,1.23,2021-01-12,847.0,Suspended
+cf86fd61-b4e9-43de-a0d6-2b89218ca6ac,Jason Delgado,Loan,2159.99,JPY,London,7.22,2020-03-09,527.0,
+435c083c-0a8b-4924-ad60-81f02347a1fa,Jeanne Miller,Business,98437.02,GBP,Berlin,6.29,2020-04-16,430.0,Suspended
+59e13d4d-d27a-4125-9db4-32493f710fcc,Spencer Velez,,79942.57,GBP,,,2016-02-29,594.0,
+9a9eaefb-b3ba-4b4f-9324-dfe3ad0aa675,,Loan,40117.65,EUR,,5.55,2016-05-19,684.0,Closed
+6860cd26-7146-4715-ae81-6996f0bd4bd2,Raymond Velez,Savings,24485.43,USD,New York,4.34,,616.0,
+a7b184ef-a5a1-4f51-b8a7-9424023b1d64,Thomas Dudley,Business,25692.4,USD,Berlin,5.52,2022-05-07,585.0,Suspended
+cc3f4441-8968-4ff9-a5a0-2c28c2c705f7,Richard Guzman,Checking,,USD,Berlin,,2020-03-10,469.0,Suspended
+e7175b36-3938-4453-973f-ac14da467bc7,Mr. Howard Schultz Jr.,Checking,31760.63,USD,Mumbai,1.27,2019-12-09,754.0,Suspended
+b74f3c90-eca1-4d16-9c82-2a5717dcdd0f,Savannah Miles,,28733.93,EUR,Mumbai,2.81,,,Suspended
+ea5e1fbd-4b42-4b98-ae17-84d7707fc4fe,Allison Hall,Checking,7525.92,USD,Mumbai,,2020-12-25,677.0,Active
+ac44522d-0e80-4cb6-a3fb-e8b6fcab8836,Edwin Hebert,Checking,,,,1.31,2021-01-04,590.0,Active
+6e040c51-bc19-4ab1-a4c2-ffefd96f30e1,,Savings,,USD,Mumbai,2.36,2021-05-17,,Suspended
+622dea78-ada6-44fa-b715-9e4faaf13105,Christine Conrad,Checking,,GBP,Mumbai,3.02,2022-05-10,699.0,
+05de67c1-5df2-4a49-9adc-6ebc04db2ebf,Raymond Keith,Savings,92869.74,GBP,New York,4.14,2020-01-11,497.0,Closed
+d28c1d44-a549-4b2f-95ce-7c07df05f3c8,Paige Mann,Checking,24155.34,INR,New York,5.03,2015-08-25,725.0,
+d3d48a3d-5a37-439a-bcb3-c1f0d471b5ed,Nancy Gonzalez,Loan,66779.67,EUR,Berlin,5.02,2025-02-05,,Suspended
+f71a2e07-b0bf-40d5-aebd-93f8cfd4ad79,Amy Sims,Loan,4444.17,GBP,Tokyo,1.09,2016-01-29,759.0,
+fe136ab1-4e42-4f32-b306-4d3ac269cf66,Meghan Savage,Loan,18473.71,INR,New York,3.44,2025-02-10,,Closed
+725034f4-25b2-4fb5-8f25-2e0842d0eb72,Vincent Marshall,Checking,63297.86,USD,,1.35,,603.0,Active
+faea01ae-3401-4b3a-82af-7b863220fc56,John Valentine,Savings,65801.81,USD,Mumbai,3.52,2023-12-05,797.0,
+,Jordan Randolph,Checking,56176.91,EUR,New York,2.93,2019-08-03,686.0,Closed
+36921f3d-7438-4492-8f50-cb20fc3e52cc,David Bell,Checking,90526.72,EUR,London,6.35,,685.0,Suspended
+89cb8ff3-5f25-4887-9834-f88b95edbeff,James Harris,Savings,40841.54,INR,Tokyo,1.42,2015-09-03,482.0,Suspended
+3f5b669f-9108-45ad-95b8-6ea434ef03a0,Vincent Garcia,Loan,60784.84,JPY,London,3.12,2018-03-03,345.0,Closed
+fdc5d0de-d1df-4f31-88fd-3e4395a5918f,Kristen Nguyen MD,Loan,,,Berlin,7.0,2022-09-09,731.0,Closed
+,Courtney Foley,Savings,69621.74,JPY,New York,2.31,2021-12-07,389.0,
+2709c4e1-f699-4c08-b4fb-466f4ab6e3cc,Andrew Brown,Business,63464.49,,London,3.1,2025-03-18,673.0,Closed
+31e73887-2c6b-4b1e-b8af-aa2508d5af10,Deborah Keith,Business,,GBP,Tokyo,1.03,2025-03-29,455.0,Suspended
+2776f8dd-534d-4319-9572-8f5d4f87ea70,Michelle Miller,Checking,89913.79,USD,New York,2.38,2015-08-28,392.0,
+3cde7bec-32a6-4ce5-af29-bcbc980acb36,,Savings,50572.08,INR,,2.71,2019-12-08,478.0,Active
+3ef9685b-06d6-47c6-86f5-0268fa37e04f,Michelle Edwards,Loan,38392.41,JPY,New York,3.83,2018-04-26,507.0,Closed
+d210d005-5577-4529-9ed8-0a518a2fe18d,,Checking,7836.91,USD,Mumbai,3.29,2019-08-04,,Closed
+8a4d27db-802c-4879-951a-5e156fa3584a,Kelly Haney,Business,32160.17,,London,4.09,2025-01-18,476.0,
+,Keith Scott,Checking,33055.43,EUR,New York,3.71,2022-02-10,,Active
+0d22b11e-cc81-40f2-8617-991d1f38d03d,,Checking,62389.25,INR,Berlin,3.63,2020-02-04,727.0,Closed
+22dd387d-2613-49b4-bcf3-351f1ffd6481,Jenna Santiago,Loan,14946.95,USD,New York,3.73,2023-11-05,374.0,Suspended
+449dd5d7-8e44-448f-9692-6efe3915898a,Rodney Sawyer,Savings,87850.6,JPY,Berlin,5.78,2021-07-04,447.0,
+ffe9cb64-7343-440b-85fe-7072df59128a,Angela Wood,Savings,34211.73,INR,Mumbai,6.36,2021-12-23,300.0,Closed
+26592072-ab17-46a6-bdaf-5abc73af6e8b,Ronald Thompson,Business,,EUR,Berlin,5.91,,681.0,Active
+d37a9c4e-cf92-44d7-806c-9b44d669dc2d,Mark Brooks,Business,58474.67,GBP,Berlin,,2023-03-23,787.0,Closed
+c221232e-5de2-4b57-b83c-a2af7ac544b3,,Checking,88621.5,INR,London,1.15,2022-08-12,619.0,Closed
+911d3604-f14f-4390-8027-262b41239b23,Michael Curry,Loan,90323.92,INR,New York,3.2,2017-09-23,408.0,Active
+6ea3a89b-bbe3-4fe5-88f8-fdd14d5aeea6,Michael Cortez,Savings,42606.72,USD,New York,4.74,2020-07-10,728.0,Suspended
+e7fe6b63-95bb-40ec-b71b-3ef725ca7b1a,,Business,57854.66,INR,London,4.17,2017-04-27,767.0,Active
+,Daniel Durham,Loan,6244.15,JPY,,4.37,2024-02-09,607.0,Closed
+cebba5ec-e0bb-4ab6-80f9-f034b66d4d31,Belinda Larsen,Loan,60540.46,GBP,Mumbai,5.42,2020-04-16,510.0,Active
+8d5f0bee-fe19-4b20-9478-95255bed2787,David Mendoza,Loan,84975.45,JPY,New York,2.81,2017-12-30,653.0,Closed
+dbeb21ec-73f2-4bc5-b5cb-0dcd08da6540,Jennifer Cooper,Checking,77671.81,USD,Mumbai,1.38,2019-01-14,393.0,Closed
+093ef66c-20ad-4248-a45b-f494604fc0bd,Gregory Alvarado,Checking,24403.12,USD,Tokyo,4.21,2016-06-18,723.0,Suspended
+67a6d27b-2dfd-4daf-8cc2-3edd8ae7792f,Patricia Sherman,,66991.97,USD,London,3.55,2019-08-02,487.0,Active
+5be6dd17-6d3c-4633-9075-e9f611e6e6ba,Jason Davis,Business,60400.69,EUR,Mumbai,4.72,2018-08-15,796.0,Active
+b9c9ac8a-28ef-49e3-b55e-04a37a97f35c,Ricardo Torres,Savings,85919.32,GBP,Mumbai,1.67,2018-02-28,354.0,Active
+e041042a-155d-4624-bcf5-ef02d91606ab,,Loan,31301.09,INR,,6.81,2019-07-05,506.0,Active
+,Helen Steele,Loan,47966.19,JPY,London,5.12,2018-08-27,603.0,Suspended
+25836d02-4289-4a84-ac4a-0c61eadd99a9,Darryl Smith,Loan,,INR,,2.14,2020-04-05,,Closed
+4145b272-5425-4f11-8b34-d841f9b1fc57,Scott Friedman,Checking,51562.31,GBP,London,6.05,2020-11-02,658.0,Active
+06fd21e1-334c-466c-8168-99b5a20a5d7a,,Savings,19745.74,GBP,Mumbai,4.08,2019-02-13,733.0,
+65ae74b4-fa59-4590-8089-d4c47da1d8c1,Jeffrey Rodriguez,Checking,77934.01,INR,New York,6.28,,391.0,Suspended
+1fa3ca9f-2b87-40c2-b7a1-17f327308b59,Taylor Barber,Loan,28757.3,GBP,Tokyo,4.65,2024-10-30,510.0,Suspended
+545f84aa-9714-4808-a087-e2ca90386924,Mark Taylor,Savings,41941.17,EUR,Berlin,2.34,2016-12-26,398.0,Closed
+d955e933-311b-4cd7-af6c-f0bcda99b07d,,Savings,61146.32,EUR,Tokyo,1.5,2024-02-03,340.0,Active
+431a9162-d50a-4deb-9b91-543bf5c165cd,Stanley Carr,,55304.34,,London,3.68,2021-08-09,,Active
+99ad30e8-0962-41b9-88c2-29c479470edc,Vicki Alexander,Checking,51096.84,EUR,Tokyo,4.99,2019-11-23,327.0,Closed
+6d7d3b60-45a4-48a9-b8cb-f1869815cac4,Tyler Hayes,Checking,32351.76,JPY,New York,5.27,,,Suspended
+b3b0300f-0fa9-42d2-a784-d4504ece054a,Debbie Marshall,,11714.95,USD,Mumbai,1.82,2021-10-05,674.0,Active
+d1361557-e9cb-4cf5-b87e-576627f803d7,Michelle Smith,Business,62175.69,EUR,Mumbai,6.29,2021-04-02,720.0,Closed
+f2403e76-c311-43cf-a3f7-d58adf1a7915,Mike Nguyen,Checking,6908.35,GBP,New York,3.02,,670.0,Suspended
+53bcc419-25ae-4190-bbd9-c39c52361863,Luis Ramirez,,49416.81,GBP,New York,6.02,2016-10-16,776.0,Suspended
+bc110679-c6d3-47b3-9355-e96171f14eea,James Barnes,Savings,96147.43,EUR,New York,3.0,2023-06-25,574.0,Closed
+20a5ea6a-4dc2-4813-ab23-2290907f65bb,Neil Sanchez,Loan,82910.73,,Mumbai,2.42,2023-07-02,785.0,Active
+6b3d9401-d20a-4686-91b6-19b4f27d7b7a,Brian Romero,Savings,10265.52,USD,London,4.4,2023-07-18,753.0,Suspended
+,Derek Perkins,Loan,27077.52,GBP,Berlin,2.32,2024-08-20,683.0,Active
+37e9ef72-c014-4814-b407-846af9a0cbb5,David Bell,Checking,81103.73,INR,Tokyo,1.85,,561.0,Active
+debf9f04-0696-490c-a879-4a2062acfa58,Gregory Price,,28403.67,USD,Tokyo,3.07,2023-07-28,803.0,Closed
+975dfe90-2d1e-41e5-9424-36e38d67d534,Stacey Fisher,,,USD,London,6.62,2024-04-04,605.0,
+f13680ea-befd-41c1-8593-5490199b5ff7,William Foley,Business,,USD,New York,1.64,2019-06-20,688.0,Suspended
+9d26a3ff-bd28-4259-b889-ab6758d8ca82,Leslie Adams,Business,94035.38,,New York,4.08,2016-05-28,466.0,Closed
+442eb4c4-5f23-4ee4-a4c3-a7751e080b21,Christine Potts MD,Loan,91351.36,JPY,London,6.95,,350.0,
+21a95cf7-1d8a-4301-98e0-0b301fa2f198,Amanda Henry,Savings,25583.4,USD,Berlin,3.91,,,
+522ceb26-f7d2-4027-ae19-37c2d598b2d8,Kevin Harris,Business,59867.69,USD,Berlin,7.43,2017-07-11,405.0,Closed
+44826fae-8145-40cd-9f23-571a2c631d0b,Tami Sexton,,63739.12,,,4.6,,814.0,Active
+e2eaadc2-8b6f-48d5-807a-4bf10d361b48,Stephen Young,,11061.5,,New York,3.01,2020-03-23,633.0,
+d5d8b6b4-f08e-4ede-9574-4a8e7be2278b,Matthew Pierce,,3548.21,USD,Berlin,6.41,,,Active
+c3bc252d-f697-48a2-9628-8387693a1f0f,,Savings,17726.28,JPY,London,7.21,2022-02-07,618.0,Closed
+ea7875d9-ce0b-4c4a-aa90-1893665602a4,Austin Martinez,Loan,24286.39,,Mumbai,2.3,2023-07-07,744.0,Active
+a2357b2b-42f2-4a66-8ec1-bf4f96bdf543,Ana Holland MD,Savings,69667.52,,New York,3.54,2016-11-27,536.0,Suspended
+cb4d1f23-77cb-4dc0-8417-7fa059d394f4,,Checking,86438.46,JPY,New York,4.95,2015-08-08,587.0,Closed
+c9ffefed-a2e2-4d82-bb46-845e1a86b59d,Natalie Bryant,Checking,,USD,,1.7,2021-07-09,610.0,Closed
+660b0354-81df-4e96-a322-1de4dbd4ff9d,Audrey Roberts,,21321.26,EUR,Tokyo,4.06,2024-07-22,,Suspended
+aaba2950-0441-4f49-80df-559c150911a0,Paula Moore,Checking,3528.15,USD,Tokyo,,2016-04-17,600.0,
+,,Business,66493.38,INR,London,,,349.0,Active
+,Jill Sanchez,Savings,51666.2,INR,Berlin,6.17,2022-05-14,657.0,Suspended
+b80f1e46-ad84-4f44-943b-2ababbce4e74,Mr. Dennis Jones,Business,18241.11,USD,,1.15,2018-11-27,833.0,Active
+,Jennifer Weber,Loan,69478.59,,Berlin,3.91,2024-01-14,,Closed
+51cdf548-bb20-4d75-9490-da3d8a519da3,Heather Williams,,70874.7,EUR,New York,4.69,2019-05-20,312.0,Active
+,Jose Morris,Business,77193.82,USD,,6.42,2017-04-06,601.0,Active
+a8277b63-17c4-4eaf-a7e6-e370830e6421,Alyssa Ortega,Savings,18336.65,USD,Tokyo,3.38,2019-07-24,810.0,Suspended
+3b5c0af5-2940-475d-acd6-ccd33d1af612,Brian Brown,Loan,,,New York,4.05,2024-05-24,784.0,
+d73cedb2-a887-4de9-b611-2a967ba6994c,Tamara Goodwin,Checking,50145.71,GBP,New York,4.79,2022-10-11,,Suspended
+0e75d15d-2ce9-4792-84f4-562573aa1629,Deanna Collins,Checking,66831.66,INR,New York,4.93,2023-03-30,718.0,
+e2a01c4b-20b6-4b47-9a91-dfb80426cbf6,Ashley Montgomery,Savings,18796.02,EUR,,5.99,2016-05-16,774.0,Suspended
+c8d02fa9-7f4c-41cb-ad6c-d814cf1cea80,Brianna Todd,Checking,6932.97,GBP,London,3.17,2019-01-24,798.0,
+1a9de107-6b4e-4840-9056-466da3b83670,Daniel Huang,Business,32394.33,USD,New York,4.09,2022-01-12,,Closed
+2240dedb-96ea-48d0-bde3-d6e5a703608f,Dustin Phillips,Savings,43301.35,,New York,4.41,2018-02-02,464.0,Active
+121dbd4c-4bb0-4654-a1fd-b9438e907513,Dr. Joshua Leon,Checking,38822.15,GBP,Berlin,5.42,2023-07-18,336.0,Active
+d6ac50db-b5ba-44b3-bb4b-ddc7c9f420bd,Emma Goodman,,47051.18,,London,2.07,2016-10-06,677.0,Suspended
+166e4d57-fa1a-4652-9d6e-52185484b5ed,Michael Mills,Loan,13903.19,EUR,London,5.58,,553.0,Closed
+c4a8a334-db7d-4831-a0ad-105f7dc1a6e4,Catherine Marshall,,4019.65,GBP,Berlin,1.65,2019-01-23,444.0,Active
+25c4c9b8-8e6e-4376-b6d6-9e4ecbf48f4a,Ian Beasley,Loan,72558.11,INR,London,5.21,2019-05-12,788.0,Active
+a1a84e51-26b9-43fc-82fe-0d6580b29c78,Amy Miles DDS,Checking,34101.09,JPY,New York,3.02,2024-08-04,551.0,Suspended
+ec17fd2f-2e90-45a4-b971-c6e33f303c5f,Roger Stephens,Loan,23739.85,GBP,New York,1.87,,402.0,Closed
+4bb9073e-f832-4aa3-be5d-92bec83ca7f1,Robert Ball,Savings,76028.87,INR,New York,2.0,2025-04-16,372.0,Active
+,John Kelly,Savings,19681.74,EUR,Mumbai,2.85,2023-01-21,407.0,Active
+3bbf8a73-698e-402e-bf65-fd43dda5c52a,Susan Smith,Checking,27995.19,INR,New York,5.61,2021-07-04,461.0,Closed
+c598522b-3fd2-4c4e-9f80-300bb30a7a0e,Diane Cooper,Business,47383.12,GBP,London,,2018-12-05,,Active
+8e514f7b-9959-46b7-836d-619b992a29dc,Leslie Olson,Checking,,EUR,London,4.38,2021-09-25,826.0,Closed
+e4669f4e-9f8c-4e5e-8f2c-71e475a53209,Mr. Sean Nguyen,,74584.41,USD,London,4.61,2020-05-30,526.0,Active
+bc58897d-11dd-4e1f-b453-90304256dc55,Glenn Evans,Checking,19341.56,EUR,Mumbai,5.02,,511.0,Closed
+315fa129-4c58-4bd8-b864-5151a11a843c,Diana Guerra,Business,28978.22,GBP,,6.18,2019-03-11,357.0,Suspended
+98f5a4fb-db6e-4c46-9057-74beaec1187a,Victoria Williams MD,Savings,73622.06,JPY,London,1.88,2025-04-25,674.0,Active
+ab4aff65-006a-4ded-9c85-9c9864d66a07,Sheila Baldwin,Checking,93435.28,EUR,Mumbai,4.18,2023-04-27,513.0,Active
+48a1ffc8-bb7b-4943-9f34-4544036f2ca1,Leslie Hood,Savings,43367.25,JPY,New York,,2017-02-23,643.0,Active
+b420778d-707b-49b4-b5a7-c81e737cd0be,Renee Roach,Checking,5400.01,EUR,London,,2023-09-09,762.0,Closed
+,Karen Torres,Loan,52274.65,JPY,London,3.29,2022-11-11,398.0,Active
+362e0706-931d-4a0c-aa20-9378b290e675,Benjamin Bishop,Savings,67331.29,JPY,Tokyo,5.25,,691.0,Closed
+90e3a595-7b4e-4b83-ba17-51391a3756c1,Amy Clark,Business,21950.19,USD,New York,6.99,2021-08-11,636.0,Suspended
+a1a031e2-8bf6-409c-8d84-054b8adb56e1,Oscar Navarro,Business,40235.68,INR,New York,1.26,2016-11-30,432.0,Active
+035196bb-7e13-4cc6-a99b-a93d6714c101,Carol Arroyo,,7284.34,EUR,New York,1.08,2017-07-23,716.0,Closed
+e4c40cf1-3ad5-48dc-a641-c13cabe7161d,Jennifer Diaz,Business,14052.03,GBP,New York,1.15,2022-04-12,409.0,
+c57382f1-f47b-4ce9-81e3-a57426f5bc51,Curtis Poole,Loan,56589.79,USD,Mumbai,1.06,2016-04-23,500.0,Suspended
+76319e49-ddac-4bc6-bff9-9180f6fc6a7d,James Robinson,Business,85615.41,JPY,New York,4.41,2015-12-30,553.0,Suspended
+73088636-ed53-4588-bef8-e0e2b085743c,Sherri Short,Checking,,,London,7.13,2018-07-05,548.0,Active
+a421bb9d-cbd0-4324-8add-24f28103d791,Thomas Alvarado,,,JPY,Berlin,,,620.0,Closed
+09b11691-14fb-4c84-9564-aa7892028310,Carmen Hurst,Checking,12972.27,EUR,New York,3.75,,443.0,Suspended
+c9097b4c-b17f-46ec-927e-cce8243931a7,William Farley,Checking,26160.83,EUR,Tokyo,,2025-03-01,319.0,Suspended
+1b0f8b22-3734-4380-8174-f6eab864ddd2,Randy Maldonado,Savings,29727.0,JPY,New York,2.61,2023-04-01,302.0,Active
+0881557b-fbcc-43f3-bf7a-fd53f14796ab,,Business,2973.08,INR,Tokyo,6.53,2024-06-28,537.0,Closed
+0b133864-f43d-4854-a181-b9e3cb341e09,Joe Alexander,Checking,14418.45,EUR,,2.11,2024-11-23,304.0,
+cc96f979-55d5-425f-bcc3-cfd1a1e38780,Teresa Acosta,Business,12849.15,INR,Mumbai,5.02,2023-09-09,632.0,Suspended
+a865f904-1a2b-4b8d-85e7-2937f946a71a,Harold Martin,Savings,20671.42,JPY,Berlin,5.81,,377.0,Suspended
+2ec8d77e-addc-46e5-b0cd-eb31edf96f77,Jonathan Wolf,Savings,98831.84,EUR,Tokyo,1.25,2019-06-27,414.0,Active
+2ac052d5-6e74-4059-b55d-b99d9a17df3d,,Checking,95826.68,JPY,,,2019-09-23,451.0,Suspended
+52a457e5-1c0e-484d-bf0d-3e188692f24b,Dr. Nancy Hayes DVM,Checking,13651.51,EUR,Tokyo,4.17,2022-01-03,643.0,Active
+6b4be853-324b-426a-8d74-6946e239f429,Tyler Gonzales,Business,48994.16,USD,Berlin,1.1,,834.0,Closed
+a381996e-70b2-41b2-843a-104e7e5c985d,Jessica Rose,Checking,43626.14,INR,,2.02,2019-08-27,670.0,Closed
+,Peter Evans,Loan,44481.81,EUR,,2.14,2025-04-03,601.0,Closed
+03006e44-572d-4e0d-af71-a7ba848e48ba,Daniel Diaz,Savings,9745.09,GBP,New York,5.8,2021-01-25,672.0,
+,Michael Schultz,,82399.04,EUR,New York,3.66,2017-01-14,337.0,Closed
+a1b71008-9c51-46c6-8106-a9a9226a33f7,Matthew Stevens,Business,,USD,Berlin,5.41,,738.0,Suspended
+a7820b5f-5537-4fdc-b416-fb9fb5e47015,Melanie Page,Business,,USD,Berlin,3.16,2020-05-08,572.0,Active
+,Andrew Bennett,Business,10194.68,EUR,New York,2.82,2019-06-12,463.0,
+9dfc3300-e34a-42eb-bb25-c46f8f71e0c2,,Loan,98434.34,USD,Berlin,5.74,2021-01-23,,
+7fff2649-ecdf-4433-93e3-0fb3e95c2bb0,David Hartman,Checking,30766.52,GBP,Tokyo,3.44,2024-06-16,815.0,Suspended
+2cc26b23-96a2-452f-bef6-7d8252376f80,Jeffrey Jacobson,Savings,57501.9,,Mumbai,6.52,2019-10-06,519.0,Closed
+ffe39c6a-0437-4a19-b1f9-cdfc0e525014,Courtney Jackson,Business,46193.77,USD,New York,5.42,2023-11-13,556.0,Closed
+45de8323-5719-4a62-aff5-e6e589799915,Michelle Cain,Business,8480.0,,London,4.73,2020-10-08,651.0,Closed
+279f0a88-2848-4f5d-b405-91b17d699b9e,Scott Sutton,Savings,72840.69,JPY,London,5.59,2022-05-29,448.0,Closed
+97d55eb4-d367-4287-a5e1-2c23c87982c1,Sarah Cochran,Business,,JPY,New York,3.54,2024-04-26,738.0,Suspended
+66453e28-f08e-494a-915a-3c09c73c7ade,Michelle Wright,Savings,,INR,London,2.32,2020-11-17,401.0,Suspended
+505e1360-e359-4879-95a6-2b502250846b,David Beasley,Savings,63145.48,JPY,Tokyo,2.17,2025-02-21,315.0,Suspended
+cb02c5dd-a5e0-4c6c-9aa7-9571666aeeb6,Sherri Rogers,Checking,72196.85,EUR,Tokyo,3.55,2016-04-24,730.0,Closed
+06438dec-7b75-46cf-b4ca-9c718015838d,Kimberly Wood,Loan,87338.77,GBP,Berlin,2.73,2020-01-13,454.0,Active
+0285c6f5-a9eb-4a53-b03c-800cec99722f,Mr. Caleb Paul,Loan,67626.71,INR,New York,2.66,2020-10-23,414.0,Active
+b2bbbe2c-6c61-46ea-a71a-aae418913c16,Evan White,Checking,10436.97,GBP,Tokyo,7.0,2022-06-07,486.0,Closed
+02782b7d-4c87-4208-9873-6c43047c627c,Patricia Buck,Checking,20564.62,INR,New York,7.18,2023-08-04,766.0,Closed
+ad7b96ee-f9f1-4702-a36b-392cca404a8a,Timothy Watson,Business,32213.09,JPY,New York,5.4,2020-06-07,666.0,Closed
+ac540dfc-3865-43b1-a35d-59764742ebf8,Kristine Huang,,43174.79,EUR,Tokyo,6.75,2025-03-18,562.0,Active
+b6d5792d-33da-4f10-930d-69c06311f9c0,Jason Strickland,Checking,84473.53,,Mumbai,,2021-06-02,792.0,Closed
+9e68589e-7b4e-47d4-9762-c1b2d624d491,April George,Checking,670.5,USD,London,1.53,,759.0,Closed
+56fb8f66-6da1-4124-80d3-28231df92081,John Hall,Business,7566.06,INR,New York,3.75,2018-07-13,,Closed
+9ae44ab0-d47a-4019-a533-c0d075816ccc,,,46749.21,JPY,Tokyo,1.82,2016-09-14,638.0,Suspended
+6083f7ce-2a4c-4a0e-aac3-667634d7c443,Dorothy Rowe,Savings,73362.45,GBP,Tokyo,5.89,2018-08-28,,Closed
+d11f4c8d-dde4-4fe9-961a-1aeb75eed969,Chelsea Davis,Business,88103.82,EUR,Berlin,1.74,2022-10-31,,Suspended
+43c48e84-6e3c-465b-84aa-271b49407b4e,Manuel Klein,Business,,EUR,London,3.15,2018-08-15,837.0,Active
+,Dawn Johnson,Business,60008.44,INR,Tokyo,4.44,2020-11-16,697.0,Active
+4dbd094e-1f7e-431c-bc51-fb8f333d0979,Mr. Jeffrey Martin PhD,,58194.62,USD,Tokyo,6.0,2025-05-19,488.0,Active
+21cdf82c-1040-4ad2-bcf4-9c58b770c9f7,Kathleen Smith,Savings,62091.32,USD,Mumbai,5.82,2016-09-29,642.0,Suspended
+8b4ae6a3-bc82-423d-9e27-6c040c80f72c,,Business,,USD,Berlin,1.07,2016-05-20,305.0,
+17dd1e6f-229e-4ab2-9258-e683e0ba1a05,Ryan Freeman,Business,30790.11,JPY,Berlin,,2019-12-17,602.0,Active
+5273e8f0-5df9-49b3-9f60-56f3c4df5ff7,Jamie Daniels,Savings,76216.71,,,4.93,2022-08-03,621.0,Suspended
+5d2d8fbc-6aee-44f6-8228-2a3f2f6f3469,Mitchell Patton,Loan,36597.87,INR,New York,2.65,2021-11-08,710.0,Active
+a8f7db09-df9b-4ed8-abb6-8fdd3bfcc8d2,Mark Wade,Business,,GBP,Tokyo,2.67,2024-04-12,379.0,Active
+ee4b5450-b10e-450b-9fb9-c51a69e5bdb7,Courtney Patton,Savings,69392.9,INR,Mumbai,3.65,2018-03-26,305.0,Active
+642c5a22-617a-4898-944d-6f57756528f2,David Garcia,Savings,3299.86,INR,Tokyo,4.32,2025-03-14,722.0,Closed
+2ea52dfc-e6ec-445c-8f54-bf0e569eb226,Keith Martin,Savings,76398.53,GBP,New York,1.86,2023-09-01,729.0,Closed
+1e0fc78e-b438-4028-947d-0d8a329dfe99,John Matthews,Business,73410.14,EUR,Mumbai,6.45,2022-11-24,395.0,Active
+,Gary Allen,,78983.52,EUR,Berlin,2.74,2021-07-28,552.0,
+8df4d61f-4dcc-4f78-81e7-17700ab92b1f,Barbara Joseph,Checking,,EUR,Tokyo,4.2,2016-10-25,678.0,Closed
+8f6584f4-c499-45ed-9b12-3b6f592b1e9c,,Checking,61354.65,GBP,London,3.96,2019-06-07,,Active
+55773d3d-51f0-418c-8208-fd0a88005f4d,Jose Rogers,Checking,87209.68,GBP,Berlin,2.01,2020-01-18,645.0,Suspended
+61b65afc-4b2e-4909-9be6-dd5bdf26a8e0,Jean King,,97078.78,JPY,New York,,2017-04-01,775.0,Suspended
+fb22fa4a-4070-4bc5-9d90-9687f9566ea0,,Checking,71603.83,USD,New York,4.69,2018-05-27,670.0,Active
+f12766f8-7948-4751-8524-01de47c00255,Phillip Nguyen,Checking,42223.98,USD,Tokyo,3.94,2025-07-02,337.0,Closed
+,Michele Hunter,Business,56276.77,INR,Berlin,6.97,2023-07-06,792.0,Closed
+1fb367d8-af27-4502-8e27-2813913797e5,Scott Bates,Savings,48504.48,,Tokyo,2.0,2023-10-17,529.0,Active
+8ad945cf-a90f-4d15-803a-10f4ffd3760b,Adam Bailey,Business,24758.49,EUR,Tokyo,5.05,2016-02-08,643.0,Closed
+fda2a987-33b8-476e-8561-68640afbee24,Kathy Turner,Business,14064.81,INR,Berlin,4.14,2020-04-14,805.0,Active
+eb7a1806-c9e9-4de8-80de-d64bd35e5f1d,Matthew Eaton,Savings,55868.69,,Tokyo,3.63,2017-02-28,303.0,Active
+cf420b9f-8f56-4fe4-abff-6f3fb3a8b6b9,Laura Marshall,Business,70804.02,USD,New York,4.9,2021-07-07,484.0,Suspended
+b92c90c7-e2d9-48ce-9b86-52e21f618308,Andrew Reyes,Checking,12788.04,,Mumbai,6.44,2018-08-22,372.0,
+1aa08fd6-ebc1-4521-a918-12ae5329e0dd,Derrick Larsen,Business,15400.59,EUR,New York,5.48,2021-05-04,374.0,Suspended
+,Katrina Hickman,Business,92183.25,,New York,7.26,2021-08-28,703.0,Suspended
+f3f06dc5-14c6-4b85-9e63-2a5b36bde60c,Luke Fitzgerald,Loan,54802.11,INR,Mumbai,4.85,2022-01-07,802.0,Closed
+984ba7fc-3892-4e75-afc4-d36c16effca6,Larry Myers,Savings,33210.44,JPY,Tokyo,5.25,2022-12-02,580.0,Suspended
+1a481013-ccb2-4112-87a9-7b51caad2e71,Amanda Torres,,765.66,INR,London,7.34,2016-04-16,347.0,Suspended
+3e02b24e-f14f-4e00-97e7-8fdf07fd0658,,Savings,46241.21,USD,Tokyo,1.06,2015-12-08,,Closed
+70b218f3-d0bd-4007-9f93-1a446cc88a4a,Anthony Poole,Business,,JPY,Tokyo,3.97,2017-08-07,782.0,Closed
+29093f64-b04f-4ae4-909f-f59ec09e28b2,,Checking,69894.98,USD,New York,5.71,2020-08-05,349.0,Active
+b928e1e2-3796-4ded-a971-2ef349b0af61,Vincent Horn,Savings,31444.03,EUR,London,3.51,2018-01-05,411.0,Closed
+fbe25968-80e1-4e06-912d-b7178ed471c2,Drew Long,Savings,97273.61,INR,Berlin,,2024-05-29,348.0,
+04a1f5b6-07c1-434b-9c54-abe0f0eef951,Brandon Martinez,Loan,66264.98,EUR,New York,4.48,,,Suspended
+177d116b-5ff8-4fd6-84fb-0ddda74058d5,Christopher Maxwell,Checking,46579.37,INR,,2.85,,746.0,
+20cfb43f-af19-4785-95ea-943491b787e3,Nicole Harris,Business,,,London,6.35,2016-11-20,509.0,
+e8014095-af70-4ff2-9ec8-9270cf870401,Melinda Roberts,Business,38188.76,GBP,London,3.32,2017-04-12,467.0,
+faff46a2-6967-460e-98e3-20a9ae62a8cb,David Deleon,Business,5612.88,EUR,Berlin,,,376.0,Active
+06a7f3c9-7033-4f2c-aefc-ab9cbf2b5f30,,,24580.71,GBP,Mumbai,2.54,2024-05-11,822.0,
+2a65c502-4f09-40ef-be2a-456b4f6f8aad,Mark Camacho,,41019.95,GBP,,7.2,2023-05-05,579.0,Active
+d25fa2e2-5f4b-466c-b486-afba192b1f48,Steven Keller,Loan,71023.05,EUR,Mumbai,6.48,2021-11-09,,Active
+95c3f9d6-247f-4c1f-a2f4-89893df6cb9f,Marissa Chen,Business,62268.11,,London,4.66,2020-07-18,489.0,Closed
+,James Martinez,Business,58544.52,INR,Tokyo,2.96,2024-02-05,547.0,Suspended
+514b3f17-1f7c-4045-952e-4bc5cb18da33,Ann Fowler,Savings,98341.6,EUR,London,3.18,2018-03-16,319.0,Suspended
+2a47c059-6db8-4788-9dfb-73487ece6d95,Kenneth Bell,Savings,501.66,GBP,Tokyo,2.29,2018-01-27,582.0,Closed
+4b5b7d56-7a6c-4d1d-8602-b9db523f81f6,Chad Stevenson,Savings,69192.08,USD,New York,1.09,2023-03-09,741.0,Closed
+819aba87-487f-4d2d-b126-2f4822981c5d,,Loan,,EUR,Tokyo,2.67,2024-07-28,507.0,Active
+f83b9347-3a6d-4299-9172-6d7944c4fdcd,Matthew Salinas,Business,26882.44,EUR,New York,5.37,2022-03-30,348.0,Suspended
+c3b31c34-a575-4779-920f-9aaff24bcf92,,Checking,89716.34,INR,Tokyo,1.1,2020-09-19,533.0,Closed
+c46e0a4e-9ce0-4efa-97ff-3e6f5adcd13f,Bonnie Hernandez,,7311.36,JPY,Mumbai,1.4,2024-08-09,508.0,Active
+f1432322-13b5-4ca6-8c54-84c125f66cdd,Christine Davis,Savings,68288.4,USD,,3.58,2024-08-06,802.0,Suspended
+7840bb49-2445-46a4-b133-065474b8172c,Joan Henderson,Loan,35620.16,JPY,London,6.35,2020-07-16,577.0,Suspended
+ede82770-9a82-401d-8d25-b542d01e698c,Kenneth Sanchez,Loan,50249.17,USD,Tokyo,3.18,2017-01-21,315.0,Active
+8c0755b2-797d-4514-9e5a-36aba514a73a,Jeffrey Bird,Business,63048.27,JPY,Mumbai,1.47,2020-09-12,541.0,Closed
+741c7e98-e418-4e57-b474-347b017d8da1,Robert Evans,Business,5870.17,USD,Tokyo,6.05,2021-07-10,631.0,Closed
+14d23bf9-ba02-438e-9634-87934e9fbfd8,Angela Oneal,Business,88701.39,GBP,New York,3.0,2022-02-08,388.0,Active
+5bdc6e6d-1dae-425f-a6d0-46b578b98c21,Valerie Hawkins,Loan,29331.19,,Tokyo,7.32,2018-08-22,307.0,Active
+d2b3b8bd-9339-4f95-bb82-d88466b87c45,Joy Evans,Loan,28100.85,USD,Mumbai,4.06,,649.0,Closed
+0d1011a1-ffd0-4747-8c92-9cae3b8e3048,Kristen Kidd,Checking,69132.68,EUR,Mumbai,5.42,2022-05-02,,Closed
+c81fa480-d121-41c2-bc8b-18afd2b00e13,Timothy Marshall,,11072.13,INR,Mumbai,6.65,2016-04-10,636.0,Closed
+104a9cb4-05eb-48ea-8892-a4f10ec03821,,Savings,55329.58,JPY,Mumbai,6.19,2023-12-24,743.0,Active
+29c8f962-2db3-405f-aefd-c72f5653f1f2,Christy Dyer,Savings,36629.29,JPY,Mumbai,2.7,2023-09-30,575.0,Active
+8311d04e-b75e-4eaa-a077-25767493e54e,Diamond Russell,Loan,,,New York,4.15,2015-08-21,363.0,Closed
+d66f4f45-3f40-41d3-be72-1973b313b943,Steven Paul,Business,33220.72,,,2.27,2025-02-18,557.0,Closed
+4245583d-612c-4df9-9294-93c65a56ef53,Lindsey Hansen,Checking,68260.96,USD,Berlin,6.94,,842.0,Suspended
+d539b535-2797-4c30-90fb-fa3a4466e8ce,Amber Lawson,,40656.8,INR,Tokyo,4.98,2022-04-14,712.0,Active
+,Chris Romero,Loan,32229.64,USD,London,1.37,2018-03-04,401.0,Suspended
+4e5be749-a6a3-4746-8797-cc8df3379ec6,Joseph Stein,Loan,1149.71,EUR,Berlin,2.96,2019-12-09,815.0,Suspended
+7bacd26e-ebd1-457c-bc64-d53a83de3b98,,Business,2417.28,INR,Mumbai,2.83,2017-04-05,322.0,Suspended
+54e754c7-c098-4f72-bd1e-22a756ea8647,Lisa Walker,Loan,11738.13,EUR,New York,7.3,2020-07-14,636.0,
+75f079dc-57c6-41d6-8b2e-2f8eb9854b7d,Katie Andrews,Checking,30552.71,JPY,New York,5.67,2024-08-24,347.0,Active
+ccf1b234-3815-4ffa-acc2-c6fdbccd57b5,,,52408.69,EUR,Tokyo,4.68,2020-08-06,693.0,Suspended
+660592e2-f45f-4163-a9e7-a3e3720536f0,Kelly Franklin,Business,90960.75,INR,Berlin,1.72,2023-10-27,788.0,Suspended
+9d6ce320-eea7-4ae9-a82a-24c64d6a3482,Sarah Hernandez,Checking,73906.06,EUR,New York,6.82,,821.0,Active
+c02b7e9a-efc8-4933-9cdb-f008e569fea7,,Loan,16655.75,,London,1.44,2021-07-07,792.0,
+4e7d3a89-6cbc-4d44-99fb-f07df196163a,Yvonne Jenkins,Business,96599.11,INR,Mumbai,,2024-02-14,580.0,Closed
+def5ec4f-dc5e-4b4a-a3aa-c26574491f06,Teresa Hughes,Checking,3501.49,JPY,Mumbai,4.77,,713.0,Closed
+3c1a7c5e-3800-403b-8ee8-7331392c41c0,,Checking,37396.14,GBP,Berlin,5.28,2022-11-07,,Active
+6ab059f7-3ae4-4474-977e-e36fcb88b8d9,Sherry Sexton,,95802.56,EUR,Mumbai,7.42,2023-09-10,377.0,Suspended
+294cd7ec-e8d1-4410-bc5d-510e66b2b574,Nathan Walter,Savings,23688.41,JPY,Mumbai,1.93,2025-01-16,474.0,Active
+78a27b8a-52a7-4bf2-8ed0-2fe898bd5306,Leslie Summers,Checking,21878.79,USD,Mumbai,2.19,2021-11-08,454.0,Closed
+bf21f274-d30a-4e08-9e7d-17159a79f153,Zachary Joseph,Savings,57054.17,JPY,Mumbai,1.46,2023-10-04,,Suspended
+f75a4d26-fdff-44d7-9700-b83f323d1e99,Nancy Murphy,Checking,59177.57,INR,London,4.24,2017-05-07,758.0,
+527f61aa-f260-43fe-b375-5446ca43f274,Dawn Armstrong,Business,71380.85,GBP,Berlin,5.04,2018-10-19,565.0,Suspended
+6b3a6863-68c8-4bfb-8e91-98291bad7b15,Matthew Scott,,6655.25,USD,Tokyo,5.02,,691.0,Suspended
+13998cbd-31b1-494f-8c38-222bd27e54a1,Andrea Franco,Checking,64952.03,,London,7.14,2023-06-09,638.0,
+b5204771-cc48-452a-93e9-8f85073c0fff,Laura Martinez,Checking,90768.79,,New York,2.89,2023-07-23,359.0,Closed
+f144fb1d-ef1b-4cff-811b-2dbfb0b7297e,Sara Manning,Loan,35869.95,EUR,Berlin,5.17,2020-12-22,557.0,
+5486a861-8740-4ea2-950a-e879c3b09dd7,Kristy Olson,Business,78072.36,EUR,New York,5.75,2016-07-11,838.0,Active
+27ab24c9-90c1-4edc-86b1-6afee5be77a3,Austin Morris,Business,86666.81,USD,New York,2.24,2020-11-09,721.0,Closed
+c0bf7a1f-10a3-49bb-89ad-af4ac08f5b55,Isaac Franklin,Checking,64748.87,EUR,Tokyo,,2019-08-21,597.0,
+f38073c9-1b2d-449e-93ba-22d8daaf6b60,Andrew Carson,Checking,44544.39,JPY,Tokyo,2.11,2023-10-09,574.0,Active
+8ccb1879-8aa5-4232-962d-e8c40fe3378c,Roberta Wise,Loan,25043.32,,London,1.73,2019-12-15,679.0,Active
+52b8b643-f696-48f0-8208-77f8a44ec4e1,Karen Robertson,Business,26197.86,INR,Tokyo,,2017-12-08,817.0,Closed
+07dbec20-9b73-4c7b-9c13-04bf6b0610f9,Douglas Gonzalez,Savings,78030.2,JPY,New York,1.46,2024-01-01,682.0,
+fc8875d0-51d4-4f08-88c7-9c4a624f714c,Gregory Delacruz,Loan,45675.59,EUR,Tokyo,3.94,2022-01-10,598.0,Closed
+3cb892c7-24e7-4b21-8ea1-8445634454db,Mr. Jeremy Martinez,Checking,89842.61,GBP,Mumbai,5.87,2022-01-12,,Suspended
+d62ba8b5-3e16-4d1a-8533-a29b4f20cc58,,Business,61164.13,GBP,New York,5.58,2022-07-15,492.0,Active
+ff3d7f40-640b-4a38-a2fb-9215228da9cb,Judith Pennington,Business,39239.45,EUR,New York,1.04,,501.0,
+116107db-38c7-4d39-a4e4-dc412ea13248,Michael Taylor,Savings,13218.22,EUR,Berlin,5.91,2021-09-23,690.0,Closed
+d3706a0b-9546-4e6e-87d8-b424bc27235d,,,36431.88,EUR,London,5.75,2024-12-09,353.0,Closed
+3c76fb10-0279-4c67-abd9-4f6cbaef964b,Leslie Baker,Loan,991.15,GBP,,3.67,2018-10-07,609.0,Suspended
+d450294f-8dbf-4442-bc14-f8c99bf22cd2,,Loan,20203.06,INR,Berlin,4.1,2019-11-19,644.0,Active
+ea53fbb7-e6d8-4e62-837c-5d925bff10ef,Kevin Sherman,Savings,83530.01,GBP,Berlin,5.85,2019-03-23,701.0,Closed
+348c9b70-9947-4945-97d3-269cbc10b853,John Monroe,,46989.81,EUR,Mumbai,6.41,2019-02-16,,Active
+,Felicia Greer,Business,1223.98,EUR,Mumbai,3.07,2017-05-22,308.0,Suspended
+b0f86e8f-9b7f-438b-b773-c3d4acee2a39,Christopher Allen,Savings,61222.62,GBP,Tokyo,1.4,,780.0,Suspended
+e2561d31-0a36-4e88-8755-75d762fe4e07,,,43717.54,JPY,London,3.24,2024-04-08,457.0,Suspended
+e3072f2f-4065-41d3-a4a7-f254715d26c3,Robert Li,Savings,41800.23,USD,Berlin,5.61,2019-12-14,735.0,Active
+44396cfd-234c-4f10-9117-1ac624938b49,Marcus Flores,,71589.34,EUR,Tokyo,4.17,2016-04-24,340.0,Active
+dfc0cadf-5d55-48a5-8dee-16650cf4e054,Daniel Hoover,Loan,89939.52,INR,Tokyo,3.32,,850.0,Active
+e247390e-0e77-48e1-8498-498515e39b36,Ronnie Pham,Savings,94625.21,EUR,New York,,2017-03-23,710.0,
+a86144fb-0dd6-4964-abdb-10d6257eb9ef,Angela Reyes,Loan,31203.0,,Tokyo,6.01,2020-01-21,421.0,Closed
+88d46de1-c3b6-4dab-9202-89f32763f7c5,Dr. Megan Lopez,Checking,74943.89,,London,6.44,2016-09-17,520.0,Active
+,Veronica Hodge,,2003.35,USD,Mumbai,5.64,2023-06-28,701.0,Suspended
+164df76e-904b-4f83-a909-b4b84808f8fc,Kathryn Long,Loan,58747.45,JPY,,2.95,2016-12-04,645.0,Closed
+8749088f-de8e-4f1b-a6e6-98ed4fbd42aa,Colleen Clayton,Savings,36838.56,EUR,,5.26,2024-07-03,393.0,Active
+76cd2325-b1b4-405e-8d9c-462d9666abd0,Daryl Robinson,Business,2962.87,INR,Berlin,3.89,2015-10-25,371.0,
+,Dr. Eugene Carson,Loan,27446.87,EUR,Berlin,1.63,2024-08-05,639.0,Active
+1b006ec6-f2af-423f-858c-9bcff0a925a1,Lauren Vazquez,Loan,27424.65,USD,Berlin,6.81,2017-01-09,398.0,Active
+28f067ac-73c1-4d77-9864-e19b1692e79f,Melissa Peterson,Checking,97903.36,,Berlin,1.38,2016-08-22,645.0,Suspended
+d0a9787c-1b27-412b-87be-e36694c51d7f,Dawn Brown,Business,,USD,Mumbai,3.76,,604.0,Suspended
+68013cb7-5f6e-4180-a159-630d73b437ad,Mark Zamora,Loan,34970.8,INR,Tokyo,6.1,2018-02-17,302.0,Closed
+0d0f65da-017e-4423-ab9e-2306c0d32a01,Ashley Stone,Savings,56801.82,INR,Tokyo,6.46,2020-07-13,619.0,
+01b34229-6e9d-4295-a4a7-6447c3a3ce85,Gregory Mann,Savings,87945.59,JPY,Mumbai,4.79,2019-06-10,379.0,Active
+b7e57d35-b746-4d35-8119-98614d487d65,Caroline Spence,Loan,85138.47,,Berlin,,2015-11-04,473.0,Closed
+78342df8-5e2a-47ca-9bbc-1d3efc6ebd93,Paul Odom,Loan,44363.65,EUR,Berlin,,2024-08-03,585.0,Suspended
+f1aacc90-3a1a-415f-bdb4-69fdac458b2d,Eric Jackson,Loan,61272.15,EUR,Berlin,,2021-08-12,517.0,Closed
+14b45a4a-b351-4c60-8281-6d6d818aeb20,,Loan,37842.91,GBP,Berlin,1.56,,794.0,Suspended
+dfa9da52-872d-4df6-8161-ae70c2781c6d,Tim Chambers,Savings,42055.66,GBP,New York,4.98,2019-02-24,,
+8a8380ae-fb70-4560-ac69-86d13af6d890,Shari Orr,Checking,8222.8,GBP,London,2.12,,821.0,Active
+,Denise Kim,Business,,EUR,New York,,2018-12-01,303.0,Closed
+4eb7425e-0cb8-41fb-b9a4-8df44e1a2980,Tyler Melendez,Savings,50795.16,GBP,New York,4.11,2024-09-27,470.0,Active
+3b7aad4e-97a8-41f9-b23f-51f3de537163,,Checking,38899.48,GBP,New York,6.29,2022-12-19,641.0,Closed
+ac8dc6b8-fadb-42bc-b21b-970a70a2c703,Karen Alvarado,Loan,82956.89,INR,Mumbai,3.65,2017-08-04,630.0,Closed
+1b695d05-d5e6-4ca4-86bd-6a3e48c8a81f,Robert Mcbride,Business,67477.42,USD,Mumbai,1.5,,304.0,
+3d0c3f58-b609-435a-be7e-8e2ed9ad2a7e,Chloe Blake,Business,60198.59,USD,Mumbai,1.31,2021-10-19,512.0,Closed
+3584f49c-c6bc-4dbc-96f9-d60388a1bc13,Dale Fitzgerald,Loan,65686.41,JPY,Mumbai,3.1,2019-05-12,303.0,Suspended
+b1278463-f5fd-4d6a-86b4-d860e63c091e,Victoria Jones,Business,87264.82,JPY,London,2.71,2016-10-07,667.0,Closed
+d0c499b3-aaaa-429a-854e-072bc588a84e,Blake Rodriguez,Business,45871.59,EUR,Mumbai,7.16,2020-01-07,833.0,Suspended
+864d094a-a815-4212-94ad-21206c60c619,Steven Ward,Savings,92573.57,INR,New York,,2016-06-11,821.0,Suspended
+25f5fa36-4b7c-4f7b-91fa-2b661326b406,Melanie Harrington,Checking,78862.3,INR,Mumbai,6.55,2024-03-27,331.0,Suspended
+5de1395b-b3bb-46d3-bb3b-8d5162f39a1d,Alice Browning,Loan,48200.03,GBP,Tokyo,6.1,2021-11-07,,Closed
+100795b2-58e3-4dd7-a5fc-945e58e6c126,Eric Brown,Savings,77798.55,INR,Berlin,1.15,2017-03-28,402.0,Active
+5454f87c-2590-44eb-abd1-62d666f9cd8b,Lisa Macdonald,Loan,,JPY,,4.15,2021-11-20,661.0,Active
+09d5dd1d-c36c-4380-8daa-3f9a0df06e98,Rachel Howell,Business,,INR,,1.24,2018-11-30,661.0,Suspended
+986d6899-a28d-4dda-842e-853a21ac180a,Jacqueline Meyer,Business,74501.69,GBP,New York,5.13,2016-11-05,761.0,Suspended
+4089e51a-8d01-4f84-9ec4-a202a53208a0,Elizabeth Juarez,Business,53211.99,JPY,London,5.48,2020-10-04,489.0,Active
+,Jerome Shaw,Savings,58175.11,INR,,1.93,2024-08-17,503.0,Suspended
+6d8d7bb0-0748-4cf4-94e8-c391b2f1ce08,Michael Caldwell,Loan,13755.22,INR,Mumbai,7.09,2018-08-26,647.0,Closed
+817253b6-344a-42d9-874d-cb203bcd20ce,Travis Garner,Checking,41704.74,JPY,Mumbai,1.81,2021-02-08,806.0,Closed
+6493655c-c5e5-4197-886f-27920949966e,Ashley Everett,Savings,72179.79,JPY,Berlin,3.76,2020-08-28,838.0,Active
+b685b54e-1190-48e6-a97b-3143af8c7ef3,Michelle Gregory,Savings,83786.83,INR,Tokyo,3.58,2021-08-18,801.0,Closed
+0de1816c-3c2c-4132-bdfb-2172605182e2,Michael West,Loan,,GBP,New York,2.47,,724.0,
+e4650562-d1ee-4e43-8d2d-db9f1aed194e,Sarah Perez,,86110.15,INR,New York,4.28,2015-10-25,472.0,Closed
+ced399e6-58e8-42ad-96d9-d144f2d4e680,Raymond Daniels,Checking,13035.64,GBP,Tokyo,4.37,2015-07-30,491.0,Suspended
+59d1958c-9f33-4d41-bb9a-3535105a52b2,Curtis Wilcox,,93557.57,,,5.64,2025-03-08,640.0,Suspended
+b90a9adf-f9a9-4e7c-8d66-6594017a200d,Kyle Zuniga,Checking,80563.36,GBP,London,2.46,2025-02-22,,Suspended
+454ac708-9acf-4182-a093-3a6c8c642cb8,Dr. Thomas Hill,Business,12729.98,INR,Tokyo,4.65,2022-10-17,533.0,Suspended
+c37d86cb-1f3b-4c4a-8016-1fc273b2845f,Randy Robertson,Loan,49174.52,USD,Berlin,2.7,2023-04-30,740.0,Suspended
+ff3ae120-f527-4dd2-9d77-3313336d9e4d,Jaclyn Garcia,Business,87202.92,GBP,Tokyo,1.9,2018-07-02,,Active
+1304703b-85d6-4a52-a494-18c5eec4a641,Kelsey Peterson,,99407.44,USD,Berlin,2.2,2025-07-02,611.0,
+,Jonathan Turner,Business,71783.66,EUR,,6.2,2023-07-09,479.0,Active
+f47843e9-2941-425a-9f30-cc08ac850691,Mary Rivera,Checking,51513.53,USD,Berlin,3.9,2024-05-18,666.0,Closed
+927492ed-0d1b-4d22-b8e7-1317512847cc,Kristi Stephenson,Loan,33034.87,GBP,London,2.52,2020-09-19,341.0,Closed
+3e2a009f-8de9-403d-9b87-f6b22f1a5853,Linda Foley,Checking,51611.85,USD,New York,,2021-03-12,649.0,Active
+c29a9b47-7c75-48d3-9635-d189ab58395f,Vanessa Cruz,Loan,8562.36,USD,London,4.24,2021-03-09,429.0,Active
+ca69e4a8-9b13-48a4-a85e-a0254d6d3837,Mr. Tyler Williams Jr.,Business,,INR,,,2022-03-02,455.0,
+5662dca0-d068-4a3d-bfe0-10a40755fca2,Brian Kerr,Business,73690.04,INR,,7.26,2021-04-20,343.0,
+318c28d2-b3d3-43a8-b981-415cfe096390,Amanda Barajas,Checking,7113.29,USD,Tokyo,1.93,,399.0,Closed
+e25f4291-5ca9-44d1-8983-41308c3a319c,Kaitlyn Flores,Checking,25550.62,EUR,Tokyo,3.38,2015-11-23,624.0,Closed
+85f9fed5-2375-43e4-ad7a-e711bb5085fc,,Business,,,Berlin,2.65,2021-11-30,838.0,Suspended
+0a2866ed-e2a7-451e-acd7-8c0552a9ae53,Stacy Robertson,Savings,9025.44,EUR,Mumbai,5.09,2020-09-20,324.0,Closed
+,Tanya Robinson,Savings,15471.5,USD,Tokyo,6.94,2020-05-11,641.0,Active
+5ebc2725-8adc-43c7-a91c-731b6739fc7f,Patty Rush DVM,Savings,18464.6,USD,London,1.25,2022-04-14,657.0,Active
+938362e2-4625-47ab-99a8-0d6b1860e2fd,Ian Cole,Business,92654.71,INR,Mumbai,4.64,2018-03-28,846.0,Suspended
+6dc65dde-e41a-404a-90ec-30c559d7a40b,Peggy Nunez,Checking,77735.3,INR,New York,6.48,2023-11-13,336.0,Active
+12e9c39a-1c68-4fb7-ac5b-363971345507,Edward Frost Jr.,Savings,73336.88,GBP,London,6.42,2018-08-18,548.0,Suspended
+79d12db9-19b7-4853-a795-7d39c877b7fc,Jennifer Bishop,Business,18701.68,USD,Mumbai,1.74,2015-12-24,459.0,Suspended
+c4240fff-4e1c-4080-8144-957c6f4d89a6,Jeremy Fuller,Loan,,,Tokyo,,2021-10-04,585.0,Suspended
+4db5a858-9827-401e-bed4-1c22a7bd6a82,Bryce Young,Savings,67351.95,JPY,New York,7.18,2018-08-26,,Active
+c70b4b0e-b856-4e53-bb43-03f6c0708b74,Robert Pacheco,Business,83317.5,,Tokyo,3.39,2016-08-04,545.0,Suspended
+0f9be3a8-23a4-4c9f-b1e8-82cc46648848,Kyle Baker,Checking,7615.56,GBP,London,5.9,2024-09-07,825.0,Suspended
+c61465ce-2d37-487d-a072-f4736b15a021,Ryan Barton,,32723.0,JPY,Berlin,5.32,2018-11-14,630.0,Suspended
+70164e48-fd70-458d-871c-bc66743c6428,Michael Moore,Checking,,,New York,5.58,2020-03-10,615.0,Active
+c96644ba-a865-4bb7-ae55-cb98ff26476a,,Business,,GBP,Tokyo,4.39,2022-06-02,599.0,Active
+,Eugene Robinson,Checking,99904.91,USD,Berlin,4.28,2020-03-03,445.0,Active
+204af1a6-72c9-40cd-a46a-b5654cb0f765,Lisa Miller,Business,65183.91,GBP,Mumbai,6.0,,831.0,Suspended
+238c00c5-1b60-43b0-ab9f-ac90c2f2aab0,Steve Peterson,Loan,26797.78,USD,Mumbai,3.9,2022-04-19,443.0,Suspended
+86c2f5ac-9b29-4400-88b2-9bc0daad9158,Sarah Rodriguez,Loan,13331.38,JPY,,4.71,2021-06-25,619.0,Suspended
+3c9461fc-a394-46b6-85e1-70eb7250f68c,Barbara Casey,Checking,83834.5,USD,Tokyo,3.49,2019-08-29,585.0,Closed
+76292530-f839-41cf-a265-a4b9313db5a1,Monica Terrell,Checking,95158.74,EUR,Mumbai,5.9,2023-01-06,305.0,Closed
+a713329f-7399-4cf0-8d41-628bd724b353,,Savings,3794.38,EUR,Berlin,3.69,2025-04-06,517.0,Suspended
+,Rebecca Madden,Checking,36542.96,USD,Tokyo,1.45,2015-09-04,816.0,Active
+f921a6a2-50f1-4a31-8918-25d68c24fe68,Shane Hartman,,28791.97,GBP,Tokyo,3.5,2019-05-26,672.0,Closed
+,Jason Williams,Loan,72900.64,EUR,Tokyo,7.07,2019-04-03,408.0,Suspended
+2ab0c403-c76a-49c0-b9a7-8fc2b3cdf1db,Melinda Miller,,5297.65,USD,Mumbai,6.29,2017-04-28,589.0,Suspended
+4c2efe9c-3a11-4a3d-8154-80e6a25c1676,Marcus Wilson,Business,83371.14,JPY,Tokyo,1.07,2023-09-12,718.0,Closed
+bafa9a1e-d7f6-4df3-9f69-2cb3e4c319a6,,Savings,83570.44,GBP,London,4.87,2018-10-07,548.0,Active
+cc038a20-b85a-4b05-896e-4930bd932988,Mary Graves,Savings,39356.97,USD,Tokyo,6.47,2018-01-21,786.0,Suspended
+34df6dc2-04f9-47d4-999e-917e7f690b39,Stephanie Bennett,Loan,,GBP,Tokyo,4.43,2022-03-12,601.0,Closed
+b5ff039b-f1f0-429d-aa15-5e957f210795,Gregory Johnson,Savings,72551.05,USD,New York,2.82,2022-11-20,,Active
+fd9d94da-1de5-4c7f-bd9f-d3a9b051c6a6,Madison Duncan,Loan,,EUR,Mumbai,4.85,2022-03-28,768.0,Suspended
+0bd539f6-9de8-4f73-9ba8-1ddb21d5ba05,Matthew Stewart,Loan,59916.95,USD,London,2.1,2024-09-02,300.0,Closed
+2b6f6d60-1f86-4609-a89e-18b223086538,Kimberly Porter,Loan,22616.71,GBP,Mumbai,6.75,,831.0,Suspended
+6d9c0ce5-8052-4543-ae18-14b0ef044cc4,Maria Wells,Business,,USD,New York,2.48,2018-04-02,429.0,Active
+b21785f6-16a1-4b26-b30d-e9827a6ceea5,Alexander Lopez,Checking,88963.33,GBP,Tokyo,,2024-01-17,359.0,Closed
+df136137-bede-48a1-8306-6dbfd6f85451,Anthony Simmons,Checking,74398.54,GBP,Tokyo,2.85,2017-08-09,533.0,Active
+b7042e15-fbf2-496f-94a7-b05280c6c98d,Evelyn Kramer,Checking,48908.99,INR,Berlin,2.3,2024-08-11,446.0,Suspended
+cf10e78f-6c83-48e8-b9b6-a2d6cd1f920c,Brittany Forbes,Checking,22046.6,,Mumbai,2.85,,538.0,Active
+,Timothy Williams,Loan,73764.84,GBP,New York,2.87,2019-09-24,836.0,
+013bb170-d1dc-4fcb-8170-a22d24fee353,Jordan Lee,Loan,61184.57,GBP,Berlin,,,389.0,Active
+7747b5a6-db72-473b-bbbf-b12983bb1f6d,Mrs. Amanda Cortez,Loan,93961.51,JPY,Berlin,6.69,2015-12-27,372.0,Closed
+56993503-6b96-4f4f-becd-0d8d565e86e7,Jacqueline Trujillo,Loan,67553.45,USD,London,4.27,2016-07-22,440.0,Active
+770a8ed7-efb3-43cd-a1c6-2f5bb47c5054,Abigail Russell,Savings,97845.5,USD,Mumbai,4.97,2024-10-14,584.0,Suspended
+,,Savings,40975.88,INR,London,4.54,2022-03-10,588.0,Active
+,Bridget Vaughan,Loan,69663.8,GBP,Berlin,5.67,2023-08-07,373.0,Closed
+88f42dd8-7ef8-41c4-870e-2735e8dc9381,Gregory Turner,,16747.53,USD,Tokyo,4.89,2022-10-01,486.0,Closed
+e6d3dedb-73ed-473e-bf4b-f24968a0e804,Elizabeth Arias,Savings,5885.72,JPY,New York,6.56,2016-12-16,309.0,Active
+93fa9a6f-be2a-4aa0-a652-bf8a195cd8c8,Tracy Bond,Checking,90491.88,EUR,Berlin,6.03,2019-08-16,,
+cbb0243b-46be-4f02-b6e7-87fdba56dc07,Cassidy Anderson,Savings,,EUR,Berlin,3.85,2018-06-29,583.0,Active
+,Dr. April Martin MD,Savings,50983.1,JPY,Berlin,2.19,2023-07-28,442.0,
+7f032b5a-cccd-426b-a3d6-21a9e6d76685,Mario Rodriguez,Business,64997.28,EUR,Berlin,6.73,2024-05-09,809.0,Suspended
+de9be60c-90b3-42e6-b6d2-4b5a580958d6,Patrick Willis,Business,83447.5,JPY,London,3.28,2019-04-09,317.0,Closed
+3cf00b9b-471d-4b26-b0d0-2c526075a013,Shannon Cruz,Business,45624.41,USD,New York,7.32,2020-06-24,669.0,Active
+2008f228-de1f-435e-8b84-b80215b79f69,Zachary Evans,Savings,58281.83,EUR,London,7.38,2021-04-17,796.0,Active
+25330469-9796-4bf7-bdd2-c5d10302d214,,Savings,99783.66,USD,,4.87,,533.0,Active
+,,Checking,3315.96,GBP,New York,1.27,2018-01-02,846.0,Suspended
+5cd244a0-3bba-4232-914c-5154bcbc20f4,Michael Barrett,Loan,83952.61,INR,Mumbai,6.47,2021-07-04,816.0,Active
+381df460-fc91-4769-806b-a0ae666c487c,,Loan,48890.73,JPY,Berlin,2.15,,594.0,Active
+,David Martinez,,81821.63,INR,Mumbai,6.33,2017-04-26,670.0,Suspended
+2b4063b2-ac20-42d1-a18e-22d49cd6c592,Michael Little,Savings,69413.01,GBP,Berlin,1.24,2020-05-23,777.0,
+4043acf4-df75-4089-9679-f3be4d8d0363,Michele Rodriguez,Business,52315.56,INR,Mumbai,6.34,2019-04-19,490.0,Closed
+6e868118-3316-4ea3-831f-b635070ef287,Julia Luna,Savings,85011.4,JPY,,5.65,2018-01-02,320.0,Active
+ca3d5c33-d239-4f93-915b-de1cc8c23fde,Christina Lynch,,59397.51,INR,,4.4,2021-12-20,808.0,Active
+0c825f92-8931-4001-9876-088b797e4aab,Kimberly Cruz,Savings,95866.32,INR,New York,5.6,2019-11-08,632.0,Active
+fac74e33-3170-462a-8cdd-031490a613b5,Stacy Spencer,Loan,71705.84,JPY,Berlin,3.38,,305.0,
+0f15a6e6-e9a9-4ea5-aaee-434a9336e474,Angelica Macias,Loan,67880.05,EUR,Mumbai,1.2,2021-06-13,410.0,Closed
+,Zachary Hart,Savings,16951.92,EUR,Berlin,2.05,2023-07-07,588.0,Active
+dc03f58c-1c1c-4bc0-9c27-b04ac7fc7f25,Pedro Cox,Loan,,USD,London,5.27,2023-05-03,327.0,Closed
+c47e75ce-59f8-4031-822f-16d4fff72593,Darius Duncan,Savings,45435.74,,London,5.28,2019-08-07,537.0,Suspended
+,Scott Love,Checking,22941.27,GBP,Mumbai,3.07,2023-11-23,522.0,Closed
+d2c6120d-cbe3-4c8e-960e-ea47677fd245,Cindy Odonnell,Loan,27479.0,EUR,Berlin,1.89,2016-01-10,,Active
+,Teresa Pena,,62476.95,GBP,Tokyo,5.43,2024-05-19,714.0,Active
+f6a86afa-c6ea-4b05-9baa-35891208fc8c,Elaine Webster,Loan,42264.04,INR,London,5.57,2018-01-23,660.0,Active
+9254fd7b-e82e-4776-944e-5e133fd009b4,Kelly Hughes DVM,,64118.48,USD,Berlin,5.32,2016-12-13,476.0,Closed
+178fefb1-f8a6-4898-84c2-e0e9f14fe1cd,Bryan Sanders,Checking,96618.52,GBP,New York,7.23,2021-10-02,369.0,Active
+79c6c95f-1355-4fb5-9c76-c19d491216bb,Stephen Miller,Checking,4016.67,JPY,London,2.68,2016-06-18,502.0,
+7dd4c963-fd68-44f5-9b0e-01e56c2541b8,Peggy Johnson,Loan,14110.19,GBP,Berlin,5.63,2018-08-03,630.0,Closed
+87363afa-2c3c-427b-a645-801b2fdff4ec,,Loan,74527.99,EUR,Tokyo,1.6,2024-02-25,704.0,Active
+e50437d0-819e-46f0-a44c-8b07d616aa93,,Checking,34630.4,INR,Mumbai,6.59,2016-11-03,815.0,Closed
+,John Torres,Loan,72780.39,EUR,Mumbai,3.45,2015-08-12,605.0,Active
+9e27cc29-3d83-40f7-a16f-b447f679f78b,William Klein,Loan,55680.77,GBP,Mumbai,2.14,2024-07-12,499.0,Closed
+c26ddc49-894a-4b1c-9ade-b6f332c0a7ba,Karen Mitchell,Loan,60975.65,JPY,Tokyo,7.0,2022-01-11,409.0,Suspended
+f1136ab9-2614-436c-a415-3ea3ddc2116e,Jessica Smith,Savings,5772.8,USD,Berlin,6.19,2025-03-16,592.0,
+f840418f-62b7-4e62-95d8-3665a52d3922,Dawn Taylor,Loan,5471.08,USD,Tokyo,5.99,,833.0,Suspended
+f2520f8c-cb73-4664-b2b5-0e49cf3dac0c,Brandon Allen,Loan,,USD,Mumbai,,2017-08-02,423.0,Active
+c3532850-e0bf-486f-bb52-aecff3ae3ab5,Diane Howard,Checking,84719.06,USD,Tokyo,1.99,2016-06-25,453.0,
+,Matthew Sweeney II,Business,23431.11,GBP,Berlin,,2016-06-07,748.0,Closed
+39e250b9-712e-4162-b9ef-781fb688a59e,Troy Griffin,Checking,85480.16,JPY,Tokyo,,2017-09-21,693.0,
+7257b9cf-164a-4706-a685-753435fe4212,Alexis Campbell,Loan,45012.58,INR,,7.29,2017-11-06,796.0,Suspended
+f9df6a5c-418c-402c-a562-ff6d2d284654,Rose Martinez,Business,78201.27,EUR,Mumbai,3.58,2019-04-28,723.0,Suspended
+608b06e0-6a59-4a2c-aa7e-e0f2f5624374,,Savings,41072.03,USD,Berlin,4.36,2025-04-02,379.0,Active
+d0480a55-9639-4079-b68f-36fb68b99056,Brandy Jones,Business,,JPY,Berlin,1.43,2025-02-19,779.0,Closed
+784f9cac-76e7-4428-adff-d82bd6d5124d,Sheila Johnson,Loan,24593.17,INR,,5.05,2021-09-29,637.0,Active
+602dad74-32df-49e3-9964-aa24b42abc94,,Checking,87711.8,EUR,Mumbai,4.48,2022-06-14,444.0,Suspended
+041895b4-e9d1-4db4-9d67-14def5222e48,Christopher Padilla,Loan,82157.15,GBP,Mumbai,7.44,2016-09-29,,Active
+a84adc47-2d70-403b-8ceb-e31833da7b38,Jeanette Newton,Savings,,GBP,New York,4.07,2022-01-19,425.0,Active
+6ad71329-117a-4739-abd0-f1def5a7f3bf,Kelly Kidd,Checking,85417.29,JPY,,4.84,,617.0,Closed
+558c090b-9350-4129-807f-cf5d22e7dab2,Nicholas Hancock,Savings,43667.64,JPY,Mumbai,5.68,2015-12-16,343.0,Suspended
+22d4b58c-8907-43ef-867d-cc03f706be54,Larry Adams,Savings,71021.04,GBP,Mumbai,1.23,2017-03-20,,Active
+2052ac20-9456-4a6b-a4a1-d53194372232,Ricky Hudson,Checking,21914.48,USD,London,3.46,2016-01-24,413.0,Active
+43b437ce-cb6d-4732-9980-250da7f31bef,Carlos Ramsey,Savings,20418.93,USD,Mumbai,2.63,2016-10-21,346.0,Active
+70ddb80a-f751-4be3-8f0f-d92c32a3dc82,Nathan Roberts,Checking,23204.49,JPY,New York,2.06,2019-08-23,477.0,Suspended
+2b94d776-ddcb-43a3-9881-d3dce9112e7a,Troy Mason,Checking,79265.85,INR,Berlin,6.89,2024-11-04,556.0,
+7c7f79a4-a364-4781-9c8f-aec2bba815d5,Rebecca Bowman,Business,23667.17,EUR,Berlin,1.75,2025-03-30,630.0,Suspended
+4842cd54-c9da-4f7d-b682-2112a17d8751,Tracy Cain,Savings,38383.17,GBP,Tokyo,,2019-12-17,844.0,Suspended
+71ebe0d5-cbe7-4d6e-b59b-a3d66dc49fec,,Loan,68283.0,INR,Tokyo,1.78,2023-11-27,707.0,Suspended
+c05edbd8-2823-48ba-93c9-59c899f77e91,Joshua Dawson,Business,93063.73,,Tokyo,6.74,2020-09-19,653.0,
+aff3cd64-f4e5-4465-b408-7e922eae225f,Gerald Kelley,Savings,57466.48,INR,,2.89,2018-10-31,428.0,Closed
+0e7034d0-83a1-46e5-bea8-3cf8c944d7f8,Calvin Bowen,,69306.59,INR,Mumbai,4.09,2022-07-16,599.0,Active
+782720a8-2da3-4f0b-9306-d4f3c8ef7595,Aaron Orozco,Checking,69757.23,GBP,London,2.58,2019-01-19,796.0,Closed
+d1814926-9c7a-4885-b77b-b39a405e69f7,Aaron Tucker,Checking,20193.69,GBP,New York,5.08,2016-06-29,345.0,Closed
+a1e029f8-9f1a-468d-8320-b7d0378e32b6,Mark Haynes,Business,26887.41,INR,New York,5.25,2017-01-04,488.0,Active
+cb8626b8-e7eb-4cfc-9716-6afdb66df3a1,Daniel Torres,,30862.07,GBP,Berlin,3.36,2022-11-30,666.0,Closed
+,Mary Nelson,Business,50080.65,JPY,New York,,2018-10-02,586.0,Active
+6542ea61-efb9-4fe7-bfaa-5a5b5d398bc5,Judy Park,Loan,42307.42,,New York,7.42,2016-03-01,366.0,Closed
+ccb698c7-6d36-43e1-b2a9-ed1049319ec4,Jason Wright,Savings,72787.45,GBP,,1.54,2024-03-06,825.0,Suspended
+a015c87a-266f-4a5a-b215-251323aedcbe,Sarah Marsh,Business,24721.47,EUR,New York,2.79,2018-07-11,709.0,Closed
+,Corey Dennis,Business,20709.13,,,2.59,2025-06-03,565.0,Closed
+5a1885c0-ad71-4170-8dfc-2407c9d01939,David Thomas,,65787.92,INR,Tokyo,3.09,2025-03-29,799.0,Closed
+aa069396-85e0-4c8e-96a8-1fb590cb6a3c,Cheryl Baker,Loan,1556.13,EUR,Berlin,6.11,2017-07-16,697.0,Suspended
+f130b781-e9a1-41d4-b917-0c84318c9793,Sandra Jimenez,Loan,49220.49,JPY,,4.57,2018-10-28,,Active
+480afb29-e4b8-4e42-8ab2-62e5dd324238,Erika Hart,Business,24393.86,USD,,6.73,2024-07-04,579.0,Closed
+bed27184-77b8-4ae8-9eba-fb00f8ddfdf5,Monica White,Loan,60632.19,EUR,,1.29,,812.0,Closed
+402ad9fe-97f0-4a74-b216-2d6cc987005c,Dawn Williams,Savings,7738.1,INR,London,3.09,2021-10-29,758.0,Active
+776d529d-cc4d-4af3-9b2c-9dff7c6177d2,,Business,98036.06,JPY,Berlin,,2018-02-02,314.0,Suspended
+69c196bb-980b-49c9-875a-5eaa0fee9a33,John Hogan,Business,55756.35,EUR,London,1.47,2018-05-23,412.0,Active
+120fb566-cb41-4a32-a6b6-0bea2ee25ad1,Maria Cline,Loan,20795.29,JPY,London,6.34,,493.0,Suspended
+9ba133fa-2bc2-4c81-98e7-dd4ec0aa70dc,Cynthia Rodriguez,Savings,33530.0,,London,,,310.0,Closed
+,Kimberly Davis,Loan,60048.14,EUR,Tokyo,2.75,2015-09-04,,Active
+7ecab479-73c5-450d-8d28-80323d51a75e,,Business,,GBP,Tokyo,,2017-01-30,385.0,Active
+,Michael Johnson,Checking,20500.34,JPY,Mumbai,4.22,2018-01-13,,Closed
+b528a951-bd11-412e-bdf4-0ad82aff5e1b,Ronald Martinez,Savings,65361.27,GBP,Mumbai,6.32,2018-01-10,416.0,Closed
+aee925b9-ef7d-4e6d-ba4c-00fddd3b2aa8,Patrick Zuniga,Loan,78571.05,,London,4.92,2023-11-25,368.0,Closed
+7d3394f2-d652-4ec1-b5d5-c74d94a5c9bc,Kevin Morgan,Business,1112.82,,London,2.93,2025-05-17,550.0,Active
+2b694e2b-054e-41fd-b8c6-56fdbbbdfd8d,Joshua Williams,Savings,,JPY,Mumbai,2.21,2021-01-06,764.0,Active
+,Aaron Harrington,Business,51771.41,USD,Mumbai,1.36,2018-06-29,677.0,Active
+7afcd325-2377-43d4-9004-b677b21faac6,Michael Jensen,Checking,52523.6,USD,Tokyo,6.64,2024-07-01,449.0,Active
+e9ba77c1-d7f4-484a-8ebd-673660ce7698,Peter Maldonado,Loan,,JPY,Berlin,5.21,2023-09-05,313.0,Closed
+a84c4e07-c765-471d-85c9-e4d5dbf435be,Breanna Evans,Checking,60606.96,INR,New York,3.9,2023-10-20,753.0,
+08732742-826e-4948-82c5-822515992988,,Savings,43312.46,EUR,London,6.1,2024-08-29,756.0,Active
+13ea16c8-2ef8-4ac8-bc68-b687af847d31,,Savings,32247.69,INR,New York,6.62,2022-06-02,,Suspended
+3eb0eced-3c59-48c2-a4c1-fdbb0bda978d,Rachel Rodriguez PhD,Loan,86741.23,,Tokyo,4.28,2017-01-20,303.0,Closed
+c3ba5131-6787-4d13-b1b8-4dd71b23f8eb,James White,Business,,,Mumbai,6.14,2022-08-30,777.0,
+8cbcf779-685c-4dc6-b1fa-021fc84cd103,Felicia Mcgrath,Business,6144.42,INR,London,4.82,,307.0,Closed
+e2030c9f-dc58-4e83-9fa5-14a19380bcd4,,Loan,15187.53,USD,Tokyo,2.96,2021-09-23,435.0,Closed
+a038a2f8-b989-4360-851a-83baac01b0d7,Anthony Singh,Business,95828.12,GBP,,2.16,2020-06-22,416.0,Closed
+7c398d14-c5dd-434c-8637-a853aa87fb34,Leslie Johnson,Business,42120.51,JPY,Berlin,3.49,2020-08-01,613.0,
+3d75c2f4-17ce-4895-b676-da46254744b0,Clifford Johnson,Business,,USD,Tokyo,5.33,2025-03-02,702.0,Suspended
+fe5f163e-0342-4589-9e97-c4b6c27964d1,Natasha Wilson,Savings,9565.65,EUR,Mumbai,3.6,2023-01-18,694.0,Active
+4e47a077-bb68-40ec-9428-3617922eb060,Sally Cooley,Checking,88465.4,,London,6.7,2019-01-17,,Closed
+,Daniel Acosta,Checking,4604.95,USD,London,2.32,2022-03-04,554.0,Closed
+a2f34af2-7f7d-447b-be6f-89b084a81f7c,Kelly Warren,Loan,97001.66,EUR,New York,4.44,2022-05-02,618.0,Active
+a70b4270-d1f8-4bbc-8ba3-cff8a785c08c,Leslie Murphy,,12910.07,INR,Tokyo,5.02,2020-04-24,754.0,Active
+3bb7c077-d685-43d1-b8ef-a69cca58ee13,Victoria Garner,Business,38042.25,GBP,Mumbai,4.37,2018-05-07,720.0,Closed
+5f8d5bcb-cd01-4b68-b5d7-75babe68742e,Christopher Buckley,Business,24394.81,GBP,Tokyo,1.31,2017-02-18,375.0,Active
+11404956-9185-435a-b803-1ad2d11bb9a3,Brian Ballard,Loan,4162.46,INR,Tokyo,3.91,2020-03-14,325.0,Active
+5e0e86cb-737f-475a-9287-33b5871f2851,Cory Mcdaniel,Loan,78121.47,EUR,New York,3.63,2017-03-30,706.0,Suspended
+19f53fb0-f2eb-45d0-915e-2e9171d96c25,John Wells,,62889.36,USD,Berlin,4.7,,568.0,Active
+4b0f82b2-58c0-4a45-9f99-46d36ad573d3,,Business,86989.42,,Berlin,,2015-07-28,560.0,Suspended
+2c0afccf-6782-45a3-abba-c16765c6bd67,Matthew Price,Business,64837.32,GBP,New York,5.68,2019-11-13,715.0,Closed
+7a05fcab-8ef7-4d60-ac0c-457ba77296f0,,Checking,,JPY,London,6.16,2023-06-23,380.0,Active
+9f4b03b8-aa63-4965-9ce2-a7853e38a5b2,Aaron Jones,Loan,27285.92,EUR,London,1.94,2025-01-26,376.0,Active
+6d5c6d4b-b0fd-4d20-a48b-d74a12952f14,Jerry Ashley,Checking,23310.26,EUR,Mumbai,,2024-03-12,,Suspended
+fb162979-a988-410e-88da-fe1a7d64134d,Ms. Alicia Barnes,Business,30011.52,USD,New York,2.12,,403.0,Suspended
+fd4f40d9-a562-486a-a70a-35cf2c1b9b8d,,Loan,26724.28,USD,London,7.13,2020-06-24,,Active
+725cf088-9d2e-407f-a2e1-cd65b85e7f97,Ryan Hernandez,Savings,69165.57,JPY,Berlin,6.87,2018-07-31,340.0,
+98540380-8d8a-4c44-b569-27853ee7a666,,Business,38862.12,GBP,Tokyo,7.27,2020-02-04,473.0,Closed
+6e004f4f-eb51-4063-9c24-c176ccde4f51,Ann Pearson,Business,89946.93,EUR,New York,5.22,2015-12-17,370.0,Active
+76f22107-d6d9-448d-ba20-142922ff9252,Linda Burgess,Business,27791.7,EUR,,5.62,2016-02-12,581.0,Active
+40e9922f-7807-4ecc-ad3e-c74ce9eba7df,Breanna Hodges,Savings,66662.43,,New York,6.58,2018-09-07,343.0,Suspended
+c32dacec-3434-45d7-ad6c-553157fdce1d,Lori Banks,Business,15255.95,,London,2.23,2021-02-17,585.0,Closed
+987eedb9-05cf-4f16-82c3-8f5717ecabca,James Wright,Business,77539.04,,Tokyo,4.18,2019-01-29,545.0,Suspended
+049641ed-b9b8-4553-bcb8-c4ebe539919a,,Checking,59147.53,,London,6.19,2018-02-17,837.0,Closed
+bceefb67-a63c-4831-a9cb-c767afad4d7d,Nicholas Miller,Checking,,JPY,Tokyo,5.68,2022-02-04,806.0,Suspended
+886740fe-72db-407e-8f83-bd4b3a0db9c9,Amanda Gregory,Business,3012.12,EUR,Tokyo,1.87,,834.0,Active
+50564a3c-4a4b-4cea-a2b7-1e61732df646,Bryan Christensen,Savings,25082.44,EUR,New York,,2019-01-18,344.0,Active
+,David Hanna,Business,37680.28,JPY,London,2.34,2023-07-01,384.0,Closed
+0d347e78-d408-4bd3-9561-154926d0147c,Kevin Estrada,Loan,74251.46,INR,Mumbai,3.0,2021-01-15,381.0,Suspended
+333973b8-b502-4875-b55b-8070b4570e7f,,Checking,45826.29,INR,Mumbai,3.92,2024-01-05,556.0,Suspended
+ca9f1c45-4fdc-45dd-8219-3d464f116006,Joshua Bowen,Savings,26567.73,INR,New York,5.54,2022-10-01,748.0,Suspended
+dec91b06-f46d-4e23-bc4a-339ef5af60ac,Frank Walker,Savings,23656.13,,Tokyo,1.76,2018-01-20,729.0,Active
+e142cf80-f3d3-4298-8437-b276e5420855,,Loan,,,,3.76,2021-05-28,508.0,Closed
+35d1ea03-eafb-465a-bb56-e10048cfcbee,Mr. Allen Bolton III,Loan,80535.25,USD,London,3.77,2016-02-08,722.0,Active
+41533868-8f1a-4101-8040-439ba00db2b7,Drew Jones DVM,,3375.62,JPY,Berlin,4.47,2019-05-20,427.0,Suspended
+9ff38a21-e64a-43cd-8acb-f97c6e55a327,Joshua Bailey,Savings,60760.87,INR,Berlin,,2016-06-01,,Closed
+7ad8c8e8-59a7-459d-99ec-200f1a3b868c,,Business,38175.27,,Berlin,2.84,2021-12-20,518.0,Closed
+,Megan Ortiz,Savings,67840.34,,,1.49,2017-09-20,346.0,Active
+c87c667d-6424-4d10-a137-209264c66967,Bradley Hawkins,Business,77490.65,USD,Berlin,4.69,2023-04-15,778.0,Closed
+aa57a62c-23a0-4e6e-a2bc-84ca9043803a,,Savings,18053.42,EUR,New York,6.23,2015-08-06,361.0,Suspended
+cb7fb7ff-a931-4e1f-848f-43a907d3dfbe,Bill Andrews,Loan,6819.57,GBP,,7.09,2024-08-24,568.0,Closed
+74c02b82-4675-4449-8738-57eb63232678,Christian Smith,Business,91225.21,USD,Berlin,7.27,2019-10-31,636.0,Suspended
+bcc2e6d0-8f7e-47c1-8252-6e82074f9682,Sara Burgess,Savings,26063.93,GBP,Mumbai,2.85,2018-12-09,,Suspended
+,Danielle Wilkerson,Loan,7645.07,INR,London,6.16,2022-09-25,462.0,Suspended
+be59a4bf-1362-44d9-94d3-eadc648829a8,,Business,98084.29,EUR,New York,2.83,2025-02-28,847.0,Closed
+95cf1f0d-f059-4a7b-bc02-8619ad96009a,James Hill,,86837.12,JPY,Berlin,3.32,2015-11-26,550.0,Active
+8ba21052-bf1d-47e1-b749-0961e3a4f7bc,Dakota Roberts,Checking,,INR,,4.68,2024-05-03,489.0,Closed
+a230d975-e89c-4483-8873-1067f83b6c29,Sarah Walker,,26748.05,USD,Tokyo,4.7,2020-04-07,704.0,Active
+b9bd4bcb-acbf-4703-a421-be4246bdaf0d,Amy Rogers,Checking,25321.42,GBP,Mumbai,5.88,2023-07-11,586.0,Suspended
+,Jimmy Martinez,Business,52631.83,USD,Berlin,5.99,2024-08-02,597.0,Suspended
+755f9d6d-77b9-4129-a2f9-6b8e63247aec,Amanda Wilson,,17218.58,INR,Tokyo,5.49,2016-04-20,410.0,Active
+ebab8e3d-3482-458d-a64b-4e097953c2cc,Cody Webster,Loan,25473.66,EUR,Mumbai,6.82,2022-06-25,484.0,Closed
+66871457-d99f-43a5-bbc2-810883ffdb84,Sabrina Brennan,Business,32428.35,JPY,New York,4.67,2025-05-07,459.0,Active
+4b5890bf-ee76-4b40-827a-713a446a35ff,John Smith,Checking,20813.01,,Mumbai,5.07,2017-12-01,479.0,Suspended
+e58a6ef3-425b-4af0-8608-4389909f73a0,Kathy Norton,Loan,80937.45,GBP,Tokyo,1.33,2020-09-05,498.0,Closed
+b1c2f010-ea33-407c-944c-51b946bd1f46,Natasha Hernandez,Business,46418.34,JPY,New York,2.48,2019-10-30,334.0,Suspended
+,Candace Jones,Checking,46684.66,GBP,Berlin,4.88,2024-05-13,441.0,Active
+cdd29a2b-1025-4532-9e80-6bd291166c2e,Jonathan Smith,Savings,52352.27,GBP,New York,2.28,2018-04-09,477.0,Suspended
+0580b255-6164-4ba3-b853-c6ca6b564d15,Christina Johnson,Checking,49363.6,JPY,Berlin,5.85,2016-09-20,,Suspended
+6743545f-3dd0-4bcd-b1c0-0e8ea6b95fd9,Dakota Gallegos,Loan,70513.55,GBP,Tokyo,1.78,2022-10-18,594.0,Closed
+5bb202e3-10c0-4512-bdda-43b7ed025886,,Business,73152.21,USD,New York,4.56,,340.0,
+0e29eb52-1f56-4c59-a2bd-4c671ca255b4,Kyle Lawrence,Loan,54165.99,INR,Tokyo,2.36,2022-02-24,577.0,Active
+ba33d7c3-6013-43ea-9a30-a1ed22116df2,Paul Randall,,66013.71,INR,London,5.71,2015-11-29,408.0,Suspended
+2e50144d-626e-4d68-a020-9545e283b1fa,Edwin Brown,Checking,7092.96,JPY,Mumbai,,2016-07-11,755.0,Closed
+,Tracy Moore DDS,Savings,86048.75,USD,Berlin,6.83,2016-02-12,472.0,Active
+43516b40-753a-4813-8338-5c501bd8fe8d,Courtney Lee,Checking,95842.9,JPY,Mumbai,4.14,2019-09-01,397.0,Closed
+ae917ef6-d184-4517-9e0e-c275aea4b54f,Amanda Lewis,Business,11522.98,GBP,Mumbai,6.21,2020-11-01,,Closed
+85efe482-4f41-4c1c-a37b-d73344661876,Wendy Davenport,Checking,52413.11,EUR,Berlin,5.95,2022-12-14,815.0,Active
+38bbc724-263b-45f4-af3a-44ac8abaadb3,,Checking,57407.6,EUR,Tokyo,5.38,2016-05-29,,Suspended
+c9a98968-17d0-4945-ad12-4e882c4eacb4,Tom Reynolds,Loan,35878.61,INR,,7.31,2020-10-09,691.0,Closed
+b719278e-4a1b-4b27-8cfa-559da69495ee,Christopher Harmon,Business,51825.18,JPY,Mumbai,5.5,2018-03-12,533.0,Suspended
+,Linda Jenkins,Checking,73286.73,EUR,London,3.09,2017-08-12,671.0,Closed
+5341425e-b39c-481d-839b-1e8bf84283f6,Paul Newton,Loan,73861.71,INR,New York,1.39,2019-12-28,716.0,
+8c1f3038-b670-4a5f-86ac-2af9885c35a0,Paul Robinson,Savings,77154.85,INR,Berlin,6.02,2019-09-21,505.0,Closed
+82ecb641-0974-4d20-9360-a30403bb575b,Angela Santiago,Business,28031.52,EUR,Mumbai,1.46,2019-02-16,312.0,Closed
+235b7fd7-d291-4a13-adc2-d6c6fd40e125,Whitney Murphy,Savings,33734.52,USD,London,6.22,2025-06-13,694.0,Suspended
+755c894e-8cfd-4e19-b949-cd7d8f27855d,Derek Robinson,,14117.7,JPY,London,2.21,2018-07-14,752.0,Active
+b8ad2017-ed00-459e-9ee9-d853981c4c63,Heather Shaw,Business,,EUR,New York,2.21,2022-01-11,757.0,Closed
+d1a49d02-045c-4a99-984d-e8ac7cddd445,Jessica Owens,Checking,81714.85,,Tokyo,5.93,2020-03-06,300.0,Closed
+aa9b7b41-8e2c-4b6b-bfdd-477c972749ae,George Pittman,Savings,19820.53,GBP,London,6.59,2017-01-27,674.0,Suspended
+5af7b5f7-b4af-468a-8667-c37f20b30ae2,Aaron Cantrell,Loan,3851.57,JPY,London,2.94,2021-09-25,759.0,
+721242ee-b567-4f01-8587-617f2f8444c9,Donna Callahan,Business,91226.68,INR,Mumbai,,2022-02-05,403.0,Active
+,Kevin Brown,,79221.1,USD,,6.23,2017-01-27,358.0,
+6b97c4cf-8022-4bb8-8d15-0a79380a5a07,Robert Bennett,Savings,63460.8,INR,Mumbai,3.46,2022-05-06,401.0,Suspended
+,Alvin Henry,Savings,1678.57,JPY,New York,1.11,2018-05-19,375.0,Closed
+524e4ab0-9615-4cc8-a71e-0607b2404717,,Checking,,JPY,Mumbai,1.19,2023-04-28,362.0,Suspended
+,Sean Curtis,Checking,51992.07,GBP,Tokyo,4.87,2021-10-03,,Closed
+35d9e4bf-f63b-489f-ada8-5b7f53d84a91,,Checking,3766.45,INR,New York,7.05,2022-10-25,417.0,Active
+ae0c1222-85f9-4e10-887d-288c46b252c7,Daniel Martin,,,GBP,Tokyo,4.53,2020-03-13,,Suspended
+81c92c1e-6e81-413a-a1df-4c0a894ec81f,Corey Graves,Business,74302.25,JPY,London,7.3,2018-02-25,,
+a7888f2c-50ab-4a91-aa01-1fec1bf6ea01,,,50873.45,INR,New York,3.06,2021-08-11,474.0,
+5c3195df-0584-4aa2-b3a1-8bb7ed000bf4,Timothy Howell,Savings,36471.09,USD,,1.02,2023-02-25,385.0,
+9c8e99bf-f74a-48c3-b489-2b31cccafc08,Deborah Williams,Loan,72155.58,JPY,Berlin,3.84,2023-08-18,841.0,Closed
+f13f0d97-3561-46a6-9269-485c91761b37,Courtney King,Savings,30811.8,GBP,London,3.8,,774.0,Closed
+61bb6695-dae8-4e08-ac1f-2a03b56a25f0,Philip Greene,Checking,52219.55,USD,London,4.55,2022-08-12,581.0,Suspended
+01aa7c1a-7d86-41ad-acc7-6323fa258188,James Davenport,Business,57293.9,JPY,Tokyo,2.16,2025-05-21,547.0,Active
+,William Mccarthy,Savings,57997.82,INR,Berlin,5.52,2020-08-11,372.0,Closed
+682c521b-a96f-4b20-a561-43c8d922357b,Mark Graham,,90906.7,GBP,London,,2021-08-20,627.0,
+ee3b6fc3-20b2-40f0-94a4-034c7baa52f7,Shaun Le MD,Savings,41926.27,USD,Mumbai,5.66,,616.0,Active
+f9ef7009-318f-4693-a06a-7dd3234c700f,Roger Gutierrez,Loan,71224.84,GBP,Tokyo,5.32,2024-03-20,832.0,Closed
+,Jennifer Miller,Checking,15769.12,USD,Tokyo,4.82,2018-10-17,812.0,Closed
+09e9db0c-a502-4592-ac99-fd66aef844be,,Loan,24668.09,INR,Mumbai,6.95,2023-02-15,624.0,Active
+,Kristen Shaffer,Savings,36164.14,JPY,London,5.59,2024-09-21,714.0,Suspended
+2f283f3c-bcc4-414f-82a0-43d1bc89fb65,Douglas Petersen DDS,,37050.1,GBP,London,5.67,2017-01-31,,Active
+cf2d40fd-69cd-42d7-bc5b-5c78009e3ae4,Amanda Preston,,,USD,Berlin,,2022-02-24,343.0,Active
+b4f4851c-41c6-4609-a5f9-a19058c3086c,David Schultz,Savings,49101.08,USD,New York,2.66,2016-04-06,558.0,Suspended
+2375f8bd-42e8-4b6c-83cf-3d04cf665956,Linda Garcia,Savings,2803.04,JPY,,4.62,2017-11-21,601.0,Closed
+9c5dee6c-3a08-43d6-a8e3-23280a92046b,Robert Robinson,Business,22689.12,,Tokyo,6.17,2022-10-02,813.0,Active
+a65a0823-90b2-44df-8205-85badeb6f50f,Mr. Zachary Davis II,Loan,2703.42,EUR,Berlin,2.08,2022-03-28,337.0,Suspended
+,Jennifer Mejia,Savings,9116.8,JPY,London,2.32,,656.0,
+5ed54cd0-fcd0-4f41-81c9-95f6638202a2,,Checking,43022.62,,,1.42,2020-03-09,507.0,Closed
+949ce79c-eea3-495a-bc72-d0aee0113f99,Amy Moore,Business,,JPY,London,4.57,2021-01-14,462.0,Suspended
+fddef9f4-f29f-4712-b0a5-e96476563c7d,,Business,82821.46,JPY,Tokyo,4.89,2017-02-19,765.0,Active
+62250df7-be04-41a8-9b17-130551b93e2a,Shaun Carr,Business,23409.2,JPY,Berlin,4.61,2019-11-13,692.0,Active
+af3f4cae-18a0-443f-a5d7-474ea0388fee,Debbie Martinez,Checking,37148.34,INR,Berlin,2.48,2017-09-14,,Active
+8cf0b1e5-3624-4963-91e5-396ca8c4bd2c,Lauren Duran,Checking,29868.44,JPY,Tokyo,4.8,2016-06-14,383.0,Suspended
+3dca7dab-51c1-4186-a894-194f8bc2e02c,Tiffany Ramirez,Savings,52111.34,GBP,Tokyo,,2023-12-08,712.0,Active
+1e6341f4-a9cb-4a9d-9312-ac7a6c70aea8,Michael Hodges,Loan,53204.81,,Tokyo,1.91,2017-01-12,381.0,Closed
+15e8cfab-e218-431b-9ded-6457149cc2a0,Stephanie Campbell,Checking,27599.32,,New York,2.12,2015-10-22,522.0,Active
+0d4816da-3062-4161-87c3-9de7fa145e2f,Laura King,Savings,77779.06,USD,London,5.45,2015-09-21,515.0,Suspended
+899ea4b2-3486-4c44-82ff-dd721ea69b77,Eric Huff,Business,37728.84,INR,Tokyo,6.88,2017-05-19,655.0,Active
+37a82949-b125-485b-981f-d77b336e81c9,Jennifer Weber,Savings,41099.14,USD,Tokyo,1.71,2023-05-19,657.0,Active
+afcc89b5-4f4e-492c-a4bd-aae717b68b34,Gabriel Morales,Checking,44550.6,GBP,Berlin,5.67,2018-08-14,406.0,Active
+6603eb33-d496-41f2-b308-85097439a0a3,Brandi Hernandez,Checking,69240.93,EUR,New York,3.66,,329.0,Active
+3b4f3634-72aa-4040-a2dd-262eee570a75,Allison Pierce,Loan,66366.54,INR,Tokyo,6.58,2021-07-19,767.0,Suspended
+,James Mason,Loan,17019.12,,Tokyo,2.8,2020-08-08,800.0,Closed
+1f7e1e03-a499-4cf6-a7b5-4d174dc7fd56,,Savings,,,Tokyo,2.04,2022-08-28,558.0,Suspended
+e05cbca3-f267-4d7d-b038-888273a2c156,,Loan,20880.86,JPY,Tokyo,2.61,2018-03-03,587.0,Active
+7350177b-df8f-40aa-9bfd-c7ea89d54ca9,Susan Johnson,Checking,97052.23,GBP,London,1.45,2024-11-25,535.0,Active
+9de268ac-3f71-4dd2-bb2c-ec480f527dd0,,Loan,36640.19,EUR,Mumbai,1.86,2020-06-26,787.0,Active
+8a799a58-8ecb-4369-a621-555e7c9d7f1a,,Business,,JPY,,6.57,,621.0,Closed
+ff274ff2-b5e6-492e-854a-8408113ffbdb,Charles Thomas,Business,11128.7,USD,Tokyo,,,743.0,Suspended
+a195f27f-9b0e-4fac-ba6f-73f651c4cf61,Alexander Olsen,,52980.23,JPY,London,,2023-03-24,796.0,Suspended
+453c28b8-7609-42ec-b4ad-05b7af8cebc8,Andrew Barron,Checking,67343.13,GBP,Tokyo,1.99,2016-11-21,447.0,Closed
+69306c05-e6e3-47bc-a22c-7ea8092bfb5c,Paul Fisher,Checking,98033.07,JPY,Tokyo,5.23,2022-08-21,785.0,Suspended
+4e3b40eb-cbf0-44a3-821d-27f959a6641f,Joseph Walker,Checking,,INR,,5.48,2016-05-03,689.0,Active
+78f6b29c-c77c-4620-b044-13b3ebb8f737,Kelly Blake,Savings,,USD,Berlin,7.07,2021-09-14,308.0,Suspended
+6bd5de10-904a-4b1c-a323-a3f2abd25c46,Michael Petersen,Checking,30421.62,,Berlin,2.81,2021-02-25,495.0,Active
+7c3c4c8d-986f-4419-8059-b48143b6c5ac,Paul Parker,Checking,7442.03,JPY,,2.25,2025-03-14,597.0,Active
+cbc78826-1f16-4c67-8e6b-c2cf8022e9a0,Kenneth Larson,Savings,9524.21,JPY,Mumbai,1.6,2016-11-15,433.0,Suspended
+f6a6c514-fe52-4521-85fc-575ab4cb7062,Richard Williams,Savings,99052.72,USD,Mumbai,1.4,2024-02-27,,Active
+da176792-31fd-443d-835d-eff21da9d699,Nicholas Clark,Business,,EUR,London,5.54,2021-09-09,557.0,Closed
+422ef18b-b4e1-4d7a-84e9-0739c9f451dc,Barbara Phillips,Loan,55003.54,JPY,,6.66,2018-12-06,790.0,Suspended
+96c01bbb-b87c-4098-a77e-133247d62de7,Richard Zimmerman,Savings,74136.54,GBP,Tokyo,3.16,2018-09-07,340.0,Closed
+17b01cb4-90c8-47ea-9859-2e7e4a8c11a8,John Kim,Checking,95377.65,INR,Berlin,3.25,2018-05-08,726.0,Closed
+2713728a-0658-4726-aede-f401467f7fb3,Thomas Wells,Business,51566.93,INR,Mumbai,2.32,2017-12-22,542.0,
+56622932-5645-4b89-bcc1-7bf8f70c7012,Diana Parker,Savings,53404.51,GBP,Tokyo,7.18,2022-03-13,425.0,Closed
+68438af7-8038-4d66-8619-f3ba746ada02,Tamara Smith,Checking,1283.51,GBP,,,2015-11-01,722.0,Active
+b7f7f31c-db9f-4793-aa72-487b4669f3df,Angela Avila,Loan,63352.27,JPY,Mumbai,5.56,2022-04-14,,Closed
+40558c7a-464e-41f8-8bce-8e10edc4c335,Chelsea Warren,Checking,90692.09,GBP,Tokyo,3.87,,344.0,Closed
+08c1b7a4-9c53-4bac-95d8-19846d534949,Alyssa Garcia,Savings,48459.09,GBP,,7.23,2019-10-24,415.0,
+f8fd2ce0-aa8a-41bd-bac3-0094d6aae135,William Brewer,Checking,53479.62,,New York,2.85,2018-04-21,434.0,Closed
+338dc32c-e4dd-4bfa-8c90-26eb2a6dcc2e,Michael Young,,18050.35,JPY,New York,5.88,2022-02-16,604.0,Active
+7a2bd97e-c224-4aad-866a-e500ce16c1ff,John Crawford,,56301.79,INR,Tokyo,2.26,2024-06-16,,Active
+9712cb0a-67b4-4955-94c3-74188ce74097,Elizabeth Levy,Checking,28214.51,USD,Mumbai,4.7,2024-01-19,741.0,Suspended
+532b471a-9ddc-4a1a-8974-d1b0c3d9ddb9,Chad Byrd,Checking,85882.33,USD,London,6.17,2019-04-19,354.0,Closed
+93c02009-5944-4a5e-b16f-c0ba425c14f2,Shawn Garcia,Loan,80141.52,GBP,New York,3.97,2017-11-25,745.0,
+3eeba945-e6af-48ad-935c-eed02f3be645,Christopher Johnson,Checking,10365.72,JPY,Tokyo,5.88,2017-09-11,664.0,Active
+4cbfd80c-1183-4d48-999b-5318a72ec5a4,Courtney Hood,Checking,93312.07,GBP,Berlin,1.81,2025-03-19,773.0,Suspended
+4a668bcc-cd15-477d-8dd2-0146b79f09c3,Charles Anderson,Loan,1761.19,USD,Berlin,3.08,2017-06-25,625.0,Suspended
+3a98c0b5-bac9-4c4d-a057-5f68023fac62,,Savings,65909.31,JPY,London,,2020-08-06,475.0,Active
+46cd353b-7938-49de-b19d-d7a56d47b826,Isaac Williams,Loan,68481.52,JPY,New York,2.1,2016-05-31,759.0,Closed
+2fe0ea8a-0d84-4718-a666-594d3132e335,Bobby Hill,Business,,,Tokyo,4.3,2018-04-24,313.0,Active
+458c1c0d-7464-4de0-a9e0-58670f95002d,Anna Davidson,Savings,36629.63,EUR,London,7.31,2021-12-28,350.0,Closed
+f4b35c11-398e-4ec4-9a6b-0ad3fb6423b4,Dennis Lewis,,56151.91,EUR,Tokyo,,2021-12-14,429.0,Closed
+,Phillip Thompson,Business,56120.94,EUR,Berlin,7.33,2023-03-11,774.0,
+e52c756f-2166-4188-8dff-abf621001cc7,David Powell,Checking,50470.55,JPY,,3.99,2022-01-09,838.0,Suspended
+c8ac9ed7-3f37-4ee2-a25b-6abc19346c38,Phillip James,,73814.86,USD,Mumbai,6.9,,,Closed
+48faede8-5329-4a5c-ba18-764da356b8d1,Jennifer Baker,Loan,35986.65,GBP,,5.61,2019-11-16,753.0,Active
+1d90bfca-bbed-4d87-84a5-40ed1f1aab31,David Oneill,Loan,,INR,Berlin,5.73,2017-03-17,597.0,Closed
+8e58e394-ec7c-45ec-97f5-1f5a713969f6,Gregory Greene,Business,26351.59,GBP,,1.98,,517.0,
+ec6f83a9-32ce-4398-8e13-304a3843aec0,John Gray,Savings,14970.88,INR,London,2.35,2015-10-04,770.0,Active
+34ea72da-3f7d-4656-860b-1e12cf5acefe,,Savings,99306.49,USD,Mumbai,2.62,2017-10-16,510.0,Active
+c97ee424-e54f-4bd8-8327-185754bcf2ab,Elizabeth Banks,Savings,90426.04,GBP,Tokyo,6.8,2016-07-24,313.0,Active
+62377c45-c7c4-45a2-9d22-9c21fc41083c,,Savings,66963.24,JPY,,7.14,2016-03-20,753.0,Closed
+b495328d-8759-419d-bb85-7ac210df5ab6,,,9103.71,,New York,1.41,2024-05-12,,
+599c1304-4dfb-480b-a437-d754824461ce,,Savings,51660.64,INR,New York,4.76,2021-03-03,528.0,Closed
+6102b472-7da7-4076-b27f-d4297bbe72ed,Mckenzie Simon,,36527.15,,New York,3.07,2021-01-18,789.0,Active
+90cbdd2b-3e30-4c96-8c2f-b0812f910b1a,Elizabeth Clark,Business,22401.1,USD,New York,5.98,,560.0,Active
+b4e4ecb2-41ae-4cba-bed0-097fa1575301,,Savings,34575.2,JPY,Berlin,1.33,2016-11-13,483.0,
+c94dcd2a-1660-4127-9523-a3b6a95d0a46,,Checking,10483.37,USD,Berlin,6.97,2022-09-19,629.0,Active
+0a98de1f-f2a6-4bfe-968b-aba89bd8a324,,,32043.81,GBP,Berlin,6.96,2020-01-22,487.0,Closed
+340d639e-b8d2-4515-956b-8795b0e598c0,Thomas Sullivan,Checking,,GBP,Tokyo,2.57,2016-03-22,661.0,Closed
+,Mary Meyers,Loan,59985.22,USD,Tokyo,5.09,2025-06-03,363.0,Closed
+172d3016-025f-400b-bb8e-15a8ec856ca6,Mrs. Tiffany Mcintyre,,69815.77,INR,Berlin,4.48,2019-07-10,803.0,Active
+5e10ed84-0cdd-4f97-8363-e575a4004bd9,Jimmy Roberts,Checking,81168.6,,Mumbai,1.78,,481.0,Active
+63e2e2d9-b6c8-49f4-9fd3-cc228a8717d5,,Loan,36209.04,JPY,,1.64,2019-05-06,459.0,Closed
+,Joshua Norton,Savings,4617.35,GBP,London,2.9,2019-03-01,625.0,Suspended
+acad7df1-66f3-42df-a7e3-0d41aa313bcb,Vicki Hooper,Savings,74649.96,INR,Berlin,2.18,2018-10-03,538.0,
+4a82aabd-3f8c-4c0f-9493-98094490af57,Tina Coleman,Loan,,USD,London,3.03,2024-02-12,367.0,Active
+3f593cb3-3345-437c-b22e-c3f88c190aef,Jessica Perez,Loan,26965.82,INR,,1.84,,440.0,Suspended
+360a347e-a06f-4462-95b3-cdde02bc0173,George Hines,Business,4430.69,JPY,Berlin,3.64,2021-11-04,515.0,Closed
+23bb7d75-3dea-4f3c-be2b-27a87672936b,Kara Welch,Loan,86011.95,INR,Mumbai,2.52,2022-10-23,,Active
+4521a6d2-ab8e-4906-9191-cc3e5eaafb64,Tammie Huang,Checking,44276.42,GBP,Berlin,5.26,2020-11-09,,Closed
+2b98ff69-b5e6-4afb-a245-5a1f8c2dc8c8,Amy Anderson,Savings,67609.72,JPY,Tokyo,3.2,,568.0,Closed
+aea5ab69-4724-4688-b21e-6e1a045c5d48,Jennifer Ortiz,Checking,77644.94,INR,Berlin,3.4,2021-11-26,437.0,
+fc89ad27-d896-49ac-8c86-828716b1cdbd,Patricia Jackson,Loan,,GBP,New York,6.47,2024-11-05,671.0,Active
+53d26d7a-aed3-4e62-9343-3235b24abd11,Austin Diaz,Savings,24765.39,USD,Tokyo,1.16,2021-03-08,837.0,Closed
+bc8dce78-6fb5-464e-99a0-ad4c7000e257,Stacy Hughes,Loan,43750.92,JPY,Mumbai,1.83,2021-04-03,310.0,Active
+1f8e404b-4513-47b6-a92d-3e454d52a790,,,64143.33,EUR,,1.74,,523.0,
+b1ea01e8-e0f5-467c-a78e-6987f927bb5e,Kaylee Dyer,Loan,19534.48,EUR,Mumbai,7.34,2018-04-08,,Suspended
+45806cc0-a404-4232-a0fd-d9a4783ee85b,Jennifer Thompson,Checking,82108.81,USD,New York,3.38,,622.0,Active
+08f2a735-90a5-4638-a30d-13b56211f65c,Lacey Flores,Savings,,USD,Mumbai,,2019-09-23,462.0,Closed
+84b0459d-2c0f-422b-9e06-782c1a50e567,Nicole Coleman,Loan,57848.26,EUR,Mumbai,1.29,2025-03-16,448.0,Closed
+32868ee8-a811-40af-83f7-41554f8e0606,Samantha Reyes,Loan,60604.54,INR,New York,3.73,2017-08-04,670.0,Suspended
+b62dc620-aa99-436a-9e56-81c40aa3e9bd,,Business,51354.22,EUR,Berlin,6.08,2021-01-21,657.0,Active
+9403cb2c-0dda-4dec-80bc-7c2374ea39f5,Theresa Powell,Checking,59038.88,JPY,Berlin,1.93,2020-12-18,487.0,Active
+299858de-dbfc-4f3b-90ee-e591b62909b8,Michelle Cox,Business,12600.84,EUR,Berlin,6.3,2020-12-13,634.0,Suspended
+43d361e4-88bc-4cd9-bc24-ef4614ed07de,Lydia Bridges,Savings,60220.57,EUR,Berlin,1.42,2019-06-30,685.0,
+79c48915-2ced-49ba-aaeb-2fb80d0e74ef,Todd Marshall,Savings,9132.97,GBP,London,1.43,2023-03-27,,Closed
+f9763296-52ca-4800-a874-89bc7c617b9b,Stacey Barker,Business,31831.58,INR,Tokyo,6.69,2021-05-30,766.0,Suspended
+a5043bbf-f696-48e6-bc3a-36c38d44b9f2,Jeffrey Obrien,Loan,,,Tokyo,6.78,2017-05-05,,Suspended
+,Lindsay Johnson MD,Business,38454.29,USD,London,6.04,2019-05-05,759.0,Closed
+09341cf4-4a38-4dc2-8db8-32dda2853aca,Michele Thompson,Checking,33399.35,INR,London,1.76,2020-07-04,356.0,Suspended
+14fb6ad7-c2f0-419d-b6f8-22e579535ea0,Ashley Reyes,Savings,84231.22,USD,New York,6.95,2021-11-18,515.0,Closed
+,Kimberly Howell,Business,65926.51,USD,Berlin,3.07,2016-11-15,317.0,Closed
+ca8098ff-dadf-4c6e-acbb-743f339f5def,,Checking,41842.15,INR,Berlin,1.15,,394.0,Closed
+9081a679-1954-4c88-a7e1-456b64f93da4,Jessica Bennett,Business,,GBP,Berlin,6.93,2023-03-31,503.0,Closed
+51c32628-9f2f-46b9-ba20-8a6e37ce5e1e,,Checking,43264.94,,Berlin,2.84,2018-03-28,396.0,
+de751358-e7f9-4808-a53e-1a20879f77b7,Brad Alexander,Checking,43676.06,,Berlin,,2022-06-13,315.0,Closed
+,Todd Brown,Checking,95497.59,,New York,4.72,,,Active
+98be67f0-9b1a-4514-ab34-30fc8b6cca56,Brittany Palmer,Checking,18287.09,INR,Mumbai,5.54,2025-04-14,369.0,Closed
+9264ac81-ddc6-4980-9df4-f10dfe49ef14,Samantha Gill,Loan,,INR,Tokyo,5.9,2020-07-25,796.0,Suspended
+9d5d7d30-c60e-429b-9e3c-5e3bbf20ae7c,Thomas Lloyd,Loan,,JPY,Mumbai,4.49,,713.0,Closed
+40b55d6d-2136-48e5-8bd9-e6a5f5ff4621,David Villegas,Business,30143.06,INR,Berlin,,2018-08-12,431.0,Closed
+,Scott Perez,Savings,33677.38,JPY,Mumbai,2.77,2022-10-18,,
+4bcc3347-ed89-4b10-b159-4997f2c248d5,Carolyn Neal,Savings,72733.53,JPY,Tokyo,5.64,2016-09-12,515.0,
+80b18082-d226-49ed-a8a7-cb558c57e8e9,Bryan Mendez,Checking,92492.39,EUR,Berlin,4.34,2019-11-08,,Active
+9bcd7993-6747-4924-882a-654c2f61f26b,Jade Bowman,Business,26155.09,GBP,Berlin,1.88,2021-02-06,666.0,Active
+64bc14c8-b1eb-4467-92eb-a0acf291dd84,Evan Johnson,Loan,88549.18,JPY,Berlin,3.09,2019-04-07,399.0,Active
+,Julie Molina,Checking,10306.45,GBP,,,,343.0,Suspended
+a6b098ea-bbf5-4b75-b7d9-91a7f68f539a,Cynthia Gray,Loan,29994.11,INR,London,,2021-02-23,448.0,Active
+ca45e9eb-96b9-4f0b-87c6-ebd1b3e5f19e,Amanda Butler,Savings,79152.49,,London,2.02,2015-07-20,545.0,Closed
+59d09dcb-4d4b-4c88-beef-c9cdef250ebd,Lori Lopez,Business,27755.23,EUR,New York,3.85,2023-03-13,400.0,Active
+f2932ee1-8955-42de-8a62-08ececdd3d07,Bradley Walls,Checking,50896.23,INR,,2.7,2019-09-30,494.0,Active
+d600ecc0-e2bc-42d7-a7b1-1424e8f41a3f,Kimberly Solis,Checking,25406.28,INR,London,2.72,2020-10-25,412.0,Suspended
+0aa765bd-3ca3-4f7b-9787-c890832fe913,,Savings,33067.52,INR,Mumbai,5.2,2017-06-29,687.0,
+4e68a5cb-815a-411d-93de-e6c5aac45e3d,Scott Schneider,Business,40360.72,JPY,New York,5.06,,389.0,Active
+cc59c09f-5053-4e11-9ef8-d4b0e63773ef,Rachel Molina,Business,29324.56,INR,Mumbai,1.1,2021-09-17,826.0,Suspended

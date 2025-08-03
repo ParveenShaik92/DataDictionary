@@ -3,15 +3,16 @@ import pandas as pd
 import numpy as np
 from collections import defaultdict
 from collections import Counter
-from pprint import pprint
+import math
 
 import utils.helpers as dd_helpers
 import utils.custom_ner_components as dd_ner_components
+import utils.dd_genai as dd_genai
 
 from transformers import pipeline
 
 # pip install scikit-learn
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import StratifiedShuffleSplit
 
 
 def data_processor(data: list, columns: list) -> list:
@@ -32,50 +33,62 @@ def data_processor(data: list, columns: list) -> list:
     
     # Finding missing count.
     missing_counts = df.isnull().sum()
-    output.append({"missing_counts": missing_counts.to_dict()})
+    max_missing_count = max(missing_counts.to_dict().values())
+    output.append({"Missing_Column_values_Count": missing_counts})
 
-    # Use threshold-based categorical detection
+    # Use dynamic threshold-based categorical detection
     threshold = dynamic_threshold_percentile(df)
-    output.append({"Detected_threshold": threshold})
-    categorical_cols = detect_categorical_by_uniqueness(df, threshold)
-    output.append({"categorical_columns": categorical_cols})
-
-    # Find Stratified Sample for each categorial cols
-    samples = stratified_samples_by_missing_count(df,categorical_cols)
-    samples_serialized = {
-        col: df_sample.to_dict(orient="records")
-        for col, df_sample in samples.items()
-    }
-    output.append({"stratified_sample": samples_serialized})
+    output.append({"Detected_Threshold": threshold})
+    categorical_cols = detect_categorical_by_dynamic_threshold(df, threshold)
+    output.append({"Categorical_Columns": categorical_cols})
 
     # Get stratified_sample group by all categorial cols.
-    groupBySamples = get_stratified_sample_groupby(df,categorical_cols)
-    output.append({"stratified_sample_groupby": groupBySamples})
-
+    StratifiedSamples = get_stratified_sample_using_categorical_cols(df, categorical_cols, max_missing_count)
+    #output.append({"Stratified_Samples": StratifiedSamples})
+    
     # Fill the missing values in categorial cols
-    output_df = df.copy()
-    for col, samples_data in samples_serialized.items():
-        if samples_data:
-            output_df = fill_missing_categorical_with_sample(output_df, col, samples_data)
-
-    # Get Stratified Sample for each cols which are not categorial cols
-    nonCategorialColumnSamples = {}
     for col in df.columns:
-        samplesData = stratified_sample_by_column(df, col)
-        samples_json_ready = samplesData.to_dict(orient="records")
-        nonCategorialColumnSamples[col]= samples_json_ready
-    output.append({"nonCategorialColumnSamples" : nonCategorialColumnSamples})
+        if col in StratifiedSamples.columns:
+            df = fill_missing_categorical_with_sample(df, col, StratifiedSamples)
+    df.to_csv("output_processed.csv", index=False, na_rep="NULL", encoding="utf-8")
 
-    # Fill the missing values using non categorical cols sample data.
-    for col, samples_data in nonCategorialColumnSamples.items():
-        if samples_data:
-            output_df = fill_missing_categorical_with_sample(output_df, col, samples_data)
+    # Get AI sample from the processed dataset.
+    AI_sample_count = len(df) * (5/100)
+    AI_samples = get_stratified_sample_using_categorical_cols(df, categorical_cols, AI_sample_count)
+    print(AI_samples)
+    output.append({"AI_Samples": AI_samples})
 
-    output_df.to_csv("output_process.csv", index=False, na_rep="NULL", encoding="utf-8")
+    # AI-based summaries for the dataset
+    # Prepare a Prompt for the Entire Dataset
+    AISummary = {}
+    dataset_summary_prompt = (
+            "Analyze the following dataset structure and generate an overall summary or description:\n\n"
+                f"{AI_samples.to_string(index=False)}\n\n"
+                "Please describe the overall theme or content of this dataset."
+            )
+    #print(dataset_summary_prompt)
+    response = dd_genai.get_gemini_response(dataset_summary_prompt)
+    AISummary["dataset"] = response
+    output.append({"AI_Dataset_Summary": AISummary})
+
+    # Generate Summaries for Individual Columns
+    AISummary = {}
+    for column in AI_samples.columns:
+        column_sample = AI_samples[column].dropna().astype(str).unique()[:10]
+        values_text = ", ".join(column_sample)
+        column_prompt = (
+            f"Based on the sample values: {values_text}, "
+            f"provide a brief description of what the column '{column}' likely represents in the dataset."
+        )
+        column_description = dd_genai.get_gemini_response(column_prompt)
+        AISummary[column] = column_description
+        #print(f"\nDescription for column '{column}':\n{column_description}")
+
+    output.append({"AI_Columns_Summary": AISummary})
 
     # Finding inferred types
     inferred_types = {col: dd_helpers.infer_column_type(df[col]) for col in df.columns}
-    output.append({"inferred_types": inferred_types})
+    output.append({"Inferred_Types": inferred_types})
 
     # Finding the column descriptions
     for col in df.columns:
@@ -85,8 +98,7 @@ def data_processor(data: list, columns: list) -> list:
             except:
                 pass
     summary = df.describe(include='all')
-    summary_clean = summary.fillna("").astype(str).to_dict()
-    output.append({"data_description": summary_clean})
+    output.append({"Column_Descriptions": summary})
 
     # Detecting NER for cloumns and rows.
     col_ents = defaultdict(list)
@@ -126,22 +138,18 @@ def data_processor(data: list, columns: list) -> list:
             # pprint(col_ents)
         print("-", end='', flush=True)
 
-    output.append({"detected_ner_column": {key: Counter(value).most_common(1) for key, value in col_ents.items()}})
+    detectedNER = {key: Counter(value).most_common(1) for key, value in col_ents.items()}
+    output.append({"Column_NERs": detectedNER })
+    
 
     # Detect Dataset descripton.
     print('\n')
     print('Detecting provided dataset metadata')
     row_ents_count = Counter(row_ents)
-    output.append({"detected_ner_rows": row_ents_count })
-    #pprint(row_ents_count);
-    output.append({"detected_dataset": infer_csv_topic_zero_shot_batch(df, columns, row_ents_count)})
+    output.append({"Rows_NERs": row_ents_count })
 
+    output.append({"Detected_Dataset": infer_csv_topic_zero_shot_batch(df, columns, row_ents_count)})
 
-#     for index, (key, value)  in enumerate(col_ents.items()):
-#         lable_count = Counter(value)
-#         print(f"Detected Entity Type for {key}")
-#         print(lable_count.most_common(1))
-    # Return processed data
     return output
 
 
@@ -200,7 +208,7 @@ def infer_csv_topic_zero_shot_batch(df: pd.DataFrame, columns: list, ents: Count
         "common_label" : most_common_label, 
         "Count": Counter(predictions)
         }
-def detect_categorical_by_uniqueness(df: pd.DataFrame, threshold: float = 0.05) -> list:
+def detect_categorical_by_dynamic_threshold(df: pd.DataFrame, threshold: float = 0.05) -> list:
     """
     Detects categorical columns using a uniqueness ratio heuristic:
     Columns with (nunique / total rows) < threshold are treated as categorical.
@@ -213,126 +221,115 @@ def detect_categorical_by_uniqueness(df: pd.DataFrame, threshold: float = 0.05) 
         return []
 
     categorical_cols = []
-
     for col in df.columns:
         ratio = df[col].nunique(dropna=True) / len(df)
-        # print(f"Column: {col}")
-        # print(f"Unique values: {df[col].nunique(dropna=True)}")
-        # print(f"Total rows: {len(df)}")
-        # print(f"Ratio: {ratio:.4f}")
-        # print(f"Threshold: {threshold}")
-        # print("*****")
-        
         if ratio < threshold:
             categorical_cols.append(col)
-
     return categorical_cols
 
+# Calculates a dynamic threshold using the 25th percentile of column uniqueness ratios to categorical columns.
 def dynamic_threshold_percentile(df: pd.DataFrame) -> float:
     ratios = {
-    col: df[col].nunique(dropna=True) / len(df)
-    for col in df.columns
+        col: df[col].nunique(dropna=True) / len(df)
+        for col in df.columns
     }
     ratios_array = np.array(list(ratios.values()))
     threshold = np.percentile(ratios_array, 25)
     return threshold
 
-def stratified_samples_by_missing_count(df: pd.DataFrame, categorical_columns: list) -> dict:
+
+def get_stratified_sample_using_categorical_cols(df, strata_cols, min_samples=10):
     """
-    Generate stratified samples based on the number of missing values in each categorical column.
-    The sample size is equal to the number of missing values in that column.
-    
-    Parameters:
-    - df (pd.DataFrame): The input DataFrame.
-    - categorical_columns (list): List of categorical columns to stratify on.
-    
-    Returns:
-    - dict: Dictionary with column names as keys and stratified sample DataFrames as values.
-    """
-    samples = {}
-
-    for col in categorical_columns:
-        # Replace missing with "MISSING" and convert all to string for consistent stratification
-        stratify_col = df[col].fillna("MISSING").astype(str)
-        
-        # Count missing values
-        missing_count = (df[col].isna()).sum()
-
-        print(f"missing_count: {missing_count}")
-        
-        if missing_count == 0:
-            continue  # Skip columns with no missing data
-
-        # Use train_test_split to get a stratified sample
-        try:
-            sample_df, _ = train_test_split(
-                df,
-                train_size=missing_count,
-                stratify=stratify_col,
-                random_state=42
-            )
-            samples[col] = sample_df.reset_index(drop=True)
-        except ValueError as e:
-            print(f"Skipping column '{col}' due to stratification error: {e}")
-            samples[col] = pd.DataFrame()
-
-    return samples
-
-
-def get_stratified_sample_groupby(df, strata_cols, fraction=0.1):
-    """
-    Returns a JSON-serializable stratified sample from the DataFrame.
+    Returns a stratified sample using sklearn StratifiedShuffleSplit.
+    Falls back to group-wise ceil-based sampling if output is empty or too small.
 
     Parameters:
         df (pd.DataFrame): Input dataset
-        strata_cols (list): List of categorical columns to stratify by
-        fraction (float): Fraction to sample from each group (default: 0.1)
+        strata_cols (list): List of categorical columns used for stratification
+        min_samples (int): Minimum number of total samples to return
 
     Returns:
-        list: Stratified sampled records as list of dictionaries (JSON-serializable)
+        pd.DataFrame: Stratified sampled rows
     """
     try:
-        stratified_sample = df.groupby(strata_cols, group_keys=False)\
-                              .apply(lambda x: x.sample(frac=fraction, random_state=42, replace=True))\
-                              .reset_index(drop=True)
-        
-        # Check if result is DataFrame before filling NaNs
-        if isinstance(stratified_sample, pd.DataFrame):
-            stratified_sample = stratified_sample.fillna(value=None)
-            return stratified_sample.to_dict(orient='records')
-        else:
-            return []
+        if df.empty or not strata_cols:
+            return pd.DataFrame()
+
+        df = df.copy()
+        df = df[df[strata_cols].apply(lambda row: all(pd.notna(row)) and all(str(x).strip() != '' for x in row), axis=1)]
+        df['_strata'] = df[strata_cols].astype(str).agg('_'.join, axis=1)
+        total_rows = len(df)
+
+        # Step 1: Try StratifiedShuffleSplit
+        fraction = min(1.0, max(0.01, min_samples / total_rows))
+        #print(f"percentange : {fraction*100} %")
+        sss = StratifiedShuffleSplit(n_splits=1, test_size=fraction, random_state=42)
+
+        try:
+            for _, test_idx in sss.split(df, df['_strata']):
+                stratified_sample = df.iloc[test_idx].drop(columns='_strata')
+                if len(stratified_sample) >= min_samples:
+                    return stratified_sample
+        except Exception as e:
+            print(f"Fallback - group-wise ceil-based sampling")
+
+        # Step 2: Fallback - group-wise ceil-based sampling
+        valid_strata = (
+            df.groupby('_strata')
+            .filter(lambda g: len(g) >= 2)  # OR your own condition
+        )
+
+        strata_counts = valid_strata['_strata'].value_counts()
+        total_strata = len(strata_counts)
+
+        if total_strata == 0:
+            print("No valid strata found for sampling.")
+            return pd.DataFrame()
+
+        samples_per_stratum = math.ceil(min_samples / total_strata)
+        result = (
+            valid_strata.groupby('_strata', group_keys=False)
+            .apply(lambda g: g.sample(n=min(len(g), samples_per_stratum), random_state=42))
+            .drop(columns='_strata')
+            .reset_index(drop=True)
+        )
+
+        return result
 
     except Exception as e:
-        print({"Message": str(e)})
+        print({"Error": str(e)})
+        return pd.DataFrame()
 
-def fill_missing_categorical_with_sample(df, column, stratified_sample):
+def fill_missing_categorical_with_sample(df: pd.DataFrame, column: str, stratified_sample: pd.DataFrame) -> pd.DataFrame:
     """
     Fills missing or empty values in a categorical column using values
-    from a stratified sample.
+    from a stratified sample DataFrame.
 
     Parameters:
-        df (pd.DataFrame): The original DataFrame
-        column (str): Categorical column to fill
-        stratified_sample (list of dict): List of dicts (from stratified sampling)
+        df (pd.DataFrame): The original DataFrame.
+        column (str): Categorical column to fill.
+        stratified_sample (pd.DataFrame): DataFrame containing replacement values.
 
     Returns:
-        pd.DataFrame: DataFrame with missing values filled
+        pd.DataFrame: DataFrame with missing values in the column filled.
     """
     if column not in df.columns:
         raise ValueError(f"Column '{column}' does not exist in DataFrame.")
 
-    # Extract replacement values from stratified sample
-    sample_values = [row[column] for row in stratified_sample if row.get(column) not in [None, "", np.nan]]
-    print(sample_values);
+    if column not in stratified_sample.columns:
+        raise ValueError(f"Column '{column}' not found in stratified_sample.")
 
-    if not sample_values:
+    # Filter out invalid replacement values from the stratified sample
+    sample_values = stratified_sample[column].dropna()
+    sample_values = sample_values[sample_values.astype(str).str.strip() != ""]
+
+    if sample_values.empty:
         raise ValueError("No valid replacement values found in stratified_sample.")
 
-    sample_index = 0
+    sample_values = sample_values.tolist()
     total_samples = len(sample_values)
+    sample_index = 0
 
-    # Copy the DataFrame to avoid changing the original
     df = df.copy()
 
     for idx, value in df[column].items():
@@ -341,9 +338,3 @@ def fill_missing_categorical_with_sample(df, column, stratified_sample):
             sample_index += 1
 
     return df
-
-def stratified_sample_by_column(df, column,random_state=None):
-    n = (df[column].isna()).sum()
-    return df.groupby(column, group_keys=False).apply(
-        lambda x: x.sample(n=n, random_state=random_state) if len(x) >= n else x
-    )

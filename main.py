@@ -84,10 +84,9 @@ def main():
         output_json_file = args.output_file
         dd_output.write_json_output(output, output_json_file)
     elif args.output_format == 'console':
-        print("\n--- Processed Data (Console Output) ---")
-        for row in output:
-            pprint(row)
-
+        output_json_file = args.output_file
+        dd_output.write_console_output(output, output_json_file)
+        
     print("\nData pipeline completed successfully!")
 
 if __name__ == "__main__":

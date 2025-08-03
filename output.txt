@@ -1,0 +1,204 @@
+[   {   'Missing_Column_values_Count': sku                244
+product_name       259
+price              254
+category           239
+quantity           252
+brand              237
+description        237
+supplier           252
+warranty_period    226
+stock_status       254
+dtype: int64},
+    {'Detected_Threshold': np.float64(0.0013)},
+    {'Categorical_Columns': ['supplier', 'warranty_period', 'stock_status']},
+    {   'AI_Samples':            sku product_name   price     category quantity   brand                                       description   supplier warranty_period  stock_status
+1455  83879654    Doohickey  199.13         Home     48.0  BrandC       But account be certain live human painting.  SupplierY         1 years      In Stock
+1662  97017974       Widget  329.64      Grocery     35.0  BrandC                                   Similar ten in.  SupplierZ         3 years       Limited
+1219  68713195  Contraption  262.99  Electronics     27.0  BrandD         Care act table protect team budget there.  SupplierZ         1 years       Limited
+1925  69970726  Thingamajig  476.71      Grocery     39.0  BrandD                           Foot allow usually ten.  SupplierY         1 years      In Stock
+2488  10996041       Gadget   79.91      Grocery     22.0  BrandA  During general before. Relationship wrong under.  SupplierY         3 years       Limited
+...        ...          ...     ...          ...      ...     ...                                               ...        ...             ...           ...
+2396  19997315    Doohickey  498.14     Clothing     77.0  BrandA           Something he skill box reach recognize.  SupplierY         3 years      In Stock
+397   08038043  Thingamajig   94.66         Toys     63.0  BrandA                         House whether event down.  SupplierX         3 years  Out of Stock
+1179  87733396    Doohickey   27.99  Electronics     44.0  BrandB                                 Your movie never.  SupplierZ         3 years  Out of Stock
+2205  51963040    Doohickey  306.55         Toys     83.0  BrandB                     Smile maybe born window race.  SupplierX         3 years  Out of Stock
+615   35832423       Gadget  456.37         Home     94.0  BrandC                               Season contain ask.  SupplierX         1 years      In Stock
+
+[125 rows x 10 columns]},
+    {   'AI_Dataset_Summary': {   'dataset': 'This dataset appears to be an '
+                                             'inventory database for a retail '
+                                             'business.  It contains '
+                                             'information on various products, '
+                                             'including their:\n'
+                                             '\n'
+                                             '* **Unique identifiers:** `sku` '
+                                             '(Stock Keeping Unit)\n'
+                                             '* **Product details:** '
+                                             '`product_name`, `price`, '
+                                             '`category`, `quantity`, `brand`, '
+                                             '`description`, and `supplier`\n'
+                                             '* **Logistics and status:** '
+                                             '`warranty_period` and '
+                                             '`stock_status`\n'
+                                             '\n'
+                                             '\n'
+                                             'The `description` field seems to '
+                                             'contain short, somewhat '
+                                             'nonsensical phrases, suggesting '
+                                             'placeholders or generated text '
+                                             'rather than actual, detailed '
+                                             'product descriptions. The '
+                                             'variety of product names '
+                                             '("Doohickey," "Widget," '
+                                             '"Contraption," etc.) also '
+                                             'indicates a potentially broad '
+                                             'range of goods.  The dataset '
+                                             'shows varying quantities, '
+                                             'prices, brands, and suppliers, '
+                                             'reflecting a diverse inventory.  '
+                                             'Finally, the `stock_status` '
+                                             'field indicates whether items '
+                                             'are currently in stock, limited, '
+                                             'or out of stock.\n'}},
+    {   'AI_Columns_Summary': {   'brand': "The 'brand' column likely "
+                                           'represents the brand name of a '
+                                           'product or company.  The sample '
+                                           'values suggest a categorical '
+                                           'variable with at least four '
+                                           'distinct brands.\n',
+                                  'category': "The 'category' column likely "
+                                              'represents the type of purchase '
+                                              'or item, classifying '
+                                              'transactions or products into '
+                                              'broad groups like home goods, '
+                                              'groceries, electronics, etc.\n',
+                                  'description': "The 'description' column "
+                                                 'appears to contain short, '
+                                                 'seemingly unrelated phrases '
+                                                 "or sentences.  There's no "
+                                                 'clear unifying theme or '
+                                                 'grammatical structure.  It '
+                                                 'might represent:\n'
+                                                 '\n'
+                                                 '* **Free-form text '
+                                                 'entries:**  Potentially '
+                                                 'user-generated text, notes, '
+                                                 'or descriptions with no '
+                                                 'enforced format or meaning.\n'
+                                                 '* **Partial sentences or '
+                                                 'fragments:**  Incomplete '
+                                                 'thoughts or pieces of larger '
+                                                 'sentences.\n'
+                                                 '* **Coded information:**  '
+                                                 'The phrases might be a '
+                                                 'simplified or cryptic '
+                                                 'representation of more '
+                                                 'complex data.  Further '
+                                                 'analysis would be needed to '
+                                                 'decode any potential '
+                                                 'meaning.\n'
+                                                 '\n'
+                                                 'Without more context or '
+                                                 'information about the '
+                                                 "dataset, it's difficult to "
+                                                 'definitively say what the '
+                                                 'column represents.\n',
+                                  'price': "The 'price' column likely "
+                                           'represents the cost of individual '
+                                           'items or services.  The values '
+                                           'show significant variation, '
+                                           'ranging from a low of 10.73 to a '
+                                           'high of 476.71, suggesting a '
+                                           'diverse range of products or '
+                                           'services with different price '
+                                           'points.\n',
+                                  'product_name': 'The `product_name` column '
+                                                  'likely represents the '
+                                                  'informal or playful names '
+                                                  'of various products or '
+                                                  'devices, possibly '
+                                                  'characterized by their '
+                                                  'novelty or lack of a '
+                                                  'precise, formal '
+                                                  'designation.\n',
+                                  'quantity': "The 'quantity' column likely "
+                                              'represents a count of '
+                                              'something, possibly sales, '
+                                              'units produced, or similar.  '
+                                              'The values show a wide range '
+                                              '(22 to 95), suggesting '
+                                              'variability in the quantity '
+                                              'observed across different '
+                                              'observations.  The presence of '
+                                              'both small and large values '
+                                              "indicates it's not a strictly "
+                                              'bounded quantity.\n',
+                                  'sku': 'The sample values strongly suggest '
+                                         "that the 'sku' column represents "
+                                         '**stock keeping units (SKUs)**.  '
+                                         'These are unique identifiers for '
+                                         'products within an inventory '
+                                         'system.  The numerical nature and '
+                                         'apparent randomness of the values '
+                                         'are consistent with how SKUs are '
+                                         'often assigned.\n',
+                                  'stock_status': "The 'stock_status' column "
+                                                  'likely represents the '
+                                                  'current availability of a '
+                                                  'product or item.\n',
+                                  'supplier': "The 'supplier' column likely "
+                                              'represents the name or '
+                                              'identifier of different '
+                                              'suppliers providing goods or '
+                                              'services.\n',
+                                  'warranty_period': "The 'warranty_period' "
+                                                     'column likely represents '
+                                                     'the length of the '
+                                                     'warranty offered for a '
+                                                     'product or service, '
+                                                     'measured in years.\n'}},
+    {   'Inferred_Types': {   'brand': 'str',
+                              'category': 'str',
+                              'description': 'str',
+                              'price': 'float',
+                              'product_name': 'str',
+                              'quantity': 'int',
+                              'sku': 'int',
+                              'stock_status': 'str',
+                              'supplier': 'str',
+                              'warranty_period': 'str'}},
+    {   'Column_Descriptions':                  sku product_name        price     category     quantity   brand                                       description   supplier warranty_period stock_status
+count   2.500000e+03         2500  2500.000000         2500  2500.000000    2500                                              2500       2500            2500         2500
+unique           NaN            6          NaN            6          NaN       4                                              2263          3               3            3
+top              NaN  Contraption          NaN  Electronics          NaN  BrandA  During general before. Relationship wrong under.  SupplierY         1 years     In Stock
+freq             NaN          442          NaN          462          NaN     645                                                 3        851             882          853
+mean    4.932703e+07          NaN   265.039128          NaN    50.612400     NaN                                               NaN        NaN             NaN          NaN
+std     2.905669e+07          NaN   142.051921          NaN    28.803132     NaN                                               NaN        NaN             NaN          NaN
+min     5.050000e+02          NaN    10.030000          NaN     1.000000     NaN                                               NaN        NaN             NaN          NaN
+25%     2.445742e+07          NaN   142.885000          NaN    25.000000     NaN                                               NaN        NaN             NaN          NaN
+50%     4.834909e+07          NaN   269.435000          NaN    51.000000     NaN                                               NaN        NaN             NaN          NaN
+75%     7.487906e+07          NaN   387.987500          NaN    76.000000     NaN                                               NaN        NaN             NaN          NaN
+max     9.998074e+07          NaN   499.920000          NaN   100.000000     NaN                                               NaN        NaN             NaN          NaN},
+    {   'Column_NERs': {   'brand': [('ORG', 1707)],
+                           'category': [('UNKNOWN', 2500)],
+                           'description': [('UNKNOWN', 2040)],
+                           'price': [('CARDINAL', 1970)],
+                           'product_name': [('UNKNOWN', 1759)],
+                           'quantity': [('CARDINAL', 2248)],
+                           'sku': [('UNKNOWN', 1007)],
+                           'stock_status': [('UNKNOWN', 2500)],
+                           'supplier': [('UNKNOWN', 2500)],
+                           'warranty_period': [('UNKNOWN', 226)]}},
+    {   'Rows_NERs': Counter({   'CARDINAL': 2098,
+                                 'ORG': 47,
+                                 'DATE': 39,
+                                 'TIME': 16,
+                                 'ORDINAL': 6,
+                                 'LOC': 4,
+                                 'NORP': 3,
+                                 'PERSON': 3,
+                                 'EVENT': 2,
+                                 'PRODUCT': 2,
+                                 'MONEY': 1})}]
+
+--- End of Data ---
