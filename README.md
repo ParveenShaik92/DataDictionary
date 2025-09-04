@@ -2,43 +2,99 @@
 
 A Python library and command-line tool for generating data dictionaries from CSV files and outputting them in various formats like JSON or console.
 
-# Folder Structure
+---
 
+## 📂 Folder Structure
+
+```plaintext
 DataDictionary/
 ├── format/
-│ └── csv_formatter.py # Contains logic to parse CSV files
+│   └── csv_formatter.py     # Contains logic to parse CSV files
 ├── output/
-│ └── json_output.py # Handles JSON output
-├── main.py # CLI entry point
-├── init.py # Package init file
+│   └── json_output.py       # Handles JSON output
+├── process/
+│   └── data_processor.py    # Data processing logic (spaCy, ML, etc.)
+├── utils/
+│   └── dd_genai.py          # Google Generative AI integration
+├── main.py                  # CLI entry point
+├── requirements.txt         # Project dependencies
+├── .gitignore               # Git ignore rules
+```
 
-# Installation
+---
 
+## ⚙️ Environment Setup
+
+### 1. Clone the repository
 ```bash
 git clone https://github.com/ParveenShaik92/DataDictionary.git
-cd data-dictionary
+cd DataDictionary
+```
 
-pip install spacy pandas numpy spacy-transformers transformers[torch] accelerate
+### 2. Create a virtual environment (Python 3.12 recommended)
+```bash
+py -3.12 -m venv venv312
+venv312\Scripts\activate   # On Windows
+# source venv312/bin/activate   # On Linux/Mac
+```
+
+### 3. Install dependencies
+```bash
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 4. Download the spaCy language model
+```bash
 python -m spacy download en_core_web_trf
 ```
 
+---
 
-# Usage
-To run with default arguments:
+## ▶️ Usage
+
+### Default run
 ```bash
 python main.py
-(This will read input.csv and write output.csv)
+# Reads input.csv and prints to console (default)
 ```
-To read a JSON file and output to CSV:
+
+### Read CSV and output JSON
 ```bash
 python main.py --input-format csv --input-file input.csv --output-format json --output-file output.json
 ```
-To read a CSV file and print to console:
 
+### Read CSV and print to console
 ```bash
 python main.py --input-format csv --input-file input.csv --output-format console
 ```
 
-# Dependencies
-Python 3.12.2+
-Standard Library (no external libraries currently required)
+---
+
+## 📦 Dependencies
+
+Defined in `requirements.txt`:
+- spacy
+- pandas
+- numpy
+- scikit-learn
+- spacy-transformers
+- transformers[torch]
+- accelerate
+- google-generativeai
+
+Additional:
+- Python **3.12.x** (recommended)
+- spaCy model `en_core_web_trf`
+
+---
+
+## 📝 Notes
+- If you face issues with `en_core_web_trf` (large model), you can switch to the lighter model:
+  ```python
+  nlp = spacy.load("en_core_web_sm")
+  ```
+  Install it with:
+  ```bash
+  python -m spacy download en_core_web_sm
+  ```

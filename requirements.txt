@@ -1,0 +1,15 @@
+# requirements.txt
+
+# Core NLP + ML
+spacy
+pandas
+numpy
+scikit-learn
+
+# Transformers (with torch + accelerate)
+spacy-transformers
+transformers[torch]
+accelerate
+
+# Google Gemini SDK
+google-generativeai
